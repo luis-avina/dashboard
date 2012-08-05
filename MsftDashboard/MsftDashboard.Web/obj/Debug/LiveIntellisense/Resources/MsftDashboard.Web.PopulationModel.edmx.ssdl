@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PopulationModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="PopulationModelStoreContainer">
+    <EntitySet Name="Municipality" EntityType="PopulationModel.Store.Municipality" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="State" EntityType="PopulationModel.Store.State" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Municipality_State" Association="PopulationModel.Store.FK_Municipality_State">
+      <End Role="State" EntitySet="State" />
+      <End Role="Municipality" EntitySet="Municipality" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Municipality">
+    <Key>
+      <PropertyRef Name="IdMunicipality" />
+    </Key>
+    <Property Name="IdMunicipality" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="Population" Type="bigint" />
+    <Property Name="MainMunicipality" Type="bit" Nullable="false" />
+    <Property Name="IdState" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="IdState" />
+    </Key>
+    <Property Name="IdState" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_Municipality_State">
+    <End Role="State" Type="PopulationModel.Store.State" Multiplicity="1" />
+    <End Role="Municipality" Type="PopulationModel.Store.Municipality" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="Municipality">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

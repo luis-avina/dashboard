@@ -1,0 +1,40 @@
+﻿<sdk:ChildWindow	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+	mc:Ignorable="d"	
+	x:Class="MsftDashboard.AddEditProgramStateWindow"
+	Title="AddEditProgramStateWindow"
+	Width="638" Height="708">
+	<Grid x:Name="LayoutRoot">
+		<Canvas Margin="65,24,38,111">
+			<ComboBox x:Name="cmbState" HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1,0,1,1" Canvas.Left="198"/>
+			<sdk:Label Content="Inicio Programa" Height="30" Width="126" Foreground="#FFBABABA" FontSize="16" Canvas.Left="23" Canvas.Top="38"/>
+			<ComboBox x:Name="cmbInitialYear" Height="26" Width="100" HorizontalAlignment="Right" Canvas.Left="197" Canvas.Top="42"/>
+			<ComboBox x:Name="cmbInitialMonth" Height="26" Width="100" HorizontalAlignment="Left" Canvas.Left="313" Canvas.Top="42"/>
+			<sdk:Label Content="Fin Programa" Height="31.5" Width="108" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="42" Canvas.Top="82"/>
+			<ComboBox x:Name="cmbFinalYear" Height="26" Width="100" Canvas.Left="198" Canvas.Top="87" d:LayoutOverrides="HorizontalAlignment, Width"/>
+			<ComboBox x:Name="cmbFinalMonth" Height="26" Width="100" BorderThickness="1" Canvas.Left="317" Canvas.Top="87"/>
+			<ComboBox x:Name="cmbProgram" Height="23" Width="213.15" HorizontalAlignment="Right" Canvas.Left="200" Canvas.Top="130"/>
+			<ComboBox x:Name="cmbTypeDocument" Height="26" Canvas.Left="198" Canvas.Top="171" Width="213" d:LayoutOverrides="HorizontalAlignment"/>
+			<ComboBox x:Name="cmbArea" Height="26" Canvas.Left="198" Canvas.Top="215" Width="213" d:LayoutOverrides="HorizontalAlignment"/>
+			<sdk:Label x:Name="Responsable" Content="Contacto Estado" Height="31.5" Width="132.5" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="20" Canvas.Top="255"/>
+			<TextBox x:Name="txtContact" Height="26" TextWrapping="Wrap" Width="148" Canvas.Left="198" Canvas.Top="259" d:LayoutOverrides="HorizontalAlignment, Width"/>
+			<Button x:Name="btnSearchState" Content="Buscar" Height="27" Width="61" Canvas.Left="353" Canvas.Top="259"/>
+			<sdk:Label x:Name="Responsable_Copy" Content="Contacto Microsoft" Height="31.5" Width="150.5" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="2" Canvas.Top="301"/>
+			<TextBox x:Name="txtContactMsft" Height="26" TextWrapping="Wrap" Width="148" Canvas.Left="198" Canvas.Top="305" d:LayoutOverrides="HorizontalAlignment, Width"/>
+			<Button x:Name="btnSearchMsft" Content="Buscar" Height="27" Width="61" Canvas.Left="352" Canvas.Top="305"/>
+			<sdk:Label x:Name="Responsable_Copy1" Content="Inversión Microsoft" Height="31.5" Width="150.5" FontSize="16" Foreground="#FFB7B7B7" Canvas.Top="347"/>
+			<TextBox x:Name="txtMsftInvesment" Height="28" TextWrapping="Wrap" Canvas.Left="198" Canvas.Top="351" Width="213" d:LayoutOverrides="HorizontalAlignment"/>
+			<sdk:Label x:Name="Responsable_Copy2" Content="ROI" Height="31.5" Width="44.5" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="106" Canvas.Top="393"/>
+			<TextBox x:Name="txtContactMsft_Copy1" Height="28" TextWrapping="Wrap" Canvas.Left="198" Canvas.Top="397" Width="213" d:LayoutOverrides="HorizontalAlignment"/>
+			<Slider Height="19" HorizontalAlignment="Right" x:Name="slider1" VerticalAlignment="Top" Width="212.984" Maximum="100" Value="25" Canvas.Left="195" Canvas.Top="446" />
+			<Button x:Name="OKButton" Content="OK" Click="OKButton_Click" Width="75" Height="33" Canvas.Left="350" Canvas.Top="495" d:LayoutOverrides="VerticalMargin" />
+			<Button x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" Height="33" Canvas.Left="429" Canvas.Top="495" d:LayoutOverrides="VerticalMargin" />
+			<sdk:Label Content="Area" Height="31.5" Width="50" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="113" Canvas.Top="128"/>
+			<sdk:Label Content="Programa" Height="31.5" Width="84" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="72" Canvas.Top="173"/>
+			<sdk:Label Content="Partner" Height="31.5" Width="66" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="94" Canvas.Top="215"/>
+		</Canvas>
+	</Grid>
+</sdk:ChildWindow>

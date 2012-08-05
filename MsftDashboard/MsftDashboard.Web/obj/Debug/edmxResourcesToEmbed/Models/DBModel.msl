@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TestArchiveModelStoreContainer" CdmEntityContainer="TestArchiveEntities1">
+    <EntitySetMapping Name="CapacitationCenters">
+      <EntityTypeMapping TypeName="TestArchiveModel.CapacitationCenter">
+        <MappingFragment StoreEntitySet="CapacitationCenter">
+          <ScalarProperty Name="IdCapacitationCenterInformation" ColumnName="IdCapacitationCenterInformation" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdSocialOrganization" ColumnName="IdSocialOrganization" />
+          <ScalarProperty Name="IdSocialCause" ColumnName="IdSocialCause" />
+          <ScalarProperty Name="IdPopulationAttended" ColumnName="IdPopulationAttended" />
+          <ScalarProperty Name="IdConectivity" ColumnName="IdConectivity" />
+          <ScalarProperty Name="Investment" ColumnName="Investment" />
+          <ScalarProperty Name="SoftwareInvesment" ColumnName="SoftwareInvesment" />
+          <ScalarProperty Name="NumberOfUsers" ColumnName="NumberOfUsers" />
+          <ScalarProperty Name="NumberOfTrainingUsers" ColumnName="NumberOfTrainingUsers" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CapacitationCenterInformations">
+      <EntityTypeMapping TypeName="TestArchiveModel.CapacitationCenterInformation">
+        <MappingFragment StoreEntitySet="CapacitationCenterInformation">
+          <ScalarProperty Name="IdCapacitationCenterInformation" ColumnName="IdCapacitationCenterInformation" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdSocialOrganization" ColumnName="IdSocialOrganization" />
+          <ScalarProperty Name="IdSocialCause" ColumnName="IdSocialCause" />
+          <ScalarProperty Name="Investment" ColumnName="Investment" />
+          <ScalarProperty Name="SoftwareInvesment" ColumnName="SoftwareInvesment" />
+          <ScalarProperty Name="NumberOfUsers" ColumnName="NumberOfUsers" />
+          <ScalarProperty Name="NumberOfTrainingUsers" ColumnName="NumberOfTrainingUsers" />
+          <ScalarProperty Name="IdConectivity" ColumnName="IdConectivity" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="IdPopulationAttended" ColumnName="IdPopulationAttended" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Competitions">
+      <EntityTypeMapping TypeName="TestArchiveModel.Competition">
+        <MappingFragment StoreEntitySet="Competition">
+          <ScalarProperty Name="IdCompetition" ColumnName="IdCompetition" />
+          <ScalarProperty Name="IdCompetitor" ColumnName="IdCompetitor" />
+          <ScalarProperty Name="IdType" ColumnName="IdType" />
+          <ScalarProperty Name="IdOwner" ColumnName="IdOwner" />
+          <ScalarProperty Name="Investment" ColumnName="Investment" />
+          <ScalarProperty Name="ROI" ColumnName="ROI" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="Observations" ColumnName="Observations" />
+          <ScalarProperty Name="Progress" ColumnName="Progress" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Competitors">
+      <EntityTypeMapping TypeName="TestArchiveModel.Competitor">
+        <MappingFragment StoreEntitySet="Competitor">
+          <ScalarProperty Name="IdCompetitor" ColumnName="IdCompetitor" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Conectivities">
+      <EntityTypeMapping TypeName="TestArchiveModel.Conectivity">
+        <MappingFragment StoreEntitySet="Conectivity">
+          <ScalarProperty Name="IdConectivity" ColumnName="IdConectivity" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contacts">
+      <EntityTypeMapping TypeName="TestArchiveModel.Contact">
+        <MappingFragment StoreEntitySet="Contacts">
+          <ScalarProperty Name="IdContact" ColumnName="IdContact" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CellPhone" ColumnName="CellPhone" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EducationInformationStates">
+      <EntityTypeMapping TypeName="TestArchiveModel.EducationInformationState">
+        <MappingFragment StoreEntitySet="EducationInformationState">
+          <ScalarProperty Name="IdEducationInformationState" ColumnName="IdEducationInformationState" />
+          <ScalarProperty Name="Investment" ColumnName="Investment" />
+          <ScalarProperty Name="CurrentExpenditures" ColumnName="CurrentExpenditures" />
+          <ScalarProperty Name="InvestmentPublicEducation" ColumnName="InvestmentPublicEducation" />
+          <ScalarProperty Name="InvestmentHighSchool" ColumnName="InvestmentHighSchool" />
+          <ScalarProperty Name="InvestmentITProjects" ColumnName="InvestmentITProjects" />
+          <ScalarProperty Name="NumberInvestigators" ColumnName="NumberInvestigators" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EnlaceTests">
+      <EntityTypeMapping TypeName="TestArchiveModel.EnlaceTest">
+        <MappingFragment StoreEntitySet="EnlaceTest">
+          <ScalarProperty Name="IdEnlaceTest" ColumnName="IdEnlaceTest" />
+          <ScalarProperty Name="IdEducationInformationState" ColumnName="IdEducationInformationState" />
+          <ScalarProperty Name="IdSchoolGrade" ColumnName="IdSchoolGrade" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MainUniversities">
+      <EntityTypeMapping TypeName="TestArchiveModel.MainUniversity">
+        <MappingFragment StoreEntitySet="MainUniversities">
+          <ScalarProperty Name="IdMainUniversitie" ColumnName="IdMainUniversitie" />
+          <ScalarProperty Name="IdEducationInformationState" ColumnName="IdEducationInformationState" />
+          <ScalarProperty Name="Penetration" ColumnName="Penetration" />
+          <ScalarProperty Name="IdUniversity" ColumnName="IdUniversity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MexicoAgreements">
+      <EntityTypeMapping TypeName="TestArchiveModel.MexicoAgreement">
+        <MappingFragment StoreEntitySet="MexicoAgreement">
+          <ScalarProperty Name="IdMexicoAgreements" ColumnName="IdMexicoAgreements" />
+          <ScalarProperty Name="Observations" ColumnName="Observations" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="IdTypeAgreement" ColumnName="IdTypeAgreement" />
+          <ScalarProperty Name="Progress" ColumnName="Progress" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MicrosoftProgramStates">
+      <EntityTypeMapping TypeName="TestArchiveModel.MicrosoftProgramState">
+        <MappingFragment StoreEntitySet="MicrosoftProgramState">
+          <ScalarProperty Name="IdMsftProgramState" ColumnName="IdMsftProgramState" />
+          <ScalarProperty Name="IdOwner" ColumnName="IdOwner" />
+          <ScalarProperty Name="IdPartner" ColumnName="IdPartner" />
+          <ScalarProperty Name="IdProgram" ColumnName="IdProgram" />
+          <ScalarProperty Name="IdSource" ColumnName="IdSource" />
+          <ScalarProperty Name="IdType" ColumnName="IdType" />
+          <ScalarProperty Name="IdContactMsft" ColumnName="IdContactMsft" />
+          <ScalarProperty Name="IdContactState" ColumnName="IdContactState" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Progress" ColumnName="Progress" />
+          <ScalarProperty Name="ROI" ColumnName="ROI" />
+          <ScalarProperty Name="Investment" ColumnName="Investment" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Months">
+      <EntityTypeMapping TypeName="TestArchiveModel.Month">
+        <MappingFragment StoreEntitySet="Months">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Monts" ColumnName="Monts" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Municipalities">
+      <EntityTypeMapping TypeName="TestArchiveModel.Municipality">
+        <MappingFragment StoreEntitySet="Municipality">
+          <ScalarProperty Name="IdMunicipality" ColumnName="IdMunicipality" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Population" ColumnName="Population" />
+          <ScalarProperty Name="MainMunicipality" ColumnName="MainMunicipality" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OpenSourceStates">
+      <EntityTypeMapping TypeName="TestArchiveModel.OpenSourceState">
+        <MappingFragment StoreEntitySet="OpenSourceState">
+          <ScalarProperty Name="IdOSSState" ColumnName="IdOSSState" />
+          <ScalarProperty Name="IdTypeProduct" ColumnName="IdTypeProduct" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="IdPenetration" ColumnName="IdPenetration" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OpenSourceStateCommunities">
+      <EntityTypeMapping TypeName="TestArchiveModel.OpenSourceStateCommunity">
+        <MappingFragment StoreEntitySet="OpenSourceStateCommunity">
+          <ScalarProperty Name="IdOpenSourceCommunityState" ColumnName="IdOpenSourceCommunityState" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UniversityRelationship" ColumnName="UniversityRelationship" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="IdContact" ColumnName="IdContact" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OpenSourceStateProviders">
+      <EntityTypeMapping TypeName="TestArchiveModel.OpenSourceStateProvider">
+        <MappingFragment StoreEntitySet="OpenSourceStateProvider">
+          <ScalarProperty Name="IdOpenSourceStateProvider" ColumnName="IdOpenSourceStateProvider" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="Invoicing" ColumnName="Invoicing" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Organizations">
+      <EntityTypeMapping TypeName="TestArchiveModel.Organization">
+        <MappingFragment StoreEntitySet="Organization">
+          <ScalarProperty Name="IdOrganization" ColumnName="IdOrganization" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Owners">
+      <EntityTypeMapping TypeName="TestArchiveModel.Owner">
+        <MappingFragment StoreEntitySet="Owner">
+          <ScalarProperty Name="IdOwner" ColumnName="IdOwner" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Partners">
+      <EntityTypeMapping TypeName="TestArchiveModel.Partner">
+        <MappingFragment StoreEntitySet="Partner">
+          <ScalarProperty Name="IdPartner" ColumnName="IdPartner" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Penetrations">
+      <EntityTypeMapping TypeName="TestArchiveModel.Penetration">
+        <MappingFragment StoreEntitySet="Penetration">
+          <ScalarProperty Name="IdPenetration" ColumnName="IdPenetration" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PoliticalInformationMunicipalities">
+      <EntityTypeMapping TypeName="TestArchiveModel.PoliticalInformationMunicipality">
+        <MappingFragment StoreEntitySet="PoliticalInformationMunicipality">
+          <ScalarProperty Name="IdPoliticalInformationMunicipality" ColumnName="IdPoliticalInformationMunicipality" />
+          <ScalarProperty Name="IdPoliticalInformationState" ColumnName="IdPoliticalInformationState" />
+          <ScalarProperty Name="IdPoliticalParty" ColumnName="IdPoliticalParty" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="Observations" ColumnName="Observations" />
+          <ScalarProperty Name="DevelopmentPlan" ColumnName="DevelopmentPlan" />
+          <ScalarProperty Name="Sectorials" ColumnName="Sectorials" />
+          <ScalarProperty Name="IdMunicipality" ColumnName="IdMunicipality" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PoliticalInformationStates">
+      <EntityTypeMapping TypeName="TestArchiveModel.PoliticalInformationState">
+        <MappingFragment StoreEntitySet="PoliticalInformationState">
+          <ScalarProperty Name="IdPoliticalInformationState" ColumnName="IdPoliticalInformationState" />
+          <ScalarProperty Name="IdPoliticalParty" ColumnName="IdPoliticalParty" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="DevelopmentPlan" ColumnName="DevelopmentPlan" />
+          <ScalarProperty Name="Observations" ColumnName="Observations" />
+          <ScalarProperty Name="Sectorials" ColumnName="Sectorials" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PoliticalInformationStateFiles">
+      <EntityTypeMapping TypeName="TestArchiveModel.PoliticalInformationStateFile">
+        <MappingFragment StoreEntitySet="PoliticalInformationStateFiles">
+          <ScalarProperty Name="IdFilePoliticalStateInformation" ColumnName="IdFilePoliticalStateInformation" />
+          <ScalarProperty Name="IdPoliticalInformationState" ColumnName="IdPoliticalInformationState" />
+          <ScalarProperty Name="FileData" ColumnName="FileData" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="RowGuid" ColumnName="RowGuid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PoliticalParties">
+      <EntityTypeMapping TypeName="TestArchiveModel.PoliticalParty">
+        <MappingFragment StoreEntitySet="PoliticalParty">
+          <ScalarProperty Name="IdPoliticalParty" ColumnName="IdPoliticalParty" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="ColorIndex" ColumnName="ColorIndex" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PopulationAttendeds">
+      <EntityTypeMapping TypeName="TestArchiveModel.PopulationAttended">
+        <MappingFragment StoreEntitySet="PopulationAttended">
+          <ScalarProperty Name="IdPopulationAttended" ColumnName="IdPopulationAttended" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="TestArchiveModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdTypeProduct" ColumnName="IdTypeProduct" />
+          <ScalarProperty Name="OpenSource" ColumnName="OpenSource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Programs">
+      <EntityTypeMapping TypeName="TestArchiveModel.Program">
+        <MappingFragment StoreEntitySet="Program">
+          <ScalarProperty Name="IdProgram" ColumnName="IdProgram" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SchoolGrades">
+      <EntityTypeMapping TypeName="TestArchiveModel.SchoolGrade">
+        <MappingFragment StoreEntitySet="SchoolGrade">
+          <ScalarProperty Name="IdSchoolGrade" ColumnName="IdSchoolGrade" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SchoolLevels">
+      <EntityTypeMapping TypeName="TestArchiveModel.SchoolLevel">
+        <MappingFragment StoreEntitySet="SchoolLevel">
+          <ScalarProperty Name="IdSchoolLevel" ColumnName="IdSchoolLevel" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SchoolsInformations">
+      <EntityTypeMapping TypeName="TestArchiveModel.SchoolsInformation">
+        <MappingFragment StoreEntitySet="SchoolsInformation">
+          <ScalarProperty Name="IdSchoolInformation" ColumnName="IdSchoolInformation" />
+          <ScalarProperty Name="IdEducationInformationState" ColumnName="IdEducationInformationState" />
+          <ScalarProperty Name="IdSchoolLevel" ColumnName="IdSchoolLevel" />
+          <ScalarProperty Name="IdSchoolType" ColumnName="IdSchoolType" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SchoolTypes">
+      <EntityTypeMapping TypeName="TestArchiveModel.SchoolType">
+        <MappingFragment StoreEntitySet="SchoolType">
+          <ScalarProperty Name="IdSchoolType" ColumnName="IdSchoolType" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEPProjectStates">
+      <EntityTypeMapping TypeName="TestArchiveModel.SEPProjectState">
+        <MappingFragment StoreEntitySet="SEPProjectState">
+          <ScalarProperty Name="IdSepProjectState" ColumnName="IdSepProjectState" />
+          <ScalarProperty Name="IdEducationInformationState" ColumnName="IdEducationInformationState" />
+          <ScalarProperty Name="IdTypeSepProject" ColumnName="IdTypeSepProject" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SocialCauses">
+      <EntityTypeMapping TypeName="TestArchiveModel.SocialCause">
+        <MappingFragment StoreEntitySet="SocialCause">
+          <ScalarProperty Name="IdSocialCause" ColumnName="IdSocialCause" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SocialOrganizations">
+      <EntityTypeMapping TypeName="TestArchiveModel.SocialOrganization">
+        <MappingFragment StoreEntitySet="SocialOrganization">
+          <ScalarProperty Name="IdSocialOrganization" ColumnName="IdSocialOrganization" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SocialOrganizationInformations">
+      <EntityTypeMapping TypeName="TestArchiveModel.SocialOrganizationInformation">
+        <MappingFragment StoreEntitySet="SocialOrganizationInformation">
+          <ScalarProperty Name="IdSocialOrganizationInformation" ColumnName="IdSocialOrganizationInformation" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdSocialCause" ColumnName="IdSocialCause" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="IdPopulationAttended" ColumnName="IdPopulationAttended" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sources">
+      <EntityTypeMapping TypeName="TestArchiveModel.Source">
+        <MappingFragment StoreEntitySet="Source">
+          <ScalarProperty Name="IdSource" ColumnName="IdSource" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="TestArchiveModel.State">
+        <MappingFragment StoreEntitySet="State">
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StateEconomicInfoes">
+      <EntityTypeMapping TypeName="TestArchiveModel.StateEconomicInfo">
+        <MappingFragment StoreEntitySet="StateEconomicInfo">
+          <ScalarProperty Name="IdStateEconomicInfo" ColumnName="IdStateEconomicInfo" />
+          <ScalarProperty Name="BudgetPublicAdministration" ColumnName="BudgetPublicAdministration" />
+          <ScalarProperty Name="BudgetTIC" ColumnName="BudgetTIC" />
+          <ScalarProperty Name="BudgetSoftware" ColumnName="BudgetSoftware" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="FromDate" ColumnName="FromDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatePrograms">
+      <EntityTypeMapping TypeName="TestArchiveModel.StateProgram">
+        <MappingFragment StoreEntitySet="StateProgram">
+          <ScalarProperty Name="IdStateProgram" ColumnName="IdStateProgram" />
+          <ScalarProperty Name="IdProgram" ColumnName="IdProgram" />
+          <ScalarProperty Name="IdPartner" ColumnName="IdPartner" />
+          <ScalarProperty Name="IdOwner" ColumnName="IdOwner" />
+          <ScalarProperty Name="IdSource" ColumnName="IdSource" />
+          <ScalarProperty Name="IdType" ColumnName="IdType" />
+          <ScalarProperty Name="IdContactMsft" ColumnName="IdContactMsft" />
+          <ScalarProperty Name="IdContactState" ColumnName="IdContactState" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="Investment" ColumnName="Investment" />
+          <ScalarProperty Name="ROI" ColumnName="ROI" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Progress" ColumnName="Progress" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentsInformations">
+      <EntityTypeMapping TypeName="TestArchiveModel.StudentsInformation">
+        <MappingFragment StoreEntitySet="StudentsInformation">
+          <ScalarProperty Name="IdStudentInformation" ColumnName="IdStudentInformation" />
+          <ScalarProperty Name="IdEducationInformationState" ColumnName="IdEducationInformationState" />
+          <ScalarProperty Name="IdSchoolType" ColumnName="IdSchoolType" />
+          <ScalarProperty Name="IdSchoolLevel" ColumnName="IdSchoolLevel" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TeachersInformations">
+      <EntityTypeMapping TypeName="TestArchiveModel.TeachersInformation">
+        <MappingFragment StoreEntitySet="TeachersInformation">
+          <ScalarProperty Name="IdTeachersInformation" ColumnName="IdTeachersInformation" />
+          <ScalarProperty Name="IdEducationInformationState" ColumnName="IdEducationInformationState" />
+          <ScalarProperty Name="IdSchoolLevel" ColumnName="IdSchoolLevel" />
+          <ScalarProperty Name="IdSchoolType" ColumnName="IdSchoolType" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeAgreements">
+      <EntityTypeMapping TypeName="TestArchiveModel.TypeAgreement">
+        <MappingFragment StoreEntitySet="TypeAgreement">
+          <ScalarProperty Name="IdTypeAgreement" ColumnName="IdTypeAgreement" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeProducts">
+      <EntityTypeMapping TypeName="TestArchiveModel.TypeProduct">
+        <MappingFragment StoreEntitySet="TypeProduct">
+          <ScalarProperty Name="IdTypeProduct" ColumnName="IdTypeProduct" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeSepProjects">
+      <EntityTypeMapping TypeName="TestArchiveModel.TypeSepProject">
+        <MappingFragment StoreEntitySet="TypeSepProject">
+          <ScalarProperty Name="IdTypeSepProject" ColumnName="IdTypeSepProject" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeSources">
+      <EntityTypeMapping TypeName="TestArchiveModel.TypeSource">
+        <MappingFragment StoreEntitySet="TypeSource">
+          <ScalarProperty Name="IdType" ColumnName="IdType" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Universities">
+      <EntityTypeMapping TypeName="TestArchiveModel.University">
+        <MappingFragment StoreEntitySet="Universities">
+          <ScalarProperty Name="IdUniversity" ColumnName="IdUniversity" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Years">
+      <EntityTypeMapping TypeName="TestArchiveModel.Year">
+        <MappingFragment StoreEntitySet="Years">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Year1" ColumnName="Year" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

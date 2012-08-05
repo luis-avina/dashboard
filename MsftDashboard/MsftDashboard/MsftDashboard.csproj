@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F0EDA23-C230-435B-A87F-A0B7AFF4260C}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MsftDashboard</RootNamespace>
+    <AssemblyName>MsftDashboard</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>MsftDashboard.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>MsftDashboard.App</SilverlightAppEntry>
+    <TestPageFileName>TestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <EnableOutOfBrowser>false</EnableOutOfBrowser>
+    <OutOfBrowserSettingsFile>Properties\OutOfBrowserSettings.xml</OutOfBrowserSettingsFile>
+    <UsePlatformExtensions>false</UsePlatformExtensions>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <LinkedServerProject>..\MsftDashboard.Web\MsftDashboard.Web.csproj</LinkedServerProject>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.20901.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GalaSoft.MvvmLight.Extras.SL4, Version=3.0.0.28573, Culture=neutral, PublicKeyToken=9c067fef615431c8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\GalaSoft.MvvmLight.Extras.SL4.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.SL4, Version=3.0.0.28574, Culture=neutral, PublicKeyToken=3bee396cf313bfa6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\GalaSoft.MvvmLight.SL4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Maps.MapControl">
+      <HintPath>..\Lib\Microsoft.Maps.MapControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Maps.MapControl.Common">
+      <HintPath>..\Lib\Microsoft.Maps.MapControl.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\Lib\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Silverlight">
+      <HintPath>..\Lib\Microsoft.Practices.Unity.Silverlight.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windows.Data.DomainServices">
+      <HintPath>..\Lib\Microsoft.Windows.Data.DomainServices.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="System.ComponentModel.Composition.Initialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.DomainServices.Client, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.ServiceModel.DomainServices.Client.Web, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.ServiceModel.Web.Extensions, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls.Data" />
+    <Reference Include="System.Windows.Controls.Data.DataForm.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Data.Input" />
+    <Reference Include="System.Windows.Controls.Data.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Input" />
+    <Reference Include="System.Windows.Controls.Input.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Layout.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Pivot, Version=1.0.6079.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Pivot.Model, Version=1.0.6079.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Pivot.SharedUI, Version=1.0.6079.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Pivot.StringResources, Version=1.0.6079.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Pivot.Utilities, Version=1.0.6079.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Windows.Controls" />
+    <Reference Include="System.Windows.Controls.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="DrawMapHelpers\ElevemosMexico.cs" />
+    <Compile Include="DrawMapHelpers\GenerateDictionaryMunicipalitiesGov.cs" />
+    <Compile Include="DrawMapHelpers\InversionMsft.cs" />
+    <Compile Include="DrawMapHelpers\MapPolygonGenerator.cs" />
+    <Compile Include="DrawMapHelpers\MunicipalityGoverment.cs" />
+    <Compile Include="DrawMapHelpers\StateCoordinate.cs" />
+    <Compile Include="DrawMapHelpers\StateShape.cs" />
+    <Compile Include="DrawMapHelpers\StateShapeElevemosMexico.cs" />
+    <Compile Include="DrawMapHelpers\StateShapePolitical.cs" />
+    <Compile Include="Helpers\ColorReflector.cs" />
+    <Compile Include="Helpers\DataBindingExtensions.cs" />
+    <Compile Include="Helpers\DataFieldExtensions.cs" />
+    <Compile Include="Helpers\GetMapMode.cs" />
+    <Compile Include="Helpers\HyperLinkButtonWrapper.cs" />
+    <Compile Include="Helpers\LinkOpener.cs" />
+    <Compile Include="Helpers\NotOperatorValueConverter.cs" />
+    <Compile Include="Helpers\ResourceWrapper.cs" />
+    <Compile Include="Helpers\StringFormatValueConverter.cs" />
+    <Compile Include="Helpers\TargetNullValueConverter.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Messages\CallBackCompetitionMessage.cs" />
+    <Compile Include="Messages\CallBackProgramsMessage.cs" />
+    <Compile Include="Messages\CapacitationCenterMessage.cs" />
+    <Compile Include="Messages\CompetitionMessage.cs" />
+    <Compile Include="Messages\ContactMessage.cs" />
+    <Compile Include="Messages\ContactsMessageBackOp.cs" />
+    <Compile Include="Messages\CallBackPoliticalStateMessage.cs" />
+    <Compile Include="Messages\CallBackMexicoAgreementMessages.cs" />
+    <Compile Include="Messages\EconomyMessage.cs" />
+    <Compile Include="Messages\EducationInformationStateMessage.cs" />
+    <Compile Include="Messages\ErrorMessage.cs" />
+    <Compile Include="Messages\FrameMessage.cs" />
+    <Compile Include="Messages\LaunchEditCapacitationCenterMessage.cs" />
+    <Compile Include="Messages\LaunchEditCompetitionMessage.cs" />
+    <Compile Include="Messages\LaunchEditContactMessage.cs" />
+    <Compile Include="Messages\LaunchEditEconomyMessage.cs" />
+    <Compile Include="Messages\LaunchEditEducationSchoolsMessage.cs" />
+    <Compile Include="Messages\LaunchEditEducationStateMessage.cs" />
+    <Compile Include="Messages\LaunchEditMexicoAgreementMessage.cs" />
+    <Compile Include="Messages\LaunchEditOpenSourceCommunityMessage.cs" />
+    <Compile Include="Messages\LaunchEditOpenSourceProviderMessage.cs" />
+    <Compile Include="Messages\LaunchEditOpenSourceStateMessage.cs" />
+    <Compile Include="Messages\LaunchEditPoliticalPartyMessage.cs" />
+    <Compile Include="Messages\LaunchEditSocialOrgInfoMessage.cs" />
+    <Compile Include="Messages\LaunchMsftProgramMessage.cs" />
+    <Compile Include="Messages\LaunchPoliticalStateMessage.cs" />
+    <Compile Include="Messages\MexicoAgreementMessages.cs" />
+    <Compile Include="Messages\MsftProgramMessage.cs" />
+    <Compile Include="Messages\OpenSourceCommunityMessage.cs" />
+    <Compile Include="Messages\OpenSourceStateMessage.cs" />
+    <Compile Include="Messages\OpenSourceStateProviderMessage.cs" />
+    <Compile Include="Messages\PivotMessages.cs" />
+    <Compile Include="Messages\PoliticalPartyMessage.cs" />
+    <Compile Include="Messages\PoliticalStateMessage.cs" />
+    <Compile Include="Messages\SocialOrgInfoMessage.cs" />
+    <Compile Include="Messages\StateProgramMessage.cs" />
+    <Compile Include="Models\AreaProgramModel.cs" />
+    <Compile Include="Models\EducationInformation.cs" />
+    <Compile Include="Models\EnlaceInfo.cs" />
+    <Compile Include="Models\Error.cs" />
+    <Compile Include="Models\Model.cs" />
+    <Compile Include="Models\Months.cs" />
+    <Compile Include="Models\MsftModel.cs" />
+    <Compile Include="Models\PivotModel.cs" />
+    <Compile Include="Models\PoliticalPartyModel.cs" />
+    <Compile Include="Models\ProgramModel.cs" />
+    <Compile Include="Models\SepProjectInfo.cs" />
+    <Compile Include="Models\StatePivotShape.cs" />
+    <Compile Include="Models\TypeAgreementsModel.cs" />
+    <Compile Include="Models\TypeAgreementsParentModel.cs" />
+    <Compile Include="Models\TypeModels.cs" />
+    <Compile Include="Models\UniversitieInfo.cs" />
+    <Compile Include="Services\ContactService.cs" />
+    <Compile Include="Services\HasChangesEventArgs.cs" />
+    <Compile Include="Services\IContactService.cs" />
+    <Compile Include="Services\IMsftService.cs" />
+    <Compile Include="Services\IPageConductor.cs" />
+    <Compile Include="Services\MsftService.cs" />
+    <Compile Include="Services\PageConductor.cs" />
+    <Compile Include="ViewModels\AddEditCapacitationCenterViewModel.cs" />
+    <Compile Include="ViewModels\AddEditCompetitionViewModel.cs" />
+    <Compile Include="ViewModels\AddEditContactViewModel.cs" />
+    <Compile Include="ViewModels\AddEditEconomyViewModel.cs" />
+    <Compile Include="ViewModels\AddEditEducationStateViewModel.cs" />
+    <Compile Include="ViewModels\AddEditMexicoAgreementViewModel.cs" />
+    <Compile Include="ViewModels\AddEditMsftProgramViewModel.cs" />
+    <Compile Include="ViewModels\AddEditOpenSourceCommunityViewModel.cs" />
+    <Compile Include="ViewModels\AddEditOpenSourceProviderViewModel.cs" />
+    <Compile Include="ViewModels\AddEditOpenSourceStateViewModel.cs" />
+    <Compile Include="ViewModels\AddEditPoliticalPartyStateViewModel.cs" />
+    <Compile Include="ViewModels\AddEditPoliticalPartyViewModel.cs" />
+    <Compile Include="ViewModels\AddEditSocialOrganizationViewModel.cs" />
+    <Compile Include="ViewModels\AdministrationViewModel.cs" />
+    <Compile Include="ViewModels\CapacitationCenterViewModel.cs" />
+    <Compile Include="ViewModels\CompetitionViewModel.cs" />
+    <Compile Include="ViewModels\ContactsViewModel.cs" />
+    <Compile Include="ViewModels\DashboardViewModel.cs" />
+    <Compile Include="ViewModels\EconomyViewModel.cs" />
+    <Compile Include="ViewModels\EducationEnlaceViewModel.cs" />
+    <Compile Include="ViewModels\EducationSepProjectsViewModel.cs" />
+    <Compile Include="ViewModels\EducationUniversitiesViewModel.cs" />
+    <Compile Include="ViewModels\EducationViewModel.cs" />
+    <Compile Include="ViewModels\MexicoAgreementViewModel.cs" />
+    <Compile Include="ViewModels\OpenSourceCommunityViewModel.cs" />
+    <Compile Include="ViewModels\OpenSourceProviderViewModel.cs" />
+    <Compile Include="ViewModels\OpenSourceViewModel.cs" />
+    <Compile Include="ViewModels\PoliticalPartyViewModel.cs" />
+    <Compile Include="ViewModels\PoliticViewModel.cs" />
+    <Compile Include="ViewModels\PopulationViewModel.cs" />
+    <Compile Include="ViewModels\ProgramsMsftStateViewModel.cs" />
+    <Compile Include="ViewModels\ProgramStateViewModel.cs" />
+    <Compile Include="ViewModels\SchoolsViewModel.cs" />
+    <Compile Include="ViewModels\SocialOrganizationsInfoViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelLocator.cs" />
+    <Compile Include="Views\AddEditCapacitationCenterWindow.xaml.cs">
+      <DependentUpon>AddEditCapacitationCenterWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditCompetitionWindow.xaml.cs">
+      <DependentUpon>AddEditCompetitionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditContactWindow.xaml.cs">
+      <DependentUpon>AddEditContactWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditEconomyWindow.xaml.cs">
+      <DependentUpon>AddEditEconomyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditEducationStateWindow.xaml.cs">
+      <DependentUpon>AddEditEducationStateWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditMexicoAgreementWindow.xaml.cs">
+      <DependentUpon>AddEditMexicoAgreementWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditOpenSourceCommunityWindow.xaml.cs">
+      <DependentUpon>AddEditOpenSourceCommunityWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditOpenSourceProviderWindow.xaml.cs">
+      <DependentUpon>AddEditOpenSourceProviderWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditOpenSourceWindow.xaml.cs">
+      <DependentUpon>AddEditOpenSourceWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditPoliticalPartyWindow.xaml.cs">
+      <DependentUpon>AddEditPoliticalPartyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditPoliticalStateWindow.xaml.cs">
+      <DependentUpon>AddEditPoliticalStateWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditProgramsMsft.xaml.cs">
+      <DependentUpon>AddEditProgramsMsft.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditProgramStateWindow.xaml.cs">
+      <DependentUpon>AddEditProgramStateWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditSocialOrgInfoWindow.xaml.cs">
+      <DependentUpon>AddEditSocialOrgInfoWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdministrationView.xaml.cs">
+      <DependentUpon>AdministrationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CapacitationCenterView.xaml.cs">
+      <DependentUpon>CapacitationCenterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChildWindow1.xaml.cs">
+      <DependentUpon>ChildWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CompetitionView.xaml.cs">
+      <DependentUpon>CompetitionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContactsView.xaml.cs">
+      <DependentUpon>ContactsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContactViewWindow.xaml.cs">
+      <DependentUpon>ContactViewWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CorporativeView.xaml.cs">
+      <DependentUpon>CorporativeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DashboardView.xaml.cs">
+      <DependentUpon>DashboardView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EconomyView.xaml.cs">
+      <DependentUpon>EconomyView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EducationEnlaceView.xaml.cs">
+      <DependentUpon>EducationEnlaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EducationSchoolView.xaml.cs">
+      <DependentUpon>EducationSchoolView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EducationSepProjectsView.xaml.cs">
+      <DependentUpon>EducationSepProjectsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EducationUniversitiesView.xaml.cs">
+      <DependentUpon>EducationUniversitiesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EducationView.xaml.cs">
+      <DependentUpon>EducationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ErrorWindow.xaml.cs">
+      <DependentUpon>ErrorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\MexicoAgreementView.xaml.cs">
+      <DependentUpon>MexicoAgreementView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OpenSourceCommunityView.xaml.cs">
+      <DependentUpon>OpenSourceCommunityView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OpenSourceProviderView.xaml.cs">
+      <DependentUpon>OpenSourceProviderView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OpenSourceView.xaml.cs">
+      <DependentUpon>OpenSourceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PivotViewWindow.xaml.cs">
+      <DependentUpon>PivotViewWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PoliticalPartyView.xaml.cs">
+      <DependentUpon>PoliticalPartyView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PoliticView.xaml.cs">
+      <DependentUpon>PoliticView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopulationView.xaml.cs">
+      <DependentUpon>PopulationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProgramsMsftState.xaml.cs">
+      <DependentUpon>ProgramsMsftState.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProgramsView.xaml.cs">
+      <DependentUpon>ProgramsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ViewTokens.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Assets\Brushes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\CoreStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Fonts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\ObjectResourceDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assets\SDKStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\ToolkitStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditCapacitationCenterWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditCompetitionWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditContactWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddEditEconomyWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditEducationStateWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditMexicoAgreementWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditOpenSourceCommunityWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditOpenSourceProviderWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditOpenSourceWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditPoliticalPartyWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditPoliticalStateWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditProgramsMsft.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditProgramStateWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddEditSocialOrgInfoWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AdministrationView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\CapacitationCenterView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ChildWindow1.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CompetitionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContactViewWindow.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\CorporativeView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EducationEnlaceView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EducationSchoolView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EducationSepProjectsView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EducationUniversitiesView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MexicoAgreementView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\OpenSourceCommunityView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\OpenSourceProviderView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\OpenSourceView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\PivotViewWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PoliticalPartyView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\PoliticView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PopulationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ProgramsMsftState.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ProgramsView.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="Assets\Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+    <Page Include="Views\ContactsView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\DashboardView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EconomyView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EducationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ErrorWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\AppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MsftDashboard.Common\MsftDashboard.Common.csproj">
+      <Project>{3F8FA5EC-7386-4914-A709-4495BC2D15DA}</Project>
+      <Name>MsftDashboard.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

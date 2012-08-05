@@ -1,0 +1,1604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="States" EntityType="DBModel.State" />
+    <EntitySet Name="StateEconomicInfoes" EntityType="DBModel.StateEconomicInfo" />
+    <AssociationSet Name="FK_State_Economic_Info_State" Association="DBModel.FK_State_Economic_Info_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="StateEconomicInfo" EntitySet="StateEconomicInfoes" />
+    </AssociationSet>
+    <EntitySet Name="CapacitationCenters" EntityType="DBModel.CapacitationCenter" />
+    <EntitySet Name="CapacitationCenterInformations" EntityType="DBModel.CapacitationCenterInformation" />
+    <EntitySet Name="Competitions" EntityType="DBModel.Competition" />
+    <EntitySet Name="Competitors" EntityType="DBModel.Competitor" />
+    <EntitySet Name="Conectivities" EntityType="DBModel.Conectivity" />
+    <EntitySet Name="Contacts" EntityType="DBModel.Contact" />
+    <EntitySet Name="EducationInformationStates" EntityType="DBModel.EducationInformationState" />
+    <EntitySet Name="EnlaceTests" EntityType="DBModel.EnlaceTest" />
+    <EntitySet Name="MainUniversities" EntityType="DBModel.MainUniversity" />
+    <EntitySet Name="MexicoAgreements" EntityType="DBModel.MexicoAgreement" />
+    <EntitySet Name="MicrosoftProgramStates" EntityType="DBModel.MicrosoftProgramState" />
+    <EntitySet Name="Months" EntityType="DBModel.Month" />
+    <EntitySet Name="Municipalities" EntityType="DBModel.Municipality" />
+    <EntitySet Name="Organizations" EntityType="DBModel.Organization" />
+    <EntitySet Name="Partners" EntityType="DBModel.Partner" />
+    <EntitySet Name="Penetrations" EntityType="DBModel.Penetration" />
+    <EntitySet Name="PoliticalInformationMunicipalities" EntityType="DBModel.PoliticalInformationMunicipality" />
+    <EntitySet Name="PoliticalInformationStates" EntityType="DBModel.PoliticalInformationState" />
+    <EntitySet Name="PoliticalInformationStateFiles" EntityType="DBModel.PoliticalInformationStateFile" />
+    <EntitySet Name="PoliticalParties" EntityType="DBModel.PoliticalParty" />
+    <EntitySet Name="PopulationAttendeds" EntityType="DBModel.PopulationAttended" />
+    <EntitySet Name="Products" EntityType="DBModel.Product" />
+    <EntitySet Name="Programs" EntityType="DBModel.Program" />
+    <EntitySet Name="SchoolGrades" EntityType="DBModel.SchoolGrade" />
+    <EntitySet Name="SchoolLevels" EntityType="DBModel.SchoolLevel" />
+    <EntitySet Name="SchoolsInformations" EntityType="DBModel.SchoolsInformation" />
+    <EntitySet Name="SchoolTypes" EntityType="DBModel.SchoolType" />
+    <EntitySet Name="SocialCauses" EntityType="DBModel.SocialCause" />
+    <EntitySet Name="SocialOrganizations" EntityType="DBModel.SocialOrganization" />
+    <EntitySet Name="SocialOrganizationInformations" EntityType="DBModel.SocialOrganizationInformation" />
+    <EntitySet Name="Sources" EntityType="DBModel.Source" />
+    <EntitySet Name="StudentsInformations" EntityType="DBModel.StudentsInformation" />
+    <EntitySet Name="TeachersInformations" EntityType="DBModel.TeachersInformation" />
+    <EntitySet Name="TypeAgreements" EntityType="DBModel.TypeAgreement" />
+    <EntitySet Name="TypeProducts" EntityType="DBModel.TypeProduct" />
+    <EntitySet Name="Universities" EntityType="DBModel.University" />
+    <EntitySet Name="Years" EntityType="DBModel.Year" />
+    <AssociationSet Name="FK_CapacitationCenter_Conectivity" Association="DBModel.FK_CapacitationCenter_Conectivity">
+      <End Role="Conectivity" EntitySet="Conectivities" />
+      <End Role="CapacitationCenter" EntitySet="CapacitationCenters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CapacitationCenter_PopulationAttended" Association="DBModel.FK_CapacitationCenter_PopulationAttended">
+      <End Role="PopulationAttended" EntitySet="PopulationAttendeds" />
+      <End Role="CapacitationCenter" EntitySet="CapacitationCenters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CapacitationCenter_SocialCause" Association="DBModel.FK_CapacitationCenter_SocialCause">
+      <End Role="SocialCause" EntitySet="SocialCauses" />
+      <End Role="CapacitationCenter" EntitySet="CapacitationCenters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CapacitationCenter_SocialOrganization" Association="DBModel.FK_CapacitationCenter_SocialOrganization">
+      <End Role="SocialOrganization" EntitySet="SocialOrganizations" />
+      <End Role="CapacitationCenter" EntitySet="CapacitationCenters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CapacitationCenter_State" Association="DBModel.FK_CapacitationCenter_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="CapacitationCenter" EntitySet="CapacitationCenters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Capacitation_Center_Information_PopulationAttended" Association="DBModel.FK_Capacitation_Center_Information_PopulationAttended">
+      <End Role="PopulationAttended" EntitySet="PopulationAttendeds" />
+      <End Role="CapacitationCenterInformation" EntitySet="CapacitationCenterInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Capacitation_Center_Information_State" Association="DBModel.FK_Capacitation_Center_Information_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="CapacitationCenterInformation" EntitySet="CapacitationCenterInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CapacitationCenterInformation_Conectivity" Association="DBModel.FK_CapacitationCenterInformation_Conectivity">
+      <End Role="Conectivity" EntitySet="Conectivities" />
+      <End Role="CapacitationCenterInformation" EntitySet="CapacitationCenterInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CapacitationCenterInformation_SocialCause" Association="DBModel.FK_CapacitationCenterInformation_SocialCause">
+      <End Role="SocialCause" EntitySet="SocialCauses" />
+      <End Role="CapacitationCenterInformation" EntitySet="CapacitationCenterInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CapacitationCenterInformation_SocialOrganization" Association="DBModel.FK_CapacitationCenterInformation_SocialOrganization">
+      <End Role="SocialOrganization" EntitySet="SocialOrganizations" />
+      <End Role="CapacitationCenterInformation" EntitySet="CapacitationCenterInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Competition_Competitor" Association="DBModel.FK_Competition_Competitor">
+      <End Role="Competitor" EntitySet="Competitors" />
+      <End Role="Competition" EntitySet="Competitions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Competition_State" Association="DBModel.FK_Competition_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="Competition" EntitySet="Competitions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MicrosoftProgramState_Contacts" Association="DBModel.FK_MicrosoftProgramState_Contacts">
+      <End Role="Contact" EntitySet="Contacts" />
+      <End Role="MicrosoftProgramState" EntitySet="MicrosoftProgramStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MicrosoftProgramState_Contacts1" Association="DBModel.FK_MicrosoftProgramState_Contacts1">
+      <End Role="Contact" EntitySet="Contacts" />
+      <End Role="MicrosoftProgramState" EntitySet="MicrosoftProgramStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Education_Information_State_State" Association="DBModel.FK_Education_Information_State_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="EducationInformationState" EntitySet="EducationInformationStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Enlace_Test_Education_Information_State" Association="DBModel.FK_Enlace_Test_Education_Information_State">
+      <End Role="EducationInformationState" EntitySet="EducationInformationStates" />
+      <End Role="EnlaceTest" EntitySet="EnlaceTests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Main_Universities_Education_Information_State" Association="DBModel.FK_Main_Universities_Education_Information_State">
+      <End Role="EducationInformationState" EntitySet="EducationInformationStates" />
+      <End Role="MainUniversity" EntitySet="MainUniversities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Schools_Information_Education_Information_State" Association="DBModel.FK_Schools_Information_Education_Information_State">
+      <End Role="EducationInformationState" EntitySet="EducationInformationStates" />
+      <End Role="SchoolsInformation" EntitySet="SchoolsInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Students_Information_Education_Information_State" Association="DBModel.FK_Students_Information_Education_Information_State">
+      <End Role="EducationInformationState" EntitySet="EducationInformationStates" />
+      <End Role="StudentsInformation" EntitySet="StudentsInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teachers_Information_Education_Information_State" Association="DBModel.FK_Teachers_Information_Education_Information_State">
+      <End Role="EducationInformationState" EntitySet="EducationInformationStates" />
+      <End Role="TeachersInformation" EntitySet="TeachersInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EnlaceTest_SchoolGrade" Association="DBModel.FK_EnlaceTest_SchoolGrade">
+      <End Role="SchoolGrade" EntitySet="SchoolGrades" />
+      <End Role="EnlaceTest" EntitySet="EnlaceTests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Main_Universities_Universities" Association="DBModel.FK_Main_Universities_Universities">
+      <End Role="University" EntitySet="Universities" />
+      <End Role="MainUniversity" EntitySet="MainUniversities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MexicoAgreement_State" Association="DBModel.FK_MexicoAgreement_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="MexicoAgreement" EntitySet="MexicoAgreements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MexicoAgreement_TypeAgreement" Association="DBModel.FK_MexicoAgreement_TypeAgreement">
+      <End Role="TypeAgreement" EntitySet="TypeAgreements" />
+      <End Role="MexicoAgreement" EntitySet="MexicoAgreements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Microsoft_Program_State_Partner" Association="DBModel.FK_Microsoft_Program_State_Partner">
+      <End Role="Partner" EntitySet="Partners" />
+      <End Role="MicrosoftProgramState" EntitySet="MicrosoftProgramStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Microsoft_Program_State_Program" Association="DBModel.FK_Microsoft_Program_State_Program">
+      <End Role="Program" EntitySet="Programs" />
+      <End Role="MicrosoftProgramState" EntitySet="MicrosoftProgramStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Microsoft_Program_State_State" Association="DBModel.FK_Microsoft_Program_State_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="MicrosoftProgramState" EntitySet="MicrosoftProgramStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MicrosoftProgramState_Source" Association="DBModel.FK_MicrosoftProgramState_Source">
+      <End Role="Source" EntitySet="Sources" />
+      <End Role="MicrosoftProgramState" EntitySet="MicrosoftProgramStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Municipality_State" Association="DBModel.FK_Municipality_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="Municipality" EntitySet="Municipalities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Political_Information_Municipality_Municipality" Association="DBModel.FK_Political_Information_Municipality_Municipality">
+      <End Role="Municipality" EntitySet="Municipalities" />
+      <End Role="PoliticalInformationMunicipality" EntitySet="PoliticalInformationMunicipalities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Political_Information_Municipality_Political_Party" Association="DBModel.FK_Political_Information_Municipality_Political_Party">
+      <End Role="PoliticalParty" EntitySet="PoliticalParties" />
+      <End Role="PoliticalInformationMunicipality" EntitySet="PoliticalInformationMunicipalities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Political_Information_State_Political_Party" Association="DBModel.FK_Political_Information_State_Political_Party">
+      <End Role="PoliticalParty" EntitySet="PoliticalParties" />
+      <End Role="PoliticalInformationState" EntitySet="PoliticalInformationStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Political_Information_State_State" Association="DBModel.FK_Political_Information_State_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="PoliticalInformationState" EntitySet="PoliticalInformationStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PoliticalInformationStateFiles_PoliticalInformationState" Association="DBModel.FK_PoliticalInformationStateFiles_PoliticalInformationState">
+      <End Role="PoliticalInformationState" EntitySet="PoliticalInformationStates" />
+      <End Role="PoliticalInformationStateFile" EntitySet="PoliticalInformationStateFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Social_Organization_Information_PopulationAttended" Association="DBModel.FK_Social_Organization_Information_PopulationAttended">
+      <End Role="PopulationAttended" EntitySet="PopulationAttendeds" />
+      <End Role="SocialOrganizationInformation" EntitySet="SocialOrganizationInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_TypeProduct" Association="DBModel.FK_Products_TypeProduct">
+      <End Role="TypeProduct" EntitySet="TypeProducts" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Schools_Information_School_Level" Association="DBModel.FK_Schools_Information_School_Level">
+      <End Role="SchoolLevel" EntitySet="SchoolLevels" />
+      <End Role="SchoolsInformation" EntitySet="SchoolsInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Students_Information_School_Level" Association="DBModel.FK_Students_Information_School_Level">
+      <End Role="SchoolLevel" EntitySet="SchoolLevels" />
+      <End Role="StudentsInformation" EntitySet="StudentsInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teachers_Information_School_Level" Association="DBModel.FK_Teachers_Information_School_Level">
+      <End Role="SchoolLevel" EntitySet="SchoolLevels" />
+      <End Role="TeachersInformation" EntitySet="TeachersInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Schools_Information_School_Type" Association="DBModel.FK_Schools_Information_School_Type">
+      <End Role="SchoolType" EntitySet="SchoolTypes" />
+      <End Role="SchoolsInformation" EntitySet="SchoolsInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Students_Information_School_Type" Association="DBModel.FK_Students_Information_School_Type">
+      <End Role="SchoolType" EntitySet="SchoolTypes" />
+      <End Role="StudentsInformation" EntitySet="StudentsInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teachers_Information_School_Type" Association="DBModel.FK_Teachers_Information_School_Type">
+      <End Role="SchoolType" EntitySet="SchoolTypes" />
+      <End Role="TeachersInformation" EntitySet="TeachersInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Social_Organization_Information_Social_Cause" Association="DBModel.FK_Social_Organization_Information_Social_Cause">
+      <End Role="SocialCause" EntitySet="SocialCauses" />
+      <End Role="SocialOrganizationInformation" EntitySet="SocialOrganizationInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Social_Organization_Information_State" Association="DBModel.FK_Social_Organization_Information_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="SocialOrganizationInformation" EntitySet="SocialOrganizationInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Universities_State" Association="DBModel.FK_Universities_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="University" EntitySet="Universities" />
+    </AssociationSet>
+    <EntitySet Name="OpenSourceStates" EntityType="DBModel.OpenSourceState" />
+    <EntitySet Name="OpenSourceStateCommunities" EntityType="DBModel.OpenSourceStateCommunity" />
+    <EntitySet Name="OpenSourceStateProviders" EntityType="DBModel.OpenSourceStateProvider" />
+    <AssociationSet Name="FK_OpenSourceStateCommunity_Contacts" Association="DBModel.FK_OpenSourceStateCommunity_Contacts">
+      <End Role="Contact" EntitySet="Contacts" />
+      <End Role="OpenSourceStateCommunity" EntitySet="OpenSourceStateCommunities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OpenSourceState_Penetration" Association="DBModel.FK_OpenSourceState_Penetration">
+      <End Role="Penetration" EntitySet="Penetrations" />
+      <End Role="OpenSourceState" EntitySet="OpenSourceStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OpenSourceState_Products" Association="DBModel.FK_OpenSourceState_Products">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="OpenSourceState" EntitySet="OpenSourceStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OpenSourceState_State" Association="DBModel.FK_OpenSourceState_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="OpenSourceState" EntitySet="OpenSourceStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OpenSourceState_TypeProduct" Association="DBModel.FK_OpenSourceState_TypeProduct">
+      <End Role="TypeProduct" EntitySet="TypeProducts" />
+      <End Role="OpenSourceState" EntitySet="OpenSourceStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OpenSourceStateCommunity_State" Association="DBModel.FK_OpenSourceStateCommunity_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="OpenSourceStateCommunity" EntitySet="OpenSourceStateCommunities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OpenSourceStateProvider_Products" Association="DBModel.FK_OpenSourceStateProvider_Products">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="OpenSourceStateProvider" EntitySet="OpenSourceStateProviders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OpenSourceStateProvider_State" Association="DBModel.FK_OpenSourceStateProvider_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="OpenSourceStateProvider" EntitySet="OpenSourceStateProviders" />
+    </AssociationSet>
+    <EntitySet Name="SEPProjectStates" EntityType="DBModel.SEPProjectState" />
+    <EntitySet Name="TypeSepProjects" EntityType="DBModel.TypeSepProject" />
+    <AssociationSet Name="FK_SEP_Project_State_Education_Information_State" Association="DBModel.FK_SEP_Project_State_Education_Information_State">
+      <End Role="EducationInformationState" EntitySet="EducationInformationStates" />
+      <End Role="SEPProjectState" EntitySet="SEPProjectStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SEPProjectState_TypeSepProject" Association="DBModel.FK_SEPProjectState_TypeSepProject">
+      <End Role="TypeSepProject" EntitySet="TypeSepProjects" />
+      <End Role="SEPProjectState" EntitySet="SEPProjectStates" />
+    </AssociationSet>
+    <EntitySet Name="StatePrograms" EntityType="DBModel.StateProgram" />
+    <AssociationSet Name="FK_StateProgram_Contacts" Association="DBModel.FK_StateProgram_Contacts">
+      <End Role="Contact" EntitySet="Contacts" />
+      <End Role="StateProgram" EntitySet="StatePrograms" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StateProgram_Contacts1" Association="DBModel.FK_StateProgram_Contacts1">
+      <End Role="Contact" EntitySet="Contacts" />
+      <End Role="StateProgram" EntitySet="StatePrograms" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StateProgram_Partner" Association="DBModel.FK_StateProgram_Partner">
+      <End Role="Partner" EntitySet="Partners" />
+      <End Role="StateProgram" EntitySet="StatePrograms" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StateProgram_Program" Association="DBModel.FK_StateProgram_Program">
+      <End Role="Program" EntitySet="Programs" />
+      <End Role="StateProgram" EntitySet="StatePrograms" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StateProgram_Source" Association="DBModel.FK_StateProgram_Source">
+      <End Role="Source" EntitySet="Sources" />
+      <End Role="StateProgram" EntitySet="StatePrograms" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StateProgram_State" Association="DBModel.FK_StateProgram_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="StateProgram" EntitySet="StatePrograms" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="IdState" />
+    </Key>
+    <Property Name="IdState" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="StateEconomicInfoes" Relationship="DBModel.FK_State_Economic_Info_State" FromRole="State" ToRole="StateEconomicInfo" />
+    <NavigationProperty Name="CapacitationCenters" Relationship="DBModel.FK_CapacitationCenter_State" FromRole="State" ToRole="CapacitationCenter" />
+    <NavigationProperty Name="CapacitationCenterInformations" Relationship="DBModel.FK_Capacitation_Center_Information_State" FromRole="State" ToRole="CapacitationCenterInformation" />
+    <NavigationProperty Name="Competitions" Relationship="DBModel.FK_Competition_State" FromRole="State" ToRole="Competition" />
+    <NavigationProperty Name="EducationInformationStates" Relationship="DBModel.FK_Education_Information_State_State" FromRole="State" ToRole="EducationInformationState" />
+    <NavigationProperty Name="MexicoAgreements" Relationship="DBModel.FK_MexicoAgreement_State" FromRole="State" ToRole="MexicoAgreement" />
+    <NavigationProperty Name="MicrosoftProgramStates" Relationship="DBModel.FK_Microsoft_Program_State_State" FromRole="State" ToRole="MicrosoftProgramState" />
+    <NavigationProperty Name="Municipalities" Relationship="DBModel.FK_Municipality_State" FromRole="State" ToRole="Municipality" />
+    <NavigationProperty Name="PoliticalInformationStates" Relationship="DBModel.FK_Political_Information_State_State" FromRole="State" ToRole="PoliticalInformationState" />
+    <NavigationProperty Name="SocialOrganizationInformations" Relationship="DBModel.FK_Social_Organization_Information_State" FromRole="State" ToRole="SocialOrganizationInformation" />
+    <NavigationProperty Name="Universities" Relationship="DBModel.FK_Universities_State" FromRole="State" ToRole="University" />
+    <NavigationProperty Name="OpenSourceStates" Relationship="DBModel.FK_OpenSourceState_State" FromRole="State" ToRole="OpenSourceState" />
+    <NavigationProperty Name="OpenSourceStateCommunities" Relationship="DBModel.FK_OpenSourceStateCommunity_State" FromRole="State" ToRole="OpenSourceStateCommunity" />
+    <NavigationProperty Name="OpenSourceStateProviders" Relationship="DBModel.FK_OpenSourceStateProvider_State" FromRole="State" ToRole="OpenSourceStateProvider" />
+    <NavigationProperty Name="StatePrograms" Relationship="DBModel.FK_StateProgram_State" FromRole="State" ToRole="StateProgram" />
+  </EntityType>
+  <EntityType Name="StateEconomicInfo">
+    <Key>
+      <PropertyRef Name="IdStateEconomicInfo" />
+    </Key>
+    <Property Name="IdStateEconomicInfo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BudgetPublicAdministration" Type="Double" />
+    <Property Name="BudgetTIC" Type="Double" />
+    <Property Name="BudgetSoftware" Type="Double" />
+    <Property Name="IdState" Type="Int32" Nullable="false" />
+    <Property Name="FromDate" Type="DateTime" Nullable="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_State_Economic_Info_State" FromRole="StateEconomicInfo" ToRole="State" />
+  </EntityType>
+  <Association Name="FK_State_Economic_Info_State">
+    <End Role="State" Type="DBModel.State" Multiplicity="1" />
+    <End Role="StateEconomicInfo" Type="DBModel.StateEconomicInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="StateEconomicInfo">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CapacitationCenter">
+    <Key>
+      <PropertyRef Name="IdCapacitationCenterInformation" />
+    </Key>
+    <Property Type="Int32" Name="IdCapacitationCenterInformation" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IdSocialOrganization" Nullable="false" />
+    <Property Type="Int32" Name="IdSocialCause" Nullable="false" />
+    <Property Type="Int32" Name="IdPopulationAttended" Nullable="false" />
+    <Property Type="Int32" Name="IdConectivity" Nullable="false" />
+    <Property Type="Double" Name="Investment" Nullable="false" />
+    <Property Type="Double" Name="SoftwareInvesment" Nullable="false" />
+    <Property Type="Int32" Name="NumberOfUsers" Nullable="false" />
+    <Property Type="Int32" Name="NumberOfTrainingUsers" Nullable="false" />
+    <Property Type="Int32" Name="IdState" Nullable="false" />
+    <Property Type="DateTime" Name="DateFrom" Nullable="false" />
+    <NavigationProperty Name="Conectivity" Relationship="DBModel.FK_CapacitationCenter_Conectivity" FromRole="CapacitationCenter" ToRole="Conectivity" />
+    <NavigationProperty Name="PopulationAttended" Relationship="DBModel.FK_CapacitationCenter_PopulationAttended" FromRole="CapacitationCenter" ToRole="PopulationAttended" />
+    <NavigationProperty Name="SocialCause" Relationship="DBModel.FK_CapacitationCenter_SocialCause" FromRole="CapacitationCenter" ToRole="SocialCause" />
+    <NavigationProperty Name="SocialOrganization" Relationship="DBModel.FK_CapacitationCenter_SocialOrganization" FromRole="CapacitationCenter" ToRole="SocialOrganization" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_CapacitationCenter_State" FromRole="CapacitationCenter" ToRole="State" />
+  </EntityType>
+  <EntityType Name="CapacitationCenterInformation">
+    <Key>
+      <PropertyRef Name="IdCapacitationCenterInformation" />
+    </Key>
+    <Property Type="Int32" Name="IdCapacitationCenterInformation" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IdSocialOrganization" Nullable="false" />
+    <Property Type="Int32" Name="IdSocialCause" Nullable="false" />
+    <Property Type="Double" Name="Investment" Nullable="false" />
+    <Property Type="Double" Name="SoftwareInvesment" Nullable="false" />
+    <Property Type="Int32" Name="NumberOfUsers" Nullable="false" />
+    <Property Type="Int32" Name="NumberOfTrainingUsers" Nullable="false" />
+    <Property Type="Int32" Name="IdConectivity" Nullable="false" />
+    <Property Type="Int32" Name="IdState" />
+    <Property Type="DateTime" Name="DateFrom" />
+    <Property Type="Int32" Name="IdPopulationAttended" Nullable="false" />
+    <NavigationProperty Name="PopulationAttended" Relationship="DBModel.FK_Capacitation_Center_Information_PopulationAttended" FromRole="CapacitationCenterInformation" ToRole="PopulationAttended" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_Capacitation_Center_Information_State" FromRole="CapacitationCenterInformation" ToRole="State" />
+    <NavigationProperty Name="Conectivity" Relationship="DBModel.FK_CapacitationCenterInformation_Conectivity" FromRole="CapacitationCenterInformation" ToRole="Conectivity" />
+    <NavigationProperty Name="SocialCause" Relationship="DBModel.FK_CapacitationCenterInformation_SocialCause" FromRole="CapacitationCenterInformation" ToRole="SocialCause" />
+    <NavigationProperty Name="SocialOrganization" Relationship="DBModel.FK_CapacitationCenterInformation_SocialOrganization" FromRole="CapacitationCenterInformation" ToRole="SocialOrganization" />
+  </EntityType>
+  <EntityType Name="Competition">
+    <Key>
+      <PropertyRef Name="IdCompetition" />
+    </Key>
+    <Property Type="Int32" Name="IdCompetition" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdCompetitor" Nullable="false" />
+    <Property Type="Double" Name="Invesment" Nullable="false" />
+    <Property Type="DateTime" Name="DateFrom" Nullable="false" />
+    <Property Type="String" Name="Observations" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Progress" />
+    <Property Type="Int32" Name="IdState" />
+    <NavigationProperty Name="Competitor" Relationship="DBModel.FK_Competition_Competitor" FromRole="Competition" ToRole="Competitor" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_Competition_State" FromRole="Competition" ToRole="State" />
+  </EntityType>
+  <EntityType Name="Competitor">
+    <Key>
+      <PropertyRef Name="IdCompetitor" />
+    </Key>
+    <Property Type="Int32" Name="IdCompetitor" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Competitions" Relationship="DBModel.FK_Competition_Competitor" FromRole="Competitor" ToRole="Competition" />
+  </EntityType>
+  <EntityType Name="Conectivity">
+    <Key>
+      <PropertyRef Name="IdConectivity" />
+    </Key>
+    <Property Type="Int32" Name="IdConectivity" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CapacitationCenters" Relationship="DBModel.FK_CapacitationCenter_Conectivity" FromRole="Conectivity" ToRole="CapacitationCenter" />
+    <NavigationProperty Name="CapacitationCenterInformations" Relationship="DBModel.FK_CapacitationCenterInformation_Conectivity" FromRole="Conectivity" ToRole="CapacitationCenterInformation" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="IdContact" />
+    </Key>
+    <Property Type="Int32" Name="IdContact" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CellPhone" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Telephone" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Status" />
+    <NavigationProperty Name="MicrosoftProgramStates" Relationship="DBModel.FK_MicrosoftProgramState_Contacts" FromRole="Contact" ToRole="MicrosoftProgramState" />
+    <NavigationProperty Name="MicrosoftProgramStates1" Relationship="DBModel.FK_MicrosoftProgramState_Contacts1" FromRole="Contact" ToRole="MicrosoftProgramState" />
+    <NavigationProperty Name="OpenSourceStateCommunities" Relationship="DBModel.FK_OpenSourceStateCommunity_Contacts" FromRole="Contact" ToRole="OpenSourceStateCommunity" />
+    <NavigationProperty Name="StatePrograms" Relationship="DBModel.FK_StateProgram_Contacts" FromRole="Contact" ToRole="StateProgram" />
+    <NavigationProperty Name="StatePrograms1" Relationship="DBModel.FK_StateProgram_Contacts1" FromRole="Contact" ToRole="StateProgram" />
+  </EntityType>
+  <EntityType Name="EducationInformationState">
+    <Key>
+      <PropertyRef Name="IdEducationInformationState" />
+    </Key>
+    <Property Type="Int32" Name="IdEducationInformationState" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Double" Name="Investment" Nullable="false" />
+    <Property Type="Double" Name="CurrentExpenditures" Nullable="false" />
+    <Property Type="Double" Name="InvestmentPublicEducation" Nullable="false" />
+    <Property Type="Double" Name="InvestmentHighSchool" Nullable="false" />
+    <Property Type="Double" Name="InvestmentITProjects" Nullable="false" />
+    <Property Type="Int32" Name="NumberInvestigators" Nullable="false" />
+    <Property Type="Int32" Name="IdState" Nullable="false" />
+    <Property Type="Int32" Name="Year" Nullable="false" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_Education_Information_State_State" FromRole="EducationInformationState" ToRole="State" />
+    <NavigationProperty Name="EnlaceTests" Relationship="DBModel.FK_Enlace_Test_Education_Information_State" FromRole="EducationInformationState" ToRole="EnlaceTest" />
+    <NavigationProperty Name="MainUniversities" Relationship="DBModel.FK_Main_Universities_Education_Information_State" FromRole="EducationInformationState" ToRole="MainUniversity" />
+    <NavigationProperty Name="SchoolsInformations" Relationship="DBModel.FK_Schools_Information_Education_Information_State" FromRole="EducationInformationState" ToRole="SchoolsInformation" />
+    <NavigationProperty Name="StudentsInformations" Relationship="DBModel.FK_Students_Information_Education_Information_State" FromRole="EducationInformationState" ToRole="StudentsInformation" />
+    <NavigationProperty Name="TeachersInformations" Relationship="DBModel.FK_Teachers_Information_Education_Information_State" FromRole="EducationInformationState" ToRole="TeachersInformation" />
+    <NavigationProperty Name="SEPProjectStates" Relationship="DBModel.FK_SEP_Project_State_Education_Information_State" FromRole="EducationInformationState" ToRole="SEPProjectState" />
+  </EntityType>
+  <EntityType Name="EnlaceTest">
+    <Key>
+      <PropertyRef Name="IdEnlaceTest" />
+    </Key>
+    <Property Type="Int32" Name="IdEnlaceTest" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdEducationInformationState" Nullable="false" />
+    <Property Type="Int32" Name="IdSchoolGrade" Nullable="false" />
+    <Property Type="Int64" Name="Number" Nullable="false" />
+    <NavigationProperty Name="EducationInformationState" Relationship="DBModel.FK_Enlace_Test_Education_Information_State" FromRole="EnlaceTest" ToRole="EducationInformationState" />
+    <NavigationProperty Name="SchoolGrade" Relationship="DBModel.FK_EnlaceTest_SchoolGrade" FromRole="EnlaceTest" ToRole="SchoolGrade" />
+  </EntityType>
+  <EntityType Name="MainUniversity">
+    <Key>
+      <PropertyRef Name="IdMainUniversitie" />
+    </Key>
+    <Property Type="Int32" Name="IdMainUniversitie" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdEducationInformationState" Nullable="false" />
+    <Property Type="Int32" Name="Penetration" Nullable="false" />
+    <Property Type="Int32" Name="IdUniversity" Nullable="false" />
+    <NavigationProperty Name="EducationInformationState" Relationship="DBModel.FK_Main_Universities_Education_Information_State" FromRole="MainUniversity" ToRole="EducationInformationState" />
+    <NavigationProperty Name="University" Relationship="DBModel.FK_Main_Universities_Universities" FromRole="MainUniversity" ToRole="University" />
+  </EntityType>
+  <EntityType Name="MexicoAgreement">
+    <Key>
+      <PropertyRef Name="IdMexicoAgreements" />
+    </Key>
+    <Property Type="Int32" Name="IdMexicoAgreements" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Observations" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateFrom" Nullable="false" />
+    <Property Type="DateTime" Name="DateTo" Nullable="false" />
+    <Property Type="Int32" Name="IdTypeAgreement" Nullable="false" />
+    <Property Type="Int32" Name="Progress" Nullable="false" />
+    <Property Type="Int32" Name="IdState" Nullable="false" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_MexicoAgreement_State" FromRole="MexicoAgreement" ToRole="State" />
+    <NavigationProperty Name="TypeAgreement" Relationship="DBModel.FK_MexicoAgreement_TypeAgreement" FromRole="MexicoAgreement" ToRole="TypeAgreement" />
+  </EntityType>
+  <EntityType Name="MicrosoftProgramState">
+    <Key>
+      <PropertyRef Name="IdMicrosoftProgramState" />
+    </Key>
+    <Property Type="Int32" Name="IdMicrosoftProgramState" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdProgram" Nullable="false" />
+    <Property Type="Int32" Name="IdPartner" Nullable="false" />
+    <Property Type="Int32" Name="IdSource" Nullable="false" />
+    <Property Type="Int32" Name="IdContactMsft" Nullable="false" />
+    <Property Type="Int32" Name="IdContactState" Nullable="false" />
+    <Property Type="DateTime" Name="DateFrom" Nullable="false" />
+    <Property Type="DateTime" Name="DateTo" Nullable="false" />
+    <Property Type="Int32" Name="Number" Nullable="false" />
+    <Property Type="Double" Name="ROI" Nullable="false" />
+    <Property Type="Int32" Name="Progress" Nullable="false" />
+    <Property Type="Double" Name="Investment" Nullable="false" />
+    <Property Type="Int32" Name="IdState" Nullable="false" />
+    <NavigationProperty Name="Contact" Relationship="DBModel.FK_MicrosoftProgramState_Contacts" FromRole="MicrosoftProgramState" ToRole="Contact" />
+    <NavigationProperty Name="Contact1" Relationship="DBModel.FK_MicrosoftProgramState_Contacts1" FromRole="MicrosoftProgramState" ToRole="Contact" />
+    <NavigationProperty Name="Partner" Relationship="DBModel.FK_Microsoft_Program_State_Partner" FromRole="MicrosoftProgramState" ToRole="Partner" />
+    <NavigationProperty Name="Program" Relationship="DBModel.FK_Microsoft_Program_State_Program" FromRole="MicrosoftProgramState" ToRole="Program" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_Microsoft_Program_State_State" FromRole="MicrosoftProgramState" ToRole="State" />
+    <NavigationProperty Name="Source" Relationship="DBModel.FK_MicrosoftProgramState_Source" FromRole="MicrosoftProgramState" ToRole="Source" />
+  </EntityType>
+  <EntityType Name="Month">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Monts" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Municipality">
+    <Key>
+      <PropertyRef Name="IdMunicipality" />
+    </Key>
+    <Property Type="Int32" Name="IdMunicipality" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="Population" />
+    <Property Type="Boolean" Name="MainMunicipality" Nullable="false" />
+    <Property Type="Int32" Name="IdState" Nullable="false" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_Municipality_State" FromRole="Municipality" ToRole="State" />
+    <NavigationProperty Name="PoliticalInformationMunicipalities" Relationship="DBModel.FK_Political_Information_Municipality_Municipality" FromRole="Municipality" ToRole="PoliticalInformationMunicipality" />
+  </EntityType>
+  <EntityType Name="Organization">
+    <Key>
+      <PropertyRef Name="IdOrganization" />
+    </Key>
+    <Property Type="Int32" Name="IdOrganization" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Partner">
+    <Key>
+      <PropertyRef Name="IdPartner" />
+    </Key>
+    <Property Type="Int32" Name="IdPartner" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MicrosoftProgramStates" Relationship="DBModel.FK_Microsoft_Program_State_Partner" FromRole="Partner" ToRole="MicrosoftProgramState" />
+    <NavigationProperty Name="StatePrograms" Relationship="DBModel.FK_StateProgram_Partner" FromRole="Partner" ToRole="StateProgram" />
+  </EntityType>
+  <EntityType Name="Penetration">
+    <Key>
+      <PropertyRef Name="IdPenetration" />
+    </Key>
+    <Property Type="Int32" Name="IdPenetration" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="OpenSourceStates" Relationship="DBModel.FK_OpenSourceState_Penetration" FromRole="Penetration" ToRole="OpenSourceState" />
+  </EntityType>
+  <EntityType Name="PoliticalInformationMunicipality">
+    <Key>
+      <PropertyRef Name="IdPoliticalInformationMunicipality" />
+    </Key>
+    <Property Type="Int32" Name="IdPoliticalInformationMunicipality" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdPoliticalInformationState" Nullable="false" />
+    <Property Type="Int32" Name="IdPoliticalParty" Nullable="false" />
+    <Property Type="DateTime" Name="DateFrom" Nullable="false" />
+    <Property Type="DateTime" Name="DateTo" Nullable="false" />
+    <Property Type="String" Name="Observations" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DevelopmentPlan" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Sectorials" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IdMunicipality" Nullable="false" />
+    <NavigationProperty Name="Municipality" Relationship="DBModel.FK_Political_Information_Municipality_Municipality" FromRole="PoliticalInformationMunicipality" ToRole="Municipality" />
+    <NavigationProperty Name="PoliticalParty" Relationship="DBModel.FK_Political_Information_Municipality_Political_Party" FromRole="PoliticalInformationMunicipality" ToRole="PoliticalParty" />
+  </EntityType>
+  <EntityType Name="PoliticalInformationState">
+    <Key>
+      <PropertyRef Name="IdPoliticalInformationState" />
+    </Key>
+    <Property Type="Int32" Name="IdPoliticalInformationState" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdPoliticalParty" Nullable="false" />
+    <Property Type="DateTime" Name="DateFrom" Nullable="false" />
+    <Property Type="DateTime" Name="DateTo" Nullable="false" />
+    <Property Type="String" Name="DevelopmentPlan" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Observations" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Sectorials" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IdState" Nullable="false" />
+    <NavigationProperty Name="PoliticalParty" Relationship="DBModel.FK_Political_Information_State_Political_Party" FromRole="PoliticalInformationState" ToRole="PoliticalParty" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_Political_Information_State_State" FromRole="PoliticalInformationState" ToRole="State" />
+    <NavigationProperty Name="PoliticalInformationStateFiles" Relationship="DBModel.FK_PoliticalInformationStateFiles_PoliticalInformationState" FromRole="PoliticalInformationState" ToRole="PoliticalInformationStateFile" />
+  </EntityType>
+  <EntityType Name="PoliticalInformationStateFile">
+    <Key>
+      <PropertyRef Name="IdFilePoliticalStateInformation" />
+    </Key>
+    <Property Type="Int32" Name="IdFilePoliticalStateInformation" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdPoliticalInformationState" Nullable="false" />
+    <Property Type="Binary" Name="FileData" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Type="String" Name="FileName" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Type="Guid" Name="RowGuid" Nullable="false" />
+    <NavigationProperty Name="PoliticalInformationState" Relationship="DBModel.FK_PoliticalInformationStateFiles_PoliticalInformationState" FromRole="PoliticalInformationStateFile" ToRole="PoliticalInformationState" />
+  </EntityType>
+  <EntityType Name="PoliticalParty">
+    <Key>
+      <PropertyRef Name="IdPoliticalParty" />
+    </Key>
+    <Property Type="Int32" Name="IdPoliticalParty" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ShortName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ColorIndex" />
+    <Property Type="String" Name="Color" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Status" Nullable="false" />
+    <NavigationProperty Name="PoliticalInformationMunicipalities" Relationship="DBModel.FK_Political_Information_Municipality_Political_Party" FromRole="PoliticalParty" ToRole="PoliticalInformationMunicipality" />
+    <NavigationProperty Name="PoliticalInformationStates" Relationship="DBModel.FK_Political_Information_State_Political_Party" FromRole="PoliticalParty" ToRole="PoliticalInformationState" />
+  </EntityType>
+  <EntityType Name="PopulationAttended">
+    <Key>
+      <PropertyRef Name="IdPopulationAttended" />
+    </Key>
+    <Property Type="Int32" Name="IdPopulationAttended" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CapacitationCenters" Relationship="DBModel.FK_CapacitationCenter_PopulationAttended" FromRole="PopulationAttended" ToRole="CapacitationCenter" />
+    <NavigationProperty Name="CapacitationCenterInformations" Relationship="DBModel.FK_Capacitation_Center_Information_PopulationAttended" FromRole="PopulationAttended" ToRole="CapacitationCenterInformation" />
+    <NavigationProperty Name="SocialOrganizationInformations" Relationship="DBModel.FK_Social_Organization_Information_PopulationAttended" FromRole="PopulationAttended" ToRole="SocialOrganizationInformation" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="IdProduct" />
+    </Key>
+    <Property Type="Int32" Name="IdProduct" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IdTypeProduct" Nullable="false" />
+    <Property Type="Boolean" Name="OpenSource" Nullable="false" />
+    <NavigationProperty Name="TypeProduct" Relationship="DBModel.FK_Products_TypeProduct" FromRole="Product" ToRole="TypeProduct" />
+    <NavigationProperty Name="OpenSourceStates" Relationship="DBModel.FK_OpenSourceState_Products" FromRole="Product" ToRole="OpenSourceState" />
+    <NavigationProperty Name="OpenSourceStateProviders" Relationship="DBModel.FK_OpenSourceStateProvider_Products" FromRole="Product" ToRole="OpenSourceStateProvider" />
+  </EntityType>
+  <EntityType Name="Program">
+    <Key>
+      <PropertyRef Name="IdProgram" />
+    </Key>
+    <Property Type="Int32" Name="IdProgram" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MicrosoftProgramStates" Relationship="DBModel.FK_Microsoft_Program_State_Program" FromRole="Program" ToRole="MicrosoftProgramState" />
+    <NavigationProperty Name="StatePrograms" Relationship="DBModel.FK_StateProgram_Program" FromRole="Program" ToRole="StateProgram" />
+  </EntityType>
+  <EntityType Name="SchoolGrade">
+    <Key>
+      <PropertyRef Name="IdSchoolGrade" />
+    </Key>
+    <Property Type="Int32" Name="IdSchoolGrade" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="EnlaceTests" Relationship="DBModel.FK_EnlaceTest_SchoolGrade" FromRole="SchoolGrade" ToRole="EnlaceTest" />
+  </EntityType>
+  <EntityType Name="SchoolLevel">
+    <Key>
+      <PropertyRef Name="IdSchoolLevel" />
+    </Key>
+    <Property Type="Int32" Name="IdSchoolLevel" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="100" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="SchoolsInformations" Relationship="DBModel.FK_Schools_Information_School_Level" FromRole="SchoolLevel" ToRole="SchoolsInformation" />
+    <NavigationProperty Name="StudentsInformations" Relationship="DBModel.FK_Students_Information_School_Level" FromRole="SchoolLevel" ToRole="StudentsInformation" />
+    <NavigationProperty Name="TeachersInformations" Relationship="DBModel.FK_Teachers_Information_School_Level" FromRole="SchoolLevel" ToRole="TeachersInformation" />
+  </EntityType>
+  <EntityType Name="SchoolsInformation">
+    <Key>
+      <PropertyRef Name="IdSchoolInformation" />
+    </Key>
+    <Property Type="Int32" Name="IdSchoolInformation" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdEducationInformationState" Nullable="false" />
+    <Property Type="Int32" Name="IdSchoolLevel" Nullable="false" />
+    <Property Type="Int32" Name="IdSchoolType" Nullable="false" />
+    <Property Type="Int32" Name="Number" Nullable="false" />
+    <NavigationProperty Name="EducationInformationState" Relationship="DBModel.FK_Schools_Information_Education_Information_State" FromRole="SchoolsInformation" ToRole="EducationInformationState" />
+    <NavigationProperty Name="SchoolLevel" Relationship="DBModel.FK_Schools_Information_School_Level" FromRole="SchoolsInformation" ToRole="SchoolLevel" />
+    <NavigationProperty Name="SchoolType" Relationship="DBModel.FK_Schools_Information_School_Type" FromRole="SchoolsInformation" ToRole="SchoolType" />
+  </EntityType>
+  <EntityType Name="SchoolType">
+    <Key>
+      <PropertyRef Name="IdSchoolType" />
+    </Key>
+    <Property Type="Int32" Name="IdSchoolType" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="SchoolsInformations" Relationship="DBModel.FK_Schools_Information_School_Type" FromRole="SchoolType" ToRole="SchoolsInformation" />
+    <NavigationProperty Name="StudentsInformations" Relationship="DBModel.FK_Students_Information_School_Type" FromRole="SchoolType" ToRole="StudentsInformation" />
+    <NavigationProperty Name="TeachersInformations" Relationship="DBModel.FK_Teachers_Information_School_Type" FromRole="SchoolType" ToRole="TeachersInformation" />
+  </EntityType>
+  <EntityType Name="SocialCause">
+    <Key>
+      <PropertyRef Name="IdSocialCause" />
+    </Key>
+    <Property Type="Int32" Name="IdSocialCause" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CapacitationCenters" Relationship="DBModel.FK_CapacitationCenter_SocialCause" FromRole="SocialCause" ToRole="CapacitationCenter" />
+    <NavigationProperty Name="CapacitationCenterInformations" Relationship="DBModel.FK_CapacitationCenterInformation_SocialCause" FromRole="SocialCause" ToRole="CapacitationCenterInformation" />
+    <NavigationProperty Name="SocialOrganizationInformations" Relationship="DBModel.FK_Social_Organization_Information_Social_Cause" FromRole="SocialCause" ToRole="SocialOrganizationInformation" />
+  </EntityType>
+  <EntityType Name="SocialOrganization">
+    <Key>
+      <PropertyRef Name="IdSocialOrganization" />
+    </Key>
+    <Property Type="Int32" Name="IdSocialOrganization" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CapacitationCenters" Relationship="DBModel.FK_CapacitationCenter_SocialOrganization" FromRole="SocialOrganization" ToRole="CapacitationCenter" />
+    <NavigationProperty Name="CapacitationCenterInformations" Relationship="DBModel.FK_CapacitationCenterInformation_SocialOrganization" FromRole="SocialOrganization" ToRole="CapacitationCenterInformation" />
+  </EntityType>
+  <EntityType Name="SocialOrganizationInformation">
+    <Key>
+      <PropertyRef Name="IdSocialOrganizationInformation" />
+    </Key>
+    <Property Type="Int32" Name="IdSocialOrganizationInformation" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IdSocialCause" Nullable="false" />
+    <Property Type="Int32" Name="IdState" Nullable="false" />
+    <Property Type="Int32" Name="IdPopulationAttended" Nullable="false" />
+    <NavigationProperty Name="PopulationAttended" Relationship="DBModel.FK_Social_Organization_Information_PopulationAttended" FromRole="SocialOrganizationInformation" ToRole="PopulationAttended" />
+    <NavigationProperty Name="SocialCause" Relationship="DBModel.FK_Social_Organization_Information_Social_Cause" FromRole="SocialOrganizationInformation" ToRole="SocialCause" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_Social_Organization_Information_State" FromRole="SocialOrganizationInformation" ToRole="State" />
+  </EntityType>
+  <EntityType Name="Source">
+    <Key>
+      <PropertyRef Name="IdSource" />
+    </Key>
+    <Property Type="Int32" Name="IdSource" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MicrosoftProgramStates" Relationship="DBModel.FK_MicrosoftProgramState_Source" FromRole="Source" ToRole="MicrosoftProgramState" />
+    <NavigationProperty Name="StatePrograms" Relationship="DBModel.FK_StateProgram_Source" FromRole="Source" ToRole="StateProgram" />
+  </EntityType>
+  <EntityType Name="StudentsInformation">
+    <Key>
+      <PropertyRef Name="IdStudentInformation" />
+    </Key>
+    <Property Type="Int32" Name="IdStudentInformation" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdEducationInformationState" Nullable="false" />
+    <Property Type="Int32" Name="IdSchoolType" Nullable="false" />
+    <Property Type="Int32" Name="IdSchoolLevel" Nullable="false" />
+    <Property Type="Int32" Name="Number" Nullable="false" />
+    <NavigationProperty Name="EducationInformationState" Relationship="DBModel.FK_Students_Information_Education_Information_State" FromRole="StudentsInformation" ToRole="EducationInformationState" />
+    <NavigationProperty Name="SchoolLevel" Relationship="DBModel.FK_Students_Information_School_Level" FromRole="StudentsInformation" ToRole="SchoolLevel" />
+    <NavigationProperty Name="SchoolType" Relationship="DBModel.FK_Students_Information_School_Type" FromRole="StudentsInformation" ToRole="SchoolType" />
+  </EntityType>
+  <EntityType Name="TeachersInformation">
+    <Key>
+      <PropertyRef Name="IdTeachersInformation" />
+    </Key>
+    <Property Type="Int32" Name="IdTeachersInformation" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdEducationInformationState" Nullable="false" />
+    <Property Type="Int32" Name="IdSchoolLevel" Nullable="false" />
+    <Property Type="Int32" Name="IdSchoolType" Nullable="false" />
+    <Property Type="Int32" Name="Number" Nullable="false" />
+    <NavigationProperty Name="EducationInformationState" Relationship="DBModel.FK_Teachers_Information_Education_Information_State" FromRole="TeachersInformation" ToRole="EducationInformationState" />
+    <NavigationProperty Name="SchoolLevel" Relationship="DBModel.FK_Teachers_Information_School_Level" FromRole="TeachersInformation" ToRole="SchoolLevel" />
+    <NavigationProperty Name="SchoolType" Relationship="DBModel.FK_Teachers_Information_School_Type" FromRole="TeachersInformation" ToRole="SchoolType" />
+  </EntityType>
+  <EntityType Name="TypeAgreement">
+    <Key>
+      <PropertyRef Name="IdTypeAgreement" />
+    </Key>
+    <Property Type="Int32" Name="IdTypeAgreement" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MexicoAgreements" Relationship="DBModel.FK_MexicoAgreement_TypeAgreement" FromRole="TypeAgreement" ToRole="MexicoAgreement" />
+  </EntityType>
+  <EntityType Name="TypeProduct">
+    <Key>
+      <PropertyRef Name="IdTypeProduct" />
+    </Key>
+    <Property Type="Int32" Name="IdTypeProduct" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Products" Relationship="DBModel.FK_Products_TypeProduct" FromRole="TypeProduct" ToRole="Product" />
+    <NavigationProperty Name="OpenSourceStates" Relationship="DBModel.FK_OpenSourceState_TypeProduct" FromRole="TypeProduct" ToRole="OpenSourceState" />
+  </EntityType>
+  <EntityType Name="University">
+    <Key>
+      <PropertyRef Name="IdUniversity" />
+    </Key>
+    <Property Type="Int32" Name="IdUniversity" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IdState" Nullable="false" />
+    <NavigationProperty Name="MainUniversities" Relationship="DBModel.FK_Main_Universities_Universities" FromRole="University" ToRole="MainUniversity" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_Universities_State" FromRole="University" ToRole="State" />
+  </EntityType>
+  <EntityType Name="Year">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Year1" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_CapacitationCenter_Conectivity">
+    <End Type="DBModel.Conectivity" Role="Conectivity" Multiplicity="1" />
+    <End Type="DBModel.CapacitationCenter" Role="CapacitationCenter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Conectivity">
+        <PropertyRef Name="IdConectivity" />
+      </Principal>
+      <Dependent Role="CapacitationCenter">
+        <PropertyRef Name="IdConectivity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CapacitationCenter_PopulationAttended">
+    <End Type="DBModel.PopulationAttended" Role="PopulationAttended" Multiplicity="1" />
+    <End Type="DBModel.CapacitationCenter" Role="CapacitationCenter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PopulationAttended">
+        <PropertyRef Name="IdPopulationAttended" />
+      </Principal>
+      <Dependent Role="CapacitationCenter">
+        <PropertyRef Name="IdPopulationAttended" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CapacitationCenter_SocialCause">
+    <End Type="DBModel.SocialCause" Role="SocialCause" Multiplicity="1" />
+    <End Type="DBModel.CapacitationCenter" Role="CapacitationCenter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SocialCause">
+        <PropertyRef Name="IdSocialCause" />
+      </Principal>
+      <Dependent Role="CapacitationCenter">
+        <PropertyRef Name="IdSocialCause" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CapacitationCenter_SocialOrganization">
+    <End Type="DBModel.SocialOrganization" Role="SocialOrganization" Multiplicity="1" />
+    <End Type="DBModel.CapacitationCenter" Role="CapacitationCenter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SocialOrganization">
+        <PropertyRef Name="IdSocialOrganization" />
+      </Principal>
+      <Dependent Role="CapacitationCenter">
+        <PropertyRef Name="IdSocialOrganization" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CapacitationCenter_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="1" />
+    <End Type="DBModel.CapacitationCenter" Role="CapacitationCenter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="CapacitationCenter">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Capacitation_Center_Information_PopulationAttended">
+    <End Type="DBModel.PopulationAttended" Role="PopulationAttended" Multiplicity="1" />
+    <End Type="DBModel.CapacitationCenterInformation" Role="CapacitationCenterInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PopulationAttended">
+        <PropertyRef Name="IdPopulationAttended" />
+      </Principal>
+      <Dependent Role="CapacitationCenterInformation">
+        <PropertyRef Name="IdPopulationAttended" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Capacitation_Center_Information_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="0..1" />
+    <End Type="DBModel.CapacitationCenterInformation" Role="CapacitationCenterInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="CapacitationCenterInformation">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CapacitationCenterInformation_Conectivity">
+    <End Type="DBModel.Conectivity" Role="Conectivity" Multiplicity="1" />
+    <End Type="DBModel.CapacitationCenterInformation" Role="CapacitationCenterInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Conectivity">
+        <PropertyRef Name="IdConectivity" />
+      </Principal>
+      <Dependent Role="CapacitationCenterInformation">
+        <PropertyRef Name="IdConectivity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CapacitationCenterInformation_SocialCause">
+    <End Type="DBModel.SocialCause" Role="SocialCause" Multiplicity="1" />
+    <End Type="DBModel.CapacitationCenterInformation" Role="CapacitationCenterInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SocialCause">
+        <PropertyRef Name="IdSocialCause" />
+      </Principal>
+      <Dependent Role="CapacitationCenterInformation">
+        <PropertyRef Name="IdSocialCause" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CapacitationCenterInformation_SocialOrganization">
+    <End Type="DBModel.SocialOrganization" Role="SocialOrganization" Multiplicity="1" />
+    <End Type="DBModel.CapacitationCenterInformation" Role="CapacitationCenterInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SocialOrganization">
+        <PropertyRef Name="IdSocialOrganization" />
+      </Principal>
+      <Dependent Role="CapacitationCenterInformation">
+        <PropertyRef Name="IdSocialOrganization" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Competition_Competitor">
+    <End Type="DBModel.Competitor" Role="Competitor" Multiplicity="1" />
+    <End Type="DBModel.Competition" Role="Competition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Competitor">
+        <PropertyRef Name="IdCompetitor" />
+      </Principal>
+      <Dependent Role="Competition">
+        <PropertyRef Name="IdCompetitor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Competition_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="0..1" />
+    <End Type="DBModel.Competition" Role="Competition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="Competition">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MicrosoftProgramState_Contacts">
+    <End Type="DBModel.Contact" Role="Contact" Multiplicity="1" />
+    <End Type="DBModel.MicrosoftProgramState" Role="MicrosoftProgramState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contact">
+        <PropertyRef Name="IdContact" />
+      </Principal>
+      <Dependent Role="MicrosoftProgramState">
+        <PropertyRef Name="IdContactMsft" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MicrosoftProgramState_Contacts1">
+    <End Type="DBModel.Contact" Role="Contact" Multiplicity="1" />
+    <End Type="DBModel.MicrosoftProgramState" Role="MicrosoftProgramState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contact">
+        <PropertyRef Name="IdContact" />
+      </Principal>
+      <Dependent Role="MicrosoftProgramState">
+        <PropertyRef Name="IdContactState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Education_Information_State_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="1" />
+    <End Type="DBModel.EducationInformationState" Role="EducationInformationState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="EducationInformationState">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Enlace_Test_Education_Information_State">
+    <End Type="DBModel.EducationInformationState" Role="EducationInformationState" Multiplicity="1" />
+    <End Type="DBModel.EnlaceTest" Role="EnlaceTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EducationInformationState">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Principal>
+      <Dependent Role="EnlaceTest">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Main_Universities_Education_Information_State">
+    <End Type="DBModel.EducationInformationState" Role="EducationInformationState" Multiplicity="1" />
+    <End Type="DBModel.MainUniversity" Role="MainUniversity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EducationInformationState">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Principal>
+      <Dependent Role="MainUniversity">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Schools_Information_Education_Information_State">
+    <End Type="DBModel.EducationInformationState" Role="EducationInformationState" Multiplicity="1" />
+    <End Type="DBModel.SchoolsInformation" Role="SchoolsInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EducationInformationState">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Principal>
+      <Dependent Role="SchoolsInformation">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Students_Information_Education_Information_State">
+    <End Type="DBModel.EducationInformationState" Role="EducationInformationState" Multiplicity="1" />
+    <End Type="DBModel.StudentsInformation" Role="StudentsInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EducationInformationState">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Principal>
+      <Dependent Role="StudentsInformation">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teachers_Information_Education_Information_State">
+    <End Type="DBModel.EducationInformationState" Role="EducationInformationState" Multiplicity="1" />
+    <End Type="DBModel.TeachersInformation" Role="TeachersInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EducationInformationState">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Principal>
+      <Dependent Role="TeachersInformation">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EnlaceTest_SchoolGrade">
+    <End Type="DBModel.SchoolGrade" Role="SchoolGrade" Multiplicity="1" />
+    <End Type="DBModel.EnlaceTest" Role="EnlaceTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchoolGrade">
+        <PropertyRef Name="IdSchoolGrade" />
+      </Principal>
+      <Dependent Role="EnlaceTest">
+        <PropertyRef Name="IdSchoolGrade" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Main_Universities_Universities">
+    <End Type="DBModel.University" Role="University" Multiplicity="1" />
+    <End Type="DBModel.MainUniversity" Role="MainUniversity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="University">
+        <PropertyRef Name="IdUniversity" />
+      </Principal>
+      <Dependent Role="MainUniversity">
+        <PropertyRef Name="IdUniversity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MexicoAgreement_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="1" />
+    <End Type="DBModel.MexicoAgreement" Role="MexicoAgreement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="MexicoAgreement">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MexicoAgreement_TypeAgreement">
+    <End Type="DBModel.TypeAgreement" Role="TypeAgreement" Multiplicity="1" />
+    <End Type="DBModel.MexicoAgreement" Role="MexicoAgreement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeAgreement">
+        <PropertyRef Name="IdTypeAgreement" />
+      </Principal>
+      <Dependent Role="MexicoAgreement">
+        <PropertyRef Name="IdTypeAgreement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Microsoft_Program_State_Partner">
+    <End Type="DBModel.Partner" Role="Partner" Multiplicity="1" />
+    <End Type="DBModel.MicrosoftProgramState" Role="MicrosoftProgramState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Partner">
+        <PropertyRef Name="IdPartner" />
+      </Principal>
+      <Dependent Role="MicrosoftProgramState">
+        <PropertyRef Name="IdPartner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Microsoft_Program_State_Program">
+    <End Type="DBModel.Program" Role="Program" Multiplicity="1" />
+    <End Type="DBModel.MicrosoftProgramState" Role="MicrosoftProgramState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Program">
+        <PropertyRef Name="IdProgram" />
+      </Principal>
+      <Dependent Role="MicrosoftProgramState">
+        <PropertyRef Name="IdProgram" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Microsoft_Program_State_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="1" />
+    <End Type="DBModel.MicrosoftProgramState" Role="MicrosoftProgramState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="MicrosoftProgramState">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MicrosoftProgramState_Source">
+    <End Type="DBModel.Source" Role="Source" Multiplicity="1" />
+    <End Type="DBModel.MicrosoftProgramState" Role="MicrosoftProgramState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Source">
+        <PropertyRef Name="IdSource" />
+      </Principal>
+      <Dependent Role="MicrosoftProgramState">
+        <PropertyRef Name="IdSource" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Municipality_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="1" />
+    <End Type="DBModel.Municipality" Role="Municipality" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="Municipality">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Political_Information_Municipality_Municipality">
+    <End Type="DBModel.Municipality" Role="Municipality" Multiplicity="1" />
+    <End Type="DBModel.PoliticalInformationMunicipality" Role="PoliticalInformationMunicipality" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Municipality">
+        <PropertyRef Name="IdMunicipality" />
+      </Principal>
+      <Dependent Role="PoliticalInformationMunicipality">
+        <PropertyRef Name="IdMunicipality" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Political_Information_Municipality_Political_Party">
+    <End Type="DBModel.PoliticalParty" Role="PoliticalParty" Multiplicity="1" />
+    <End Type="DBModel.PoliticalInformationMunicipality" Role="PoliticalInformationMunicipality" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PoliticalParty">
+        <PropertyRef Name="IdPoliticalParty" />
+      </Principal>
+      <Dependent Role="PoliticalInformationMunicipality">
+        <PropertyRef Name="IdPoliticalParty" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Political_Information_State_Political_Party">
+    <End Type="DBModel.PoliticalParty" Role="PoliticalParty" Multiplicity="1" />
+    <End Type="DBModel.PoliticalInformationState" Role="PoliticalInformationState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PoliticalParty">
+        <PropertyRef Name="IdPoliticalParty" />
+      </Principal>
+      <Dependent Role="PoliticalInformationState">
+        <PropertyRef Name="IdPoliticalParty" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Political_Information_State_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="1" />
+    <End Type="DBModel.PoliticalInformationState" Role="PoliticalInformationState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="PoliticalInformationState">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PoliticalInformationStateFiles_PoliticalInformationState">
+    <End Type="DBModel.PoliticalInformationState" Role="PoliticalInformationState" Multiplicity="1" />
+    <End Type="DBModel.PoliticalInformationStateFile" Role="PoliticalInformationStateFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PoliticalInformationState">
+        <PropertyRef Name="IdPoliticalInformationState" />
+      </Principal>
+      <Dependent Role="PoliticalInformationStateFile">
+        <PropertyRef Name="IdPoliticalInformationState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Social_Organization_Information_PopulationAttended">
+    <End Type="DBModel.PopulationAttended" Role="PopulationAttended" Multiplicity="1" />
+    <End Type="DBModel.SocialOrganizationInformation" Role="SocialOrganizationInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PopulationAttended">
+        <PropertyRef Name="IdPopulationAttended" />
+      </Principal>
+      <Dependent Role="SocialOrganizationInformation">
+        <PropertyRef Name="IdPopulationAttended" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_TypeProduct">
+    <End Type="DBModel.TypeProduct" Role="TypeProduct" Multiplicity="1" />
+    <End Type="DBModel.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeProduct">
+        <PropertyRef Name="IdTypeProduct" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="IdTypeProduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Schools_Information_School_Level">
+    <End Type="DBModel.SchoolLevel" Role="SchoolLevel" Multiplicity="1" />
+    <End Type="DBModel.SchoolsInformation" Role="SchoolsInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchoolLevel">
+        <PropertyRef Name="IdSchoolLevel" />
+      </Principal>
+      <Dependent Role="SchoolsInformation">
+        <PropertyRef Name="IdSchoolLevel" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Students_Information_School_Level">
+    <End Type="DBModel.SchoolLevel" Role="SchoolLevel" Multiplicity="1" />
+    <End Type="DBModel.StudentsInformation" Role="StudentsInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchoolLevel">
+        <PropertyRef Name="IdSchoolLevel" />
+      </Principal>
+      <Dependent Role="StudentsInformation">
+        <PropertyRef Name="IdSchoolLevel" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teachers_Information_School_Level">
+    <End Type="DBModel.SchoolLevel" Role="SchoolLevel" Multiplicity="1" />
+    <End Type="DBModel.TeachersInformation" Role="TeachersInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchoolLevel">
+        <PropertyRef Name="IdSchoolLevel" />
+      </Principal>
+      <Dependent Role="TeachersInformation">
+        <PropertyRef Name="IdSchoolLevel" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Schools_Information_School_Type">
+    <End Type="DBModel.SchoolType" Role="SchoolType" Multiplicity="1" />
+    <End Type="DBModel.SchoolsInformation" Role="SchoolsInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchoolType">
+        <PropertyRef Name="IdSchoolType" />
+      </Principal>
+      <Dependent Role="SchoolsInformation">
+        <PropertyRef Name="IdSchoolType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Students_Information_School_Type">
+    <End Type="DBModel.SchoolType" Role="SchoolType" Multiplicity="1" />
+    <End Type="DBModel.StudentsInformation" Role="StudentsInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchoolType">
+        <PropertyRef Name="IdSchoolType" />
+      </Principal>
+      <Dependent Role="StudentsInformation">
+        <PropertyRef Name="IdSchoolType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teachers_Information_School_Type">
+    <End Type="DBModel.SchoolType" Role="SchoolType" Multiplicity="1" />
+    <End Type="DBModel.TeachersInformation" Role="TeachersInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchoolType">
+        <PropertyRef Name="IdSchoolType" />
+      </Principal>
+      <Dependent Role="TeachersInformation">
+        <PropertyRef Name="IdSchoolType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Social_Organization_Information_Social_Cause">
+    <End Type="DBModel.SocialCause" Role="SocialCause" Multiplicity="1" />
+    <End Type="DBModel.SocialOrganizationInformation" Role="SocialOrganizationInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SocialCause">
+        <PropertyRef Name="IdSocialCause" />
+      </Principal>
+      <Dependent Role="SocialOrganizationInformation">
+        <PropertyRef Name="IdSocialCause" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Social_Organization_Information_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="1" />
+    <End Type="DBModel.SocialOrganizationInformation" Role="SocialOrganizationInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="SocialOrganizationInformation">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Universities_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="1" />
+    <End Type="DBModel.University" Role="University" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="University">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="OpenSourceState">
+    <Key>
+      <PropertyRef Name="IdOSSState" />
+    </Key>
+    <Property Type="Int32" Name="IdOSSState" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdTypeProduct" Nullable="false" />
+    <Property Type="Int32" Name="IdProduct" Nullable="false" />
+    <Property Type="Int32" Name="IdPenetration" Nullable="false" />
+    <Property Type="Int32" Name="Year" />
+    <Property Type="Int32" Name="IdState" Nullable="false" />
+    <NavigationProperty Name="Penetration" Relationship="DBModel.FK_OpenSourceState_Penetration" FromRole="OpenSourceState" ToRole="Penetration" />
+    <NavigationProperty Name="Product" Relationship="DBModel.FK_OpenSourceState_Products" FromRole="OpenSourceState" ToRole="Product" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_OpenSourceState_State" FromRole="OpenSourceState" ToRole="State" />
+    <NavigationProperty Name="TypeProduct" Relationship="DBModel.FK_OpenSourceState_TypeProduct" FromRole="OpenSourceState" ToRole="TypeProduct" />
+  </EntityType>
+  <EntityType Name="OpenSourceStateCommunity">
+    <Key>
+      <PropertyRef Name="IdOpenSourceCommunityState" />
+    </Key>
+    <Property Type="Int32" Name="IdOpenSourceCommunityState" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UniversityRelationship" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IdState" />
+    <Property Type="Int32" Name="IdContact" Nullable="false" />
+    <NavigationProperty Name="Contact" Relationship="DBModel.FK_OpenSourceStateCommunity_Contacts" FromRole="OpenSourceStateCommunity" ToRole="Contact" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_OpenSourceStateCommunity_State" FromRole="OpenSourceStateCommunity" ToRole="State" />
+  </EntityType>
+  <EntityType Name="OpenSourceStateProvider">
+    <Key>
+      <PropertyRef Name="IdOpenSourceStateProvider" />
+    </Key>
+    <Property Type="Int32" Name="IdOpenSourceStateProvider" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="IdProduct" Nullable="false" />
+    <Property Type="Double" Name="Invoicing" Nullable="false" />
+    <Property Type="Int32" Name="IdState" />
+    <Property Type="DateTime" Name="DateFrom" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="DBModel.FK_OpenSourceStateProvider_Products" FromRole="OpenSourceStateProvider" ToRole="Product" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_OpenSourceStateProvider_State" FromRole="OpenSourceStateProvider" ToRole="State" />
+  </EntityType>
+  <Association Name="FK_OpenSourceStateCommunity_Contacts">
+    <End Type="DBModel.Contact" Role="Contact" Multiplicity="1" />
+    <End Type="DBModel.OpenSourceStateCommunity" Role="OpenSourceStateCommunity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contact">
+        <PropertyRef Name="IdContact" />
+      </Principal>
+      <Dependent Role="OpenSourceStateCommunity">
+        <PropertyRef Name="IdContact" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OpenSourceState_Penetration">
+    <End Type="DBModel.Penetration" Role="Penetration" Multiplicity="1" />
+    <End Type="DBModel.OpenSourceState" Role="OpenSourceState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Penetration">
+        <PropertyRef Name="IdPenetration" />
+      </Principal>
+      <Dependent Role="OpenSourceState">
+        <PropertyRef Name="IdPenetration" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OpenSourceState_Products">
+    <End Type="DBModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="DBModel.OpenSourceState" Role="OpenSourceState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="IdProduct" />
+      </Principal>
+      <Dependent Role="OpenSourceState">
+        <PropertyRef Name="IdProduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OpenSourceState_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="1" />
+    <End Type="DBModel.OpenSourceState" Role="OpenSourceState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="OpenSourceState">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OpenSourceState_TypeProduct">
+    <End Type="DBModel.TypeProduct" Role="TypeProduct" Multiplicity="1" />
+    <End Type="DBModel.OpenSourceState" Role="OpenSourceState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeProduct">
+        <PropertyRef Name="IdTypeProduct" />
+      </Principal>
+      <Dependent Role="OpenSourceState">
+        <PropertyRef Name="IdTypeProduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OpenSourceStateCommunity_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="0..1" />
+    <End Type="DBModel.OpenSourceStateCommunity" Role="OpenSourceStateCommunity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="OpenSourceStateCommunity">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OpenSourceStateProvider_Products">
+    <End Type="DBModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="DBModel.OpenSourceStateProvider" Role="OpenSourceStateProvider" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="IdProduct" />
+      </Principal>
+      <Dependent Role="OpenSourceStateProvider">
+        <PropertyRef Name="IdProduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OpenSourceStateProvider_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="0..1" />
+    <End Type="DBModel.OpenSourceStateProvider" Role="OpenSourceStateProvider" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="OpenSourceStateProvider">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="SEPProjectState">
+    <Key>
+      <PropertyRef Name="IdSepProjectState" />
+    </Key>
+    <Property Type="Int32" Name="IdSepProjectState" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdEducationInformationState" Nullable="false" />
+    <Property Type="Int32" Name="IdTypeSepProject" Nullable="false" />
+    <Property Type="Int64" Name="Percentage" Nullable="false" />
+    <NavigationProperty Name="EducationInformationState" Relationship="DBModel.FK_SEP_Project_State_Education_Information_State" FromRole="SEPProjectState" ToRole="EducationInformationState" />
+    <NavigationProperty Name="TypeSepProject" Relationship="DBModel.FK_SEPProjectState_TypeSepProject" FromRole="SEPProjectState" ToRole="TypeSepProject" />
+  </EntityType>
+  <EntityType Name="TypeSepProject">
+    <Key>
+      <PropertyRef Name="IdTypeSepProject" />
+    </Key>
+    <Property Type="Int32" Name="IdTypeSepProject" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="SEPProjectStates" Relationship="DBModel.FK_SEPProjectState_TypeSepProject" FromRole="TypeSepProject" ToRole="SEPProjectState" />
+  </EntityType>
+  <Association Name="FK_SEP_Project_State_Education_Information_State">
+    <End Type="DBModel.EducationInformationState" Role="EducationInformationState" Multiplicity="1" />
+    <End Type="DBModel.SEPProjectState" Role="SEPProjectState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EducationInformationState">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Principal>
+      <Dependent Role="SEPProjectState">
+        <PropertyRef Name="IdEducationInformationState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SEPProjectState_TypeSepProject">
+    <End Type="DBModel.TypeSepProject" Role="TypeSepProject" Multiplicity="1" />
+    <End Type="DBModel.SEPProjectState" Role="SEPProjectState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeSepProject">
+        <PropertyRef Name="IdTypeSepProject" />
+      </Principal>
+      <Dependent Role="SEPProjectState">
+        <PropertyRef Name="IdTypeSepProject" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="StateProgram">
+    <Key>
+      <PropertyRef Name="IdStateProgram" />
+    </Key>
+    <Property Type="Int32" Name="IdStateProgram" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdProgram" Nullable="false" />
+    <Property Type="Int32" Name="IdPartner" Nullable="false" />
+    <Property Type="Int32" Name="IdSource" />
+    <Property Type="Int32" Name="IdContactMsft" Nullable="false" />
+    <Property Type="Int32" Name="IdContactState" Nullable="false" />
+    <Property Type="DateTime" Name="DateFrom" Nullable="false" />
+    <Property Type="DateTime" Name="DateTo" Nullable="false" />
+    <Property Type="Double" Name="ROI" Nullable="false" />
+    <Property Type="Int32" Name="Progress" Nullable="false" />
+    <Property Type="Double" Name="Investment" Nullable="false" />
+    <Property Type="Int32" Name="IdState" Nullable="false" />
+    <NavigationProperty Name="Contact" Relationship="DBModel.FK_StateProgram_Contacts" FromRole="StateProgram" ToRole="Contact" />
+    <NavigationProperty Name="Contact1" Relationship="DBModel.FK_StateProgram_Contacts1" FromRole="StateProgram" ToRole="Contact" />
+    <NavigationProperty Name="Partner" Relationship="DBModel.FK_StateProgram_Partner" FromRole="StateProgram" ToRole="Partner" />
+    <NavigationProperty Name="Program" Relationship="DBModel.FK_StateProgram_Program" FromRole="StateProgram" ToRole="Program" />
+    <NavigationProperty Name="Source" Relationship="DBModel.FK_StateProgram_Source" FromRole="StateProgram" ToRole="Source" />
+    <NavigationProperty Name="State" Relationship="DBModel.FK_StateProgram_State" FromRole="StateProgram" ToRole="State" />
+  </EntityType>
+  <Association Name="FK_StateProgram_Contacts">
+    <End Type="DBModel.Contact" Role="Contact" Multiplicity="1" />
+    <End Type="DBModel.StateProgram" Role="StateProgram" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contact">
+        <PropertyRef Name="IdContact" />
+      </Principal>
+      <Dependent Role="StateProgram">
+        <PropertyRef Name="IdContactMsft" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StateProgram_Contacts1">
+    <End Type="DBModel.Contact" Role="Contact" Multiplicity="1" />
+    <End Type="DBModel.StateProgram" Role="StateProgram" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contact">
+        <PropertyRef Name="IdContact" />
+      </Principal>
+      <Dependent Role="StateProgram">
+        <PropertyRef Name="IdContactState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StateProgram_Partner">
+    <End Type="DBModel.Partner" Role="Partner" Multiplicity="1" />
+    <End Type="DBModel.StateProgram" Role="StateProgram" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Partner">
+        <PropertyRef Name="IdPartner" />
+      </Principal>
+      <Dependent Role="StateProgram">
+        <PropertyRef Name="IdPartner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StateProgram_Program">
+    <End Type="DBModel.Program" Role="Program" Multiplicity="1" />
+    <End Type="DBModel.StateProgram" Role="StateProgram" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Program">
+        <PropertyRef Name="IdProgram" />
+      </Principal>
+      <Dependent Role="StateProgram">
+        <PropertyRef Name="IdProgram" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StateProgram_Source">
+    <End Type="DBModel.Source" Role="Source" Multiplicity="0..1" />
+    <End Type="DBModel.StateProgram" Role="StateProgram" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Source">
+        <PropertyRef Name="IdSource" />
+      </Principal>
+      <Dependent Role="StateProgram">
+        <PropertyRef Name="IdSource" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StateProgram_State">
+    <End Type="DBModel.State" Role="State" Multiplicity="1" />
+    <End Type="DBModel.StateProgram" Role="StateProgram" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="StateProgram">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

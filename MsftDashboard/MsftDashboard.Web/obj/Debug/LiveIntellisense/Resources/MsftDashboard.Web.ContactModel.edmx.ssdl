@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestArchiveModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="TestArchiveModelStoreContainer">
+    <EntitySet Name="Contacts" EntityType="TestArchiveModel.Store.Contacts" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Contacts">
+    <Key>
+      <PropertyRef Name="IdContact" />
+    </Key>
+    <Property Name="IdContact" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Email" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="CellPhone" Type="varchar" MaxLength="20" />
+    <Property Name="Telephone" Type="varchar" MaxLength="20" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,35 @@
+﻿<sdk:Page	
+	x:Class="MsftDashboard.CorporativeView" 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	
+	Title="OpenSourceView Page"
+    DataContext="{Binding SocialOrganization,Source={StaticResource Locator}}"
+	d:DesignHeight="480" Margin="-79,-33,79,33" Width="1067">
+	
+	<Grid x:Name="LayoutRoot" >
+		<Canvas Margin="239,60,-84,41">
+			<Button x:Name="btnUpdate" Command="{Binding UpdateCommand}"  Content="Actualizar" Width="154" Height="30" Canvas.Left="187" Canvas.Top="323"/>
+			<Button x:Name="btnEliminar" Command="{Binding DeleteCommand}" Content="Eliminar" Width="154" Height="30" d:LayoutOverrides="GridBox" Canvas.Left="370" Canvas.Top="323" />
+            <sdk:DataGrid x:Name="dataGridElevemosMexico" 
+                          ItemsSource="{Binding SocialOrgCollection}" 
+                          SelectedItem="{Binding SelectedSocialOrg,Mode= TwoWay}"
+                          AutoGenerateColumns="False" Width="522" d:LayoutOverrides="GridBox" Height="300" Canvas.Left="2" BorderThickness="1">
+				<sdk:DataGrid.Columns>
+					<sdk:DataGridTextColumn Width="100" Header="Estado" Binding="{Binding State.Name}" />
+					<sdk:DataGridTextColumn Width="120" Header="Nombre" Binding="{Binding Name}"/>
+					<sdk:DataGridTextColumn Width="120" Header="Causa Social" Binding="{Binding SocialCause.Name}"/>
+					<sdk:DataGridTextColumn Width="180" Header="Población Atendida" Binding="{Binding PopulationAttended.Name}"/>
+					
+				</sdk:DataGrid.Columns>
+			</sdk:DataGrid>
+			<Button x:Name="btnNew" Command="{Binding AddCommand}"  Content="Agregar" Width="154" Height="30" Canvas.Top="323"/>
+		</Canvas>
+		<TextBlock HorizontalAlignment="Left" Height="37" Margin="2,2,0,0" TextWrapping="Wrap" Text="Ciudadania Corporativa" VerticalAlignment="Top" Width="355" Foreground="#FF61B0DD" FontSize="29.333"/>
+		<HyperlinkButton NavigateUri="/CorporativeView" TargetName="ContentFrame" Content="Organización Social" HorizontalAlignment="Left" Height="45" Margin="8,54,0,0" VerticalAlignment="Top" Width="139"/>
+		<HyperlinkButton Content="Centros de Capacitación" HorizontalAlignment="Left" Height="45" Margin="8,105,0,0" VerticalAlignment="Top" Width="167" NavigateUri="/CapacitationCenterView" TargetName="ContentFrame"/>
+	</Grid>
+</sdk:Page>

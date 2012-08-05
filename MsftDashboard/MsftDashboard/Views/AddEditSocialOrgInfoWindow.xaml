@@ -1,0 +1,32 @@
+﻿<sdk:ChildWindow	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d"	x:Class="MsftDashboard.AddEditSocialOrgInfoWindow"
+	Title="AddEditSocialOrgInfo"
+	Style="{StaticResource ChildWindowStyle}"
+    DataContext="{Binding SocialOrganizationChild,Source={StaticResource Locator}}"                 
+	Width="455" Height="300">
+	<Grid x:Name="LayoutRoot">
+	
+	<Canvas Margin="8,8,8,64">
+		<ComboBox x:Name="cmbState" ItemsSource="{Binding StateCollection}"
+                  SelectedItem="{Binding CurrentState, Mode=TwoWay}"
+                  DisplayMemberPath="Name"  HorizontalAlignment="Left" Height="26" Width="200" BorderThickness="1" Canvas.Left="188" Canvas.Top="-1" Visibility="{Binding HideControl}" SelectedIndex="{Binding IndexState}" />
+		<sdk:Label Content="Estado" Height="33" Canvas.Left="91" Canvas.Top="-3" Width="57.5" Foreground="#FFBABABA" FontSize="16"/>
+		<sdk:Label Content="Población Atendida" Height="33" Canvas.Top="132" Width="158" Foreground="#FFBABABA" FontSize="16" Canvas.Left="-1"/>
+            <ComboBox x:Name="cmbSocialCause"
+                      SelectedItem="{Binding CurrentSocialCause,Mode=TwoWay}"
+                      ItemsSource="{Binding SocialCauseCollection}" DisplayMemberPath="Name"  HorizontalAlignment="Left" Height="26" Width="200" BorderThickness="1" Canvas.Left="188" Canvas.Top="87" SelectedIndex="{Binding IndexSocialCause}" />
+		<sdk:Label Content="Causa Social" Height="33" Canvas.Left="48" Canvas.Top="85" Width="113.5" Foreground="#FFBABABA" FontSize="16"/>
+            <TextBox x:Name="txtName" Text="{Binding CurrentSocialOgInfo.Name,Mode=TwoWay}" Height="26" Canvas.Left="188" TextWrapping="Wrap" Canvas.Top="41" Width="200"/>
+            <ComboBox x:Name="cmbPopulationAttended"
+                      SelectedItem="{Binding CurrentPopulationAttended,Mode=TwoWay}"
+                      ItemsSource="{Binding PopulationAttendedCollection}" DisplayMemberPath="Name" HorizontalAlignment="Left" Height="26" Width="200" BorderThickness="1" Canvas.Left="188" Canvas.Top="134" SelectedIndex="{Binding IndexPopulation}" />
+		<sdk:Label Content="Nombre" Height="33" Canvas.Left="85" Canvas.Top="37" Width="70" Foreground="#FFBABABA" FontSize="16"/>
+	</Canvas>
+		<Button x:Name="OKButton" Content="OK" Command="{Binding SaveCommand}" Click="OKButton_Click" Width="75" Margin="0,0,79,19" HorizontalAlignment="Right" d:LayoutOverrides="GridBox" Height="33" VerticalAlignment="Bottom" />
+		<Button x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" HorizontalAlignment="Right" Margin="0,0,0,19" d:LayoutOverrides="GridBox" Height="33" VerticalAlignment="Bottom" />
+	</Grid>
+</sdk:ChildWindow>

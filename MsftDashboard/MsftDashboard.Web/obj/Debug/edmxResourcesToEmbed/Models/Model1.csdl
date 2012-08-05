@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Producto" EntityType="Model1.Producto" />
+    <EntitySet Name="Venta" EntityType="Model1.Venta" />
+    <AssociationSet Name="ProductoVenta" Association="Model1.ProductoVenta">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="Venta" EntitySet="Venta" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <NavigationProperty Name="Ventas" Relationship="Model1.ProductoVenta" FromRole="Producto" ToRole="Venta" />
+  </EntityType>
+  <EntityType Name="Venta">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdProducto" Nullable="false" />
+    <Property Type="Double" Name="Vent" Nullable="false" />
+    <NavigationProperty Name="Producto" Relationship="Model1.ProductoVenta" FromRole="Venta" ToRole="Producto" />
+  </EntityType>
+  <Association Name="ProductoVenta">
+    <End Type="Model1.Producto" Role="Producto" Multiplicity="1" />
+    <End Type="Model1.Venta" Role="Venta" Multiplicity="*" />
+  </Association>
+</Schema>

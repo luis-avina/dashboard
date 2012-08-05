@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestArchiveModel1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="TestArchiveEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="States" EntityType="TestArchiveModel1.State" />
+    <EntitySet Name="StateEconomicInfoes" EntityType="TestArchiveModel1.StateEconomicInfo" />
+    <AssociationSet Name="FK_State_Economic_Info_State" Association="TestArchiveModel1.FK_State_Economic_Info_State">
+      <End Role="State" EntitySet="States" />
+      <End Role="StateEconomicInfo" EntitySet="StateEconomicInfoes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="IdState" />
+    </Key>
+    <Property Name="IdState" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="StateEconomicInfoes" Relationship="TestArchiveModel1.FK_State_Economic_Info_State" FromRole="State" ToRole="StateEconomicInfo" />
+  </EntityType>
+  <EntityType Name="StateEconomicInfo">
+    <Key>
+      <PropertyRef Name="IdStateEconomicInfo" />
+    </Key>
+    <Property Name="IdStateEconomicInfo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BudgetPublicAdministration" Type="Double" />
+    <Property Name="BudgetTIC" Type="Double" />
+    <Property Name="BudgetSoftware" Type="Double" />
+    <Property Name="IdState" Type="Int32" Nullable="false" />
+    <Property Name="FromDate" Type="DateTime" Nullable="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="State" Relationship="TestArchiveModel1.FK_State_Economic_Info_State" FromRole="StateEconomicInfo" ToRole="State" />
+  </EntityType>
+  <Association Name="FK_State_Economic_Info_State">
+    <End Role="State" Type="TestArchiveModel1.State" Multiplicity="1" />
+    <End Role="StateEconomicInfo" Type="TestArchiveModel1.StateEconomicInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="StateEconomicInfo">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

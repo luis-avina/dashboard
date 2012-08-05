@@ -1,0 +1,39 @@
+﻿<sdk:ChildWindow x:Class="MsftDashboard.EducationEnlaceView"
+	Title="EducationSepProjectsView"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"	
+	Style="{StaticResource ChildWindowStyle}"
+    DataContext="{Binding EducationEnlace,Source={StaticResource Locator}}"
+	Width="616" Height="506">
+	<Grid x:Name="LayoutRoot">
+			<Canvas Height="Auto" Margin="8,0" d:LayoutOverrides="VerticalMargin">
+				<sdk:DataGrid Height="127" 
+					x:Name="gridOpenSource" 
+					VerticalAlignment="Top" 
+					ItemsSource="{Binding EnlaceTestCollection, Mode=TwoWay}" 
+                    SelectedIndex="{Binding ResetIndexEducationType}"
+					BorderThickness="1" Width="500" Canvas.Left="35">
+					<sdk:DataGrid.Columns>
+                            <sdk:DataGridTextColumn Binding="{Binding StateName}" 
+								Header="Estado" Width="150" />
+                            <sdk:DataGridTextColumn Binding="{Binding SchoolLevel}"
+								Header="Nivel" Width="150" />
+                            <sdk:DataGridTextColumn Binding="{Binding NumberOfTest}" 
+								Header="Número de Pruebas" Width="200" />
+      					</sdk:DataGrid.Columns>
+				</sdk:DataGrid>
+            <ComboBox x:Name="cmbUniversitie" ItemsSource="{Binding SchoolGradeCollection}"
+                           DisplayMemberPath="Name" 
+                           SelectedItem="{Binding CurrentSchoolGrade,Mode=TwoWay}" 
+                           HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="288" Canvas.Top="260"/>
+				<sdk:Label Content="Nivel" Height="33" Canvas.Left="194" Canvas.Top="258" Width="54" Foreground="#FFBABABA" FontSize="16"/>
+				<sdk:Label Content="Número de Pruebas" Height="33" Canvas.Left="78" Canvas.Top="305" Width="169" Foreground="#FFBABABA" FontSize="16"/>
+                <TextBox Height="26" Text="{Binding NumberOfTests,Mode=TwoWay}"  Canvas.Left="288" TextWrapping="Wrap" Canvas.Top="307" Width="213.4"/>
+                <Button x:Name="OKButton" Command="{Binding SaveCommand}" Content="Guardar" Width="75" Height="30" Canvas.Left="419" Canvas.Top="411" />
+                <Button x:Name="CancelButton_Copy" Content="Cancelar" Click="CancelButton_Click" Width="75" Height="30" Canvas.Left="498" Canvas.Top="411" />
+			</Canvas>
+		</Grid>
+</sdk:ChildWindow>

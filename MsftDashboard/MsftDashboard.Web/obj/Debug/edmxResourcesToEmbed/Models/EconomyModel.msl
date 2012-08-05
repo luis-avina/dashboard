@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TestArchiveModel1StoreContainer" CdmEntityContainer="TestArchiveEntities1">
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="TestArchiveModel1.State">
+        <MappingFragment StoreEntitySet="State">
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StateEconomicInfoes">
+      <EntityTypeMapping TypeName="TestArchiveModel1.StateEconomicInfo">
+        <MappingFragment StoreEntitySet="StateEconomicInfo">
+          <ScalarProperty Name="IdStateEconomicInfo" ColumnName="IdStateEconomicInfo" />
+          <ScalarProperty Name="BudgetPublicAdministration" ColumnName="BudgetPublicAdministration" />
+          <ScalarProperty Name="BudgetTIC" ColumnName="BudgetTIC" />
+          <ScalarProperty Name="BudgetSoftware" ColumnName="BudgetSoftware" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="FromDate" ColumnName="FromDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

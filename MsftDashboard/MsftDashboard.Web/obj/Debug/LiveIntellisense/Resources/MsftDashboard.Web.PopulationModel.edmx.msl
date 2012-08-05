@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PopulationModelStoreContainer" CdmEntityContainer="PopulationConnectionEntities">
+    <EntitySetMapping Name="Municipalities">
+      <EntityTypeMapping TypeName="PopulationModel.Municipality">
+        <MappingFragment StoreEntitySet="Municipality">
+          <ScalarProperty Name="IdMunicipality" ColumnName="IdMunicipality" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Population" ColumnName="Population" />
+          <ScalarProperty Name="MainMunicipality" ColumnName="MainMunicipality" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="PopulationModel.State">
+        <MappingFragment StoreEntitySet="State">
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,106 @@
+﻿<sdk:Page	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
+	xmlns:mvvmlightcmd="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.SL4"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	
+    xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit"
+	mc:Ignorable="d"	
+    x:Class="MsftDashboard.ContactsView" 
+	Title="Contacts Page"
+    DataContext="{Binding Contact, Source={StaticResource Locator}}" d:DesignHeight="480" Margin="-180,0,180,0" Width="1067">
+	
+	
+	<Grid x:Name="LayoutRoot" Margin="102,-36,-102,36" >
+		<TextBlock Height="37" Margin="945,-41,0,0" TextWrapping="Wrap" Text="Contacto" VerticalAlignment="Top" Foreground="#FF61B0DD" FontSize="29.333" HorizontalAlignment="Left" Width="179"/>
+		<toolkit:DockPanel LastChildFill="False" Margin="-10,-16,-111,-72">
+			<Grid x:Name="GridDataContacts" Width="389" Margin="0,12,0,0" VerticalAlignment="Top" Height="544" Visibility="{Binding ShowContactsGrid ,Converter={StaticResource BoolToVisibilityConverter}}">
+				<sdk:DataGrid x:Name="dataGridContacts"
+					IsReadOnly="True" 
+					BorderThickness="0,1,1,1"
+					ItemsSource="{Binding Contacts, Mode=TwoWay}" 
+					SelectedItem="{Binding SelectedContact, Mode=TwoWay}"
+                    IsEnabled="{Binding IsEnableDataGrid}"
+					SelectedIndex="0"
+					AutoGenerateColumns="False" Background="White" Margin="0,4,0,12">
+					<sdk:DataGrid.Columns>
+						<sdk:DataGridTextColumn Width="170" Header="Nombre" Binding="{Binding FirstName}" />
+						<sdk:DataGridTextColumn Width="170" Header="Apellido" Binding="{Binding LastName}"/>
+					</sdk:DataGrid.Columns>
+				  <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="SelectionChanged">
+                            <mvvmlightcmd:EventToCommand Command="{Binding SelectedContactGridCommand,Mode=TwoWay}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+				</sdk:DataGrid>
+				<Button Content="Button" Height="30" Style="{StaticResource ButtonBack}" Width="30" HorizontalAlignment="Left" Margin="123,0,0,-34" VerticalAlignment="Bottom" Visibility="Collapsed"/>
+				<Button Content="Button" Height="30" Style="{StaticResource ButtonNext}" Width="30" HorizontalAlignment="Right" Margin="0,0,159,-34" VerticalAlignment="Bottom" Visibility="Collapsed"/>
+			</Grid>
+            <Grid x:Name="GridContactInfo" Width="432" Margin="0,20,0,98" toolkit:DockPanel.Dock="top" Visibility="{Binding ShowContactInfo,Converter={StaticResource BoolToVisibilityConverter}}" HorizontalAlignment="Center">
+				<Path x:Name="Mail" Width="40" Stretch="Uniform" Fill="LightGray" Data="F1 M 66.668,60.0287L 133.333,12.6198L 133.333,85.3333L 0,85.3333L 0,12.6185L 66.6667,60.0287L 66.668,60.0312L 66.668,60.0287 Z M 132.663,0L 66.6666,46.7969L 0.67186,0L 132.663,0 Z " UseLayoutRounding="False" HorizontalAlignment="Right" Margin="0,182.66,335.836,0" Height="40" VerticalAlignment="Top"/>
+				<Path x:Name="Phone" Width="40" Height="40" Stretch="Uniform" Fill="#FFAAAAAA" Data="F1 M 48.3777,0.680832C 50.1602,1.38271 51.3881,3.20815 51.3985,4.80003L 48.491,32.9452C 48.3243,34.3996 47.2643,36.4224 45.181,36.319L 38.8034,36.3156L 42.5378,0.148941L 48.3777,0.680832 Z M 22.6972,66.6587L 22.6972,66.6718L 22.7213,66.6718C 22.8424,77.6237 23.9362,86.7317 24.3575,89.8762C 25.1588,94.6745 26.127,95.2005 28.9896,96.013C 30.9596,96.5702 31.9492,96.7655 33.4284,96.8749L 37.194,133.333C 34.0299,133.281 29.2304,132.557 24.6198,131.234C 19.6744,129.764 14.7891,127.66 12.1504,125.474C 6.88803,113.391 0,89.3423 0,66.6731L 0,66.6587C 0,43.9895 6.88803,19.9414 12.1504,7.85744C 14.7904,5.6732 19.6744,3.56902 24.6198,2.09758C 29.2304,0.774765 34.0299,0.0494537 37.194,-1.52588e-005L 33.4284,36.4557C 31.9492,36.5677 30.9623,36.7597 28.9896,37.317C 26.1256,38.1321 25.1588,38.6562 24.3575,43.4544C 23.9349,46.5989 22.8424,55.707 22.7213,66.6587L 22.6972,66.6587 Z M 48.4922,100.388L 51.3997,128.534C 51.3894,130.124 50.1615,131.95 48.379,132.652L 42.5378,133.182L 38.8034,97.0155L 45.1837,97.0155C 47.2643,96.9087 48.3255,98.9335 48.4922,100.388 Z " UseLayoutRounding="False" HorizontalAlignment="Right" Margin="0,257.146,335.793,0" VerticalAlignment="Top"/>
+				<Path x:Name="CellPhone" Width="40" Height="40" Stretch="Uniform" Fill="#FFAAAAAA" Data="F1 M 15.6861,3.05176e-005L 1.00287,3.05176e-005C 0.405945,0.0648804 0.0716248,0.367706 0,0.908356L 0,27.0221C 0.0227966,27.8966 0.323456,28.6282 0.901978,29.2169C 1.48053,29.8057 2.20026,30.1117 3.06116,30.135L 13.6736,30.135C 14.5351,30.1117 15.2558,29.8057 15.8357,29.2169C 16.4156,28.6282 16.717,27.8966 16.74,27.0221L 16.74,0.908356C 16.7002,0.367645 16.3488,0.0648804 15.6861,3.05176e-005 Z M 14.4,4.74002L 14.4,13.965L 2.34003,13.965L 2.34003,4.74002L 14.4,4.74002 Z M 6.23999,26.925L 4.60632,26.925C 3.93542,26.9126 3.39301,26.7189 2.97906,26.344C 2.56506,25.9691 2.35205,25.4878 2.34003,24.9L 6.23999,24.9L 6.23999,26.925 Z M 6.23999,24L 2.34003,24L 2.34003,22.02L 6.23999,22.02L 6.23999,24 Z M 6.23999,21.12L 2.34003,21.12L 2.34003,19.095L 6.23999,19.095L 6.23999,21.12 Z M 6.23999,18.24L 2.34003,18.24L 2.34003,16.26L 6.23999,16.26L 6.23999,18.24 Z M 10.08,26.925L 6.66,26.925L 6.66,24.9L 10.08,24.9L 10.08,26.925 Z M 10.08,24L 6.66,24L 6.66,22.02L 10.08,22.02L 10.08,24 Z M 10.08,21.12L 6.66,21.12L 6.66,19.095L 10.08,19.095L 10.08,21.12 Z M 10.08,18.24L 6.66,18.24L 6.66,16.26L 10.08,16.26L 10.08,18.24 Z M 10.98,26.925L 10.98,24.9L 14.4,24.9C 14.3932,25.4878 14.2077,25.9691 13.8436,26.344C 13.4795,26.7189 12.9778,26.9126 12.3386,26.925L 10.98,26.925 Z M 14.4,24L 10.98,24L 10.98,22.02L 14.4,22.02L 14.4,24 Z M 14.4,21.12L 10.98,21.12L 10.98,19.095L 14.4,19.095L 14.4,21.12 Z M 14.4,18.24L 10.98,18.24L 10.98,16.26L 14.4,16.26L 14.4,18.24 Z M 7.42505,1.86002L 9.74957,1.86002C 10.0914,1.90634 10.2737,2.14706 10.2965,2.58224C 10.2737,3.06375 10.0914,3.32297 9.74957,3.36002L 7.42505,3.36002C 7.04523,3.32297 6.84772,3.06375 6.83252,2.58224C 6.84772,2.14706 7.04523,1.90634 7.42505,1.86002 Z " UseLayoutRounding="False" HorizontalAlignment="Right" Margin="0,334.434,332.631,0" VerticalAlignment="Top"/>
+				<Grid Height="95" Width="95" HorizontalAlignment="Right" Margin="0,0,336,0" VerticalAlignment="Top">
+					<Rectangle Fill="LightGray" StrokeThickness="2" Stroke="#FF119FDB" Margin="0,-1,0,1"/>
+					<Path Fill="White" Stretch="Uniform" UseLayoutRounding="False" Data="F1 M 28.9373,23.064C 27.9267,19.2986 25.58,16.0707 22.416,14.0267L 22.2027,13.8987C 21.1707,13.252 20.0293,12.7147 18.848,12.3493C 20.44,11.08 21.4507,9.12134 21.4507,6.92664C 21.4507,5.55334 21.04,4.28131 20.352,3.20398L 20.3653,3.20398C 19.1373,1.27734 16.98,0 14.5213,0C 12.064,0 9.90933,1.27734 8.68,3.20398L 8.69467,3.20398C 8.00667,4.28131 7.596,5.55334 7.596,6.92664C 7.596,9.12134 8.60667,11.08 10.1987,12.3493C 9.016,12.7147 7.89733,13.252 6.84267,13.8987L 6.62667,14.0267C 3.48533,16.0707 1.14133,19.2986 0.130667,23.064C 0.044,23.3653 0,23.6653 0,23.9866C 0,25.924 1.592,27.516 3.52933,27.516L 12.9093,27.516L 25.5173,27.516C 27.4733,27.516 29.0453,25.924 29.0453,23.9866C 29.0453,23.6653 29,23.3653 28.9373,23.064 Z " Margin="15.5,10.5,16.5,11.5" />
+				</Grid>
+				<TextBlock Height="42" TextWrapping="Wrap" Text="{Binding SelectedContact.FirstName}" FontSize="26.667" Foreground="#FF119FDB" Width="320" HorizontalAlignment="Right" Margin="0,60,6,0" VerticalAlignment="Top"/>
+				<TextBlock Height="57" TextWrapping="Wrap" Text="{Binding SelectedContact.LastName}" FontSize="24" Foreground="#FF119FDB" Width="260" HorizontalAlignment="Right" Margin="0,102,2,0" VerticalAlignment="Top"/>
+				<TextBlock TextWrapping="Wrap" Text="{Binding SelectedContact.Email}" FontSize="21.333" Foreground="#FF119FDB" Width="300" HorizontalAlignment="Right" Margin="0,181,1,214"/>
+				<TextBlock TextWrapping="Wrap" Text="{Binding SelectedContact.CellPhone}" FontSize="21.333" Foreground="#FF119FDB" Height="42" Width="298" HorizontalAlignment="Right" Margin="0,259,3,0" VerticalAlignment="Top"/>
+				<TextBlock TextWrapping="Wrap" Text="{Binding SelectedContact.Telephone}" FontSize="21.333" Foreground="#FF119FDB" Width="240" HorizontalAlignment="Right" Margin="0,334,61,77"/>
+				<TextBlock Height="31" Margin="0,34,98,0" TextWrapping="Wrap" Text="Editar" VerticalAlignment="Top" Foreground="LightGray" FontSize="16" HorizontalAlignment="Right" Width="51"/>
+				<TextBlock Height="31" Margin="158,34,168,0" TextWrapping="Wrap" Text="Agregar" VerticalAlignment="Top" Foreground="LightGray" FontSize="16"/>
+				<Button Content="+" HorizontalAlignment="Right" Height="50" Margin="0,8,163,0" Style="{StaticResource ButtonAdd}" VerticalAlignment="Top" Width="49" FontSize="26.667" Foreground="White" Command="{Binding AddContactCommand}"/>
+                <Button HorizontalAlignment="Right" Height="50" Margin="0,8,55,0" Style="{StaticResource ButtonEdit}" VerticalAlignment="Top" Width="49" Command="{Binding EditContactCommand}"/>
+			</Grid>
+            <Grid x:Name="GridAddEditContacts" toolkit:DockPanel.Dock="Top" Height="535" Margin="135,0,-42,-425" Visibility="{Binding ShowAddEditContact,Converter={StaticResource BoolToVisibilityConverter}}" HorizontalAlignment="Left" >
+            	<TextBlock Text="Nombre"
+            		FontSize="24" Foreground="#FF61B0DD" Width="92" Height="29" HorizontalAlignment="Left" Margin="1,169,0,0" VerticalAlignment="Top" OpacityMask="Black" />
+            	<TextBox x:Name="tbName" 
+            		Text="{Binding SelectedContact.FirstName, Mode=TwoWay}"
+            		VerticalContentAlignment="Center" Height="36" TabIndex="1" Margin="131,167,280,0" VerticalAlignment="Top" FontSize="18.667" />
+            	<TextBlock Text="Apellidos"
+            		FontSize="24" Foreground="#FF61B0DD" Width="98" Margin="1,229,0,0" HorizontalAlignment="Left" OpacityMask="Black" Height="29" VerticalAlignment="Top" />
+            	<TextBox x:Name="tbLastName" 
+            		Text="{Binding SelectedContact.LastName, Mode=TwoWay}"
+            		VerticalContentAlignment="Center" BorderThickness="1" TabIndex="2" Margin="131,226,280,0" FontSize="18.667" Height="36" VerticalAlignment="Top" />
+            	<TextBlock Text="Correo"
+            		FontSize="24"  Foreground="#FF61B0DD" Width="72" HorizontalAlignment="Left" Margin="1,0,0,221" OpacityMask="Black" Height="35" VerticalAlignment="Bottom" />
+            	<TextBox x:Name="tbMail" 
+            		Text="{Binding SelectedContact.Email, Mode=TwoWay}"
+            		VerticalContentAlignment="Center" BorderThickness="1" TabIndex="3" Margin="130,0,281,214" Height="36" VerticalAlignment="Bottom" FontSize="18.667" />
+            	<TextBox x:Name="tbTelephone" 
+            		Text="{Binding SelectedContact.Telephone, Mode=TwoWay}"
+            		VerticalContentAlignment="Center" BorderThickness="1" TabIndex="4" Margin="130,0,281,160" Height="36" VerticalAlignment="Bottom" FontSize="18.667" d:LayoutOverrides="VerticalAlignment, Height" />
+            	<TextBlock Text="Teléfono"
+            		FontSize="24" Foreground="#FF61B0DD" Width="96" HorizontalAlignment="Left" Margin="0,0,0,176" OpacityMask="Black" Height="29" VerticalAlignment="Bottom" />
+            	<TextBlock Text="Celular"
+            		FontSize="24" Foreground="#FF61B0DD" Height="29" Width="78" Margin="2,0,0,115" HorizontalAlignment="Left" VerticalAlignment="Bottom" OpacityMask="Black" />
+            	<TextBox x:Name="tbCellPhone"
+            		Text="{Binding SelectedContact.CellPhone, Mode=TwoWay}"
+            		VerticalContentAlignment="Center" TabIndex="5" Margin="129,0,282,103" Height="36" VerticalAlignment="Bottom" FontSize="18.667" />
+            	<Canvas x:Name="cnvSuccess" Height="23.166" Width="242.194" Visibility="Collapsed" Margin="328.5,0,140.5,41" VerticalAlignment="Bottom">
+            		<TextBlock x:Name="txtSuccess" Height="23.166" TextWrapping="Wrap" Text="Registro Guardado Con Éxito" Width="218.194" Foreground="#FF61B0DD" HorizontalAlignment="Left" VerticalAlignment="Center" TextAlignment="Center" FontSize="13.333"/>
+            		<Path Fill="#FF279333" Stretch="Uniform" UseLayoutRounding="False" Data="F1 M 0,110L 47.6667,62L 102,117.333L 218.667,0L 266,48L 102,212.333L 0,110 Z " Width="20" Height="20" Canvas.Left="222.194" Canvas.Top="0.667" />
+            	</Canvas>
+            	<Canvas x:Name="cnvNotSuccess" Height="23.166" Width="242.194" Visibility="Collapsed" Margin="328.5,0,140.5,75" VerticalAlignment="Bottom">
+            		<ScrollViewer/>
+            		<Path Width="20" Height="20" Stretch="Uniform" Fill="#FFFF1100" Data="F1 M 34.7541,26.4939L 20.5932,1.72809C 19.9132,0.624023 18.9211,0.0480042 17.6171,0C 16.265,0.0480042 15.2729,0.624023 14.6409,1.72809L 0.480042,26.4939C 0.151978,27.0559 -0.00799561,27.6424 0,28.2534C 0.0289917,29.2073 0.378998,29.9982 1.05005,30.6259C 1.72107,31.2536 2.53915,31.579 3.50421,31.6022L 31.7299,31.6022C 32.693,31.5848 33.503,31.271 34.1601,30.6607C 34.8171,30.0504 35.1591,29.248 35.1861,28.2534C 35.1861,27.6424 35.0421,27.0559 34.7541,26.4939 Z M 15.0729,8.06448L 20.2092,8.06448L 20.2092,19.7072L 15.0729,19.7072L 15.0729,8.06448 Z M 17.665,22.4372C 18.4991,22.4576 19.1832,22.7468 19.7172,23.3048C 20.2512,23.8628 20.5272,24.5674 20.5453,25.4186C 20.5272,26.2444 20.2512,26.9266 19.7172,27.4652C 19.1832,28.0039 18.4991,28.2829 17.665,28.3022C 16.831,28.2829 16.147,28.0039 15.6129,27.4653C 15.0789,26.9266 14.8029,26.2444 14.7849,25.4186C 14.8029,24.546 15.0789,23.8353 15.6129,23.2864C 16.147,22.7376 16.831,22.4545 17.665,22.4372 Z " Canvas.Left="221" Canvas.Top="1"/>
+            	</Canvas>
+            	<TextBlock Text="Guardar"
+            		FontSize="24" Foreground="#FFBDBDBD" Height="29" Margin="145,0,0,17" VerticalAlignment="Bottom" OpacityMask="Black" HorizontalAlignment="Left" Width="85" />
+            	<TextBlock Text="Cancelar"
+            		FontSize="24" Foreground="#FFBDBDBD" Height="29" Margin="289,0,325,16" VerticalAlignment="Bottom" OpacityMask="Black" />
+            	<Button x:Name="btnSave" Style="{StaticResource ButtonSave}" Margin="240,0,0,17" Height="50" VerticalAlignment="Bottom" Command="{Binding SaveCommand}" Width="49" HorizontalAlignment="Left" d:LayoutOverrides="Width"/>
+            	<Button x:Name="btnCancel" Margin="0,0,268,18" Style="{StaticResource ButtonCancel}" Height="50" VerticalAlignment="Bottom" Command="{Binding CancelCommand}" HorizontalAlignment="Right" Width="49"/>
+            	<Grid Height="95" Width="95" HorizontalAlignment="Right" Margin="0,28,610,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment">
+            		<Rectangle Fill="LightGray" StrokeThickness="2" Stroke="#FF119FDB" Margin="0,-1,0,1"/>
+            		<Path Fill="White" Stretch="Uniform" UseLayoutRounding="False" Data="F1 M 28.9373,23.064C 27.9267,19.2986 25.58,16.0707 22.416,14.0267L 22.2027,13.8987C 21.1707,13.252 20.0293,12.7147 18.848,12.3493C 20.44,11.08 21.4507,9.12134 21.4507,6.92664C 21.4507,5.55334 21.04,4.28131 20.352,3.20398L 20.3653,3.20398C 19.1373,1.27734 16.98,0 14.5213,0C 12.064,0 9.90933,1.27734 8.68,3.20398L 8.69467,3.20398C 8.00667,4.28131 7.596,5.55334 7.596,6.92664C 7.596,9.12134 8.60667,11.08 10.1987,12.3493C 9.016,12.7147 7.89733,13.252 6.84267,13.8987L 6.62667,14.0267C 3.48533,16.0707 1.14133,19.2986 0.130667,23.064C 0.044,23.3653 0,23.6653 0,23.9866C 0,25.924 1.592,27.516 3.52933,27.516L 12.9093,27.516L 25.5173,27.516C 27.4733,27.516 29.0453,25.924 29.0453,23.9866C 29.0453,23.6653 29,23.3653 28.9373,23.064 Z " Margin="11.5,10.5,20.5,11.5" />
+            	</Grid>
+            </Grid>
+		</toolkit:DockPanel>
+	</Grid>
+</sdk:Page>

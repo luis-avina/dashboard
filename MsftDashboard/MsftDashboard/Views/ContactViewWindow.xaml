@@ -1,0 +1,27 @@
+﻿<sdk:ChildWindow	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"	x:Class="MsftDashboard.ContactViewWindow"
+	Title="ContactViewWindow"
+    DataContext="{Binding Contact,Source={StaticResource Locator}}"
+	Style="{StaticResource ChildWindowStyle}"
+	Width="810" Height="404">
+	<Grid x:Name="LayoutRoot">
+		<Canvas Margin="12,9,23,20">
+			<sdk:DataGrid x:Name="dataGridContacts"
+				IsReadOnly="True" 
+				BorderThickness="1"
+				ItemsSource="{Binding Contacts}" 
+				SelectedItem="{Binding SelectedContact, Mode=TwoWay}"
+				AutoGenerateColumns="False" Height="269" VerticalAlignment="Top" Canvas.Top="-6" Width="730" Canvas.Left="14">
+				<sdk:DataGrid.Columns>
+					<sdk:DataGridTextColumn Width="170" Header="Nombre" Binding="{Binding FirstName}" />
+					<sdk:DataGridTextColumn Width="170" Header="Apellido" Binding="{Binding LastName}"/>
+					<sdk:DataGridTextColumn Width="200" Header="Correo" Binding="{Binding Email}"/>
+					<sdk:DataGridTextColumn Width="90" Header="Teléfono" Binding="{Binding Telephone}"/>
+					<sdk:DataGridTextColumn Width="90" Header="Celular" Binding="{Binding CellPhone}"/>
+				</sdk:DataGrid.Columns>
+			</sdk:DataGrid>
+            <Button x:Name="Add" Command="{Binding SelectContactCommand}" Click="OKButton_Click" Content="Seleccionar" Width="154" Height="30" Canvas.Left="14" Canvas.Top="275" />
+		</Canvas>
+	</Grid>
+</sdk:ChildWindow>

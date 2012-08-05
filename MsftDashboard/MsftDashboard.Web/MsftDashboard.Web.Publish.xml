@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://localhost/" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="07/27/2012 12:01:02" />
+    <file relUrl="bin/Microsoft.WindowsAzure.StorageClient.xml" publishTime="02/14/2011 20:13:54" />
+    <file relUrl="bin/Microsoft.WindowsAzure.Diagnostics.dll" publishTime="02/27/2011 15:44:18" />
+    <file relUrl="MsftDashboardTestPage.html" publishTime="07/08/2012 11:41:06" />
+    <file relUrl="bin/Microsoft.WindowsAzure.CloudDrive.dll" publishTime="02/27/2011 15:44:18" />
+    <file relUrl="bin/MsftDashboard.Web.dll" publishTime="07/27/2012 11:53:35" />
+    <file relUrl="MsftDashboardTestPage.aspx" publishTime="07/08/2012 11:41:06" />
+    <file relUrl="bin/Microsoft.WindowsAzure.StorageClient.dll" publishTime="02/27/2011 15:44:20" />
+    <file relUrl="ClientBin/MsftDashboard.xap" publishTime="07/27/2012 12:00:50" />
+    <file relUrl="clientaccesspolicy.xml" publishTime="07/24/2012 20:53:11" />
+    <file relUrl="bin/PivotServerTools.pdb" publishTime="07/27/2012 11:24:00" />
+    <file relUrl="bin/Microsoft.WindowsAzure.Diagnostics.xml" publishTime="02/27/2011 12:48:10" />
+    <file relUrl="bin/Models/DBModel.Designer.cs" publishTime="07/22/2012 15:54:31" />
+    <file relUrl="bin/Microsoft.WindowsAzure.CloudDrive.xml" publishTime="02/14/2011 20:13:54" />
+    <file relUrl="bin/PivotServerTools.dll" publishTime="07/27/2012 11:24:00" />
+    <file relUrl="Silverlight.js" publishTime="07/08/2012 11:41:07" />
+    <file relUrl="bin/MsftDashboard.Web.pdb" publishTime="07/27/2012 11:53:35" />
+  </publishProfile>
+</publishData>

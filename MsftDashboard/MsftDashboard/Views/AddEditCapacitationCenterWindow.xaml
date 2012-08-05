@@ -1,0 +1,56 @@
+﻿<sdk:ChildWindow	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"	x:Class="MsftDashboard.AddEditCapacitationCenterWindow"
+	Title="AddEditCapacitationCenterWindow"
+	Style="{StaticResource ChildWindowStyle}"
+    DataContext="{Binding CapacitationCenterChild,Source={StaticResource Locator}}"                    
+	Width="568" Height="622.5">
+	<Grid x:Name="LayoutRoot">
+		<Canvas Height="543" Margin="38,5,-30,11">
+                            <ComboBox x:Name="cmbMonth" ItemsSource="{Binding MonthsCollection}" 
+                             SelectedItem="{Binding CurrentMonth,Mode=TwoWay}"
+                            DisplayMemberPath="Month"  HorizontalAlignment="Left" Height="26" Width="101.4" BorderThickness="1" Canvas.Left="258" Canvas.Top="50"/>
+                            <TextBox Text="{Binding CurrentCapCenterInfo.Name,Mode=TwoWay}" Height="26" Canvas.Left="258" TextWrapping="Wrap" Canvas.Top="92" Width="213.4"/>
+							<sdk:Label Content="Estado" Height="33" Canvas.Left="181" Width="57.5" Foreground="#FFBABABA" FontSize="16"/>
+							<sdk:Label Content="Fecha" Height="33" Canvas.Left="188" Canvas.Top="47" Width="51.5" Foreground="#FFBABABA" FontSize="16"/>
+							<sdk:Label Content="Nombre" Height="33" Canvas.Left="172" Canvas.Top="89" Width="66.5" Foreground="#FFBABABA" FontSize="16"/>
+							<sdk:Label Content="Número de Usuarios" Height="33" Canvas.Top="395" Width="167" Foreground="#FFBABABA" FontSize="16" Canvas.Left="74"/>
+                            <ComboBox ItemsSource="{Binding YearsCollection}" 
+                                      SelectedItem="{Binding CurrentYear,Mode=TwoWay}"
+                                      DisplayMemberPath="Year1"  x:Name="cmbYear" HorizontalAlignment="Left" Height="26" Width="101.4" BorderThickness="1" Canvas.Left="372" Canvas.Top="50"/>
+							<sdk:Label Content="Conectividad" Height="33" Canvas.Left="134" Canvas.Top="211" Width="102.333" Foreground="#FFBABABA" FontSize="16"/>
+                            <ComboBox x:Name="cmbConectivity" 
+                                      ItemsSource="{Binding ConectivityCollection}"  
+                                      SelectedItem="{Binding CurrentConectivity,Mode=TwoWay}"
+                                      DisplayMemberPath="Name" HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="257" Canvas.Top="215"/>
+							<sdk:Label Content="Población Atendida" Height="33" Canvas.Left="84" Canvas.Top="255" Width="155" Foreground="#FFBABABA" FontSize="16"/>
+                            <ComboBox x:Name="cmbPopulationAttended2" 
+                                      ItemsSource="{Binding PopulationAttendedCollection}"
+                                      SelectedItem="{Binding CurrentPopulationAttended,Mode=TwoWay}"
+                                      DisplayMemberPath="Name" HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="258" Canvas.Top="258"/>
+							<sdk:Label Content="Organización" Height="33" Canvas.Left="131" Canvas.Top="130" Width="113.5" Foreground="#FFBABABA" FontSize="16"/>
+							<sdk:Label Content="Inversión de Software" Height="33" Canvas.Left="58" Canvas.Top="296" Width="179" Foreground="#FFBABABA" FontSize="16"/>
+							<sdk:Label Content="Inversión en Efectivo" Height="33" Canvas.Left="66" Canvas.Top="346" Width="174" Foreground="#FFBABABA" FontSize="16"/>
+                            <TextBox Text="{Binding CurrentCapCenterInfo.SoftwareInvesment,Mode=TwoWay, StringFormat=\{0:C\}}" Height="26" Canvas.Left="258" TextWrapping="Wrap" Canvas.Top="301" Width="213.4"/>
+                            <ComboBox x:Name="cmbSocialCause2" 
+                                      ItemsSource="{Binding SocialCauseCollection}"
+                                      SelectedItem="{Binding CurrentSocialCause,Mode=TwoWay}"
+                                      DisplayMemberPath="Name"  HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="257" Canvas.Top="173"/>
+							<sdk:Label Content="Causa Social" Height="33" Canvas.Left="134" Canvas.Top="171" Width="113.5" Foreground="#FFBABABA" FontSize="16"/>
+                            <TextBox Text="{Binding CurrentCapCenterInfo.Investment,Mode=TwoWay, StringFormat=\{0:C\}}"  Height="26" Canvas.Left="258" TextWrapping="Wrap" Canvas.Top="349" Width="213.4"/>
+                            <TextBox x:Name="txtNumberUsers" Text="{Binding CurrentCapCenterInfo.NumberOfUsers,Mode=TwoWay}"  Height="26" Canvas.Left="257" TextWrapping="Wrap" Canvas.Top="396" Width="213.4"/>
+                            <ComboBox x:Name="cmbSocialOrganization"
+                                      ItemsSource="{Binding SocialOrganizationCollection}"
+                                      SelectedItem="{Binding CurrentSocialOrganization,Mode=TwoWay}"
+                                      DisplayMemberPath="Name"  HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="257" Canvas.Top="132"/>
+                            <sdk:Label Content="Número de Personas Capacitadas" Height="33" Canvas.Top="437" Width="271" Foreground="#FFBABABA" FontSize="16" Canvas.Left="-35"/>
+                            <TextBox x:Name="txtTrainingUsers" Text="{Binding CurrentCapCenterInfo.NumberOfTrainingUsers,Mode=TwoWay}"  Height="26" Canvas.Left="257" TextWrapping="Wrap" Canvas.Top="441" Width="213.4"/>
+                            <ComboBox x:Name="cmbState2" ItemsSource="{Binding StateCollection,Mode=TwoWay}" 
+                                      SelectedItem="{Binding CurrentState,Mode=TwoWay}"
+                                      DisplayMemberPath="Name" HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="259" Canvas.Top="4"/>
+						</Canvas>
+		
+		<Button x:Name="OKButton" Content="OK" Command="{Binding SaveCommand}" Click="OKButton_Click" Width="75" Height="28" Margin="0,0,79,-2" HorizontalAlignment="Right" d:LayoutOverrides="GridBox" VerticalAlignment="Bottom" />
+		<Button x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" Height="28" HorizontalAlignment="Right" d:LayoutOverrides="GridBox" VerticalAlignment="Bottom" Margin="0,0,0,-2" />
+	</Grid>
+</sdk:ChildWindow>

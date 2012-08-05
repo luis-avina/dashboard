@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\bin\MsftDashboard.Web.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\bin\MsftDashboard.Web.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\obj\Release\MsftDashboard.Web.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\obj\Release\MsftDashboard.Web.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\bin\Models\DBModel.Designer.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\bin\Microsoft.WindowsAzure.CloudDrive.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\bin\Microsoft.WindowsAzure.CloudDrive.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\bin\Microsoft.WindowsAzure.StorageClient.xml

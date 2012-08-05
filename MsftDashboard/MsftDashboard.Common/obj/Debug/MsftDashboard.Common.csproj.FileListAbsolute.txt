@@ -1,0 +1,22 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\Bin\Debug\MsftDashboard.Common.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\Bin\Debug\MsftDashboard.Common.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\Bin\Debug\GalaSoft.MvvmLight.Extras.SL4.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\Bin\Debug\GalaSoft.MvvmLight.SL4.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\Bin\Debug\GalaSoft.MvvmLight.Extras.SL4.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\Bin\Debug\GalaSoft.MvvmLight.SL4.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\obj\Debug\MsftDashboard.Common.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard.Common\obj\Debug\MsftDashboard.Common.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\Bin\Debug\MsftDashboard.Common.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\Bin\Debug\MsftDashboard.Common.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\Bin\Debug\GalaSoft.MvvmLight.Extras.SL4.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\Bin\Debug\GalaSoft.MvvmLight.SL4.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\Bin\Debug\GalaSoft.MvvmLight.Extras.SL4.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\Bin\Debug\GalaSoft.MvvmLight.SL4.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\obj\Debug\MsftDashboard.Common.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Common\obj\Debug\MsftDashboard.Common.pdb

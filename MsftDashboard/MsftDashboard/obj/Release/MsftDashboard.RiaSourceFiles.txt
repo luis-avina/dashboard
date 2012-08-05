@@ -1,0 +1,1 @@
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Web\MsftDashboard.Web.csproj,634787587371585345,Models\DBModel.Designer.cs,Properties\AssemblyInfo.cs,Services\DBService.cs,Services\DBService.metadata.cs,WebRole.cs,

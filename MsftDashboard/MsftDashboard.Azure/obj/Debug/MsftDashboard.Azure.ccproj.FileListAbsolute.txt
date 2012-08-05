@@ -1,0 +1,2 @@
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Azure\bin\Debug\ServiceConfiguration.cscfg
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard.Azure\obj\Debug\ResolveAssemblyReference.cache

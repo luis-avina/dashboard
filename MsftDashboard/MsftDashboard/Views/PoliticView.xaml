@@ -1,0 +1,36 @@
+﻿<navigation:Page x:Class="MsftDashboard.Views.PoliticView" 
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	
+           mc:Ignorable="d"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           d:DesignHeight="480" Margin="-180,0,180,0" Width="1067"
+           Title="EconomyView Page"
+           DataContext="{Binding Politic,Source={StaticResource Locator}}">
+<Grid x:Name="LayoutRoot" Margin="102,-36,-102,36" >
+	
+	<Canvas Margin="249,47,282,33">
+		<Button x:Name="btnUpdate" Command="{Binding UpdateCommand}"  Content="Actualizar" Width="154" Height="30" Canvas.Left="193" Canvas.Top="338"/>
+		<Button x:Name="btnEliminar" Command="{Binding DeleteCommand}" Content="Eliminar" Width="154" Height="30" Canvas.Left="378" Canvas.Top="338" />
+		<sdk:DataGrid x:Name="dataGridPolitic" 
+					BorderThickness="1"
+					 ItemsSource="{Binding PoliticStateCollection}"
+                     SelectedItem="{Binding SelectedPoliticalState,Mode=TwoWay}"
+					 AutoGenerateColumns="False" 
+					 Width="524"  Height="305" Canvas.Left="8" Canvas.Top="12">
+			<sdk:DataGrid.Columns>
+				<sdk:DataGridTextColumn Width="100" Header="Estado" Binding="{Binding State.Name}" />
+				<sdk:DataGridTextColumn Width="150" Header="Partido Politico" Binding="{Binding PoliticalParty.ShortName}"/>
+				<sdk:DataGridTextColumn Width="150" Header="Periodo Inicial" Binding="{Binding DateFrom, Converter={StaticResource DateStringConverter}}"/>
+				<sdk:DataGridTextColumn Width="150" Header="Periodo Final" Binding="{Binding DateTo, Converter={StaticResource DateStringConverter}}"/>
+			</sdk:DataGrid.Columns>
+		</sdk:DataGrid>
+		<Button x:Name="btnNew" Command="{Binding AddCommand}"  Content="Agregar" Width="154" Height="30" Canvas.Left="8" Canvas.Top="338"/>
+	</Canvas>
+	<TextBlock HorizontalAlignment="Left" Height="37" Margin="2,2,0,0" TextWrapping="Wrap" Text="Politica" VerticalAlignment="Top" Width="135" Foreground="#FF61B0DD" FontSize="29.333"/>
+	<HyperlinkButton NavigateUri="/PoliticView" TargetName="ContentFrame" Content="Politica Estado" HorizontalAlignment="Left" Height="45" Margin="8,54,0,0" VerticalAlignment="Top" Width="139"/>
+	<HyperlinkButton Content="Partidos Politicos" HorizontalAlignment="Left" Height="45" Margin="8,105,0,0" VerticalAlignment="Top" Width="139" NavigateUri="/PoliticalPartyView" TargetName="ContentFrame"/>
+</Grid>
+</navigation:Page>

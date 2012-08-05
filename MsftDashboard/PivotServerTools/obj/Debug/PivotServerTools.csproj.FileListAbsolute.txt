@@ -1,0 +1,29 @@
+C:\Users\a-adriah\Downloads\Pivot_JIT_Sample\PivotJitServer\PivotServerTools\bin\Debug\PivotServerTools.dll
+C:\Users\a-adriah\Downloads\Pivot_JIT_Sample\PivotJitServer\PivotServerTools\bin\Debug\PivotServerTools.pdb
+C:\Users\a-adriah\Downloads\Pivot_JIT_Sample\PivotJitServer\PivotServerTools\obj\Debug\PivotServerTools.dll
+C:\Users\a-adriah\Downloads\Pivot_JIT_Sample\PivotJitServer\PivotServerTools\obj\Debug\PivotServerTools.pdb
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\ASPivot\PivotServerTools\bin\Debug\PivotServerTools.dll
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\ASPivot\PivotServerTools\bin\Debug\PivotServerTools.pdb
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\ASPivot\PivotServerTools\obj\Debug\PivotServerTools.csprojResolveAssemblyReference.cache
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\ASPivot\PivotServerTools\obj\Debug\PivotServerTools.dll
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\ASPivot\PivotServerTools\obj\Debug\PivotServerTools.pdb
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AAP\PivotServerTools\bin\Debug\PivotServerTools.dll
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AAP\PivotServerTools\bin\Debug\PivotServerTools.pdb
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AAP\PivotServerTools\obj\Debug\PivotServerTools.csprojResolveAssemblyReference.cache
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AAP\PivotServerTools\obj\Debug\PivotServerTools.dll
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AAP\PivotServerTools\obj\Debug\PivotServerTools.pdb
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AzureBI\PivotServerTools\bin\Debug\PivotServerTools.dll
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AzureBI\PivotServerTools\bin\Debug\PivotServerTools.pdb
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AzureBI\PivotServerTools\obj\Debug\PivotServerTools.csprojResolveAssemblyReference.cache
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AzureBI\PivotServerTools\obj\Debug\PivotServerTools.dll
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AzureBI\PivotServerTools\obj\Debug\PivotServerTools.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\PivotServerTools\bin\Debug\PivotServerTools.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\PivotServerTools\bin\Debug\PivotServerTools.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\PivotServerTools\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\PivotServerTools\obj\Debug\PivotServerTools.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\PivotServerTools\obj\Debug\PivotServerTools.pdb
+C:\Users\Administrator\Documents\MsftDashboard\PivotServerTools\bin\Debug\PivotServerTools.dll
+C:\Users\Administrator\Documents\MsftDashboard\PivotServerTools\bin\Debug\PivotServerTools.pdb
+C:\Users\Administrator\Documents\MsftDashboard\PivotServerTools\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\MsftDashboard\PivotServerTools\obj\Debug\PivotServerTools.dll
+C:\Users\Administrator\Documents\MsftDashboard\PivotServerTools\obj\Debug\PivotServerTools.pdb

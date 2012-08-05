@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ValidationIssue Include="MsftDashboard.Web|ServiceConfiguration.Cloud.cscfg|WAT170">
+      <ProjectName>MsftDashboard.Web</ProjectName>
+      <FilenameWithExtension>ServiceConfiguration.Cloud.cscfg</FilenameWithExtension>
+      <Code>WAT170</Code>
+      <FileFullPath>bin\Release\ServiceConfiguration.cscfg</FileFullPath>
+      <WATMessage>True</WATMessage>
+      <Arguments>Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString;MsftDashboard.Web;ServiceConfiguration.Cloud.cscfg</Arguments>
+      <HelpKeyword>WATValidationIssueWarning</HelpKeyword>
+    </ValidationIssue>
+    <ValidationIssue Include="MsftDashboard.Web|System.ServiceModel.DomainServices.EntityFramework.dll|WAT150">
+      <ProjectName>MsftDashboard.Web</ProjectName>
+      <FilenameWithExtension>System.ServiceModel.DomainServices.EntityFramework.dll</FilenameWithExtension>
+      <Code>WAT150</Code>
+      <FileFullPath>C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\System.ServiceModel.DomainServices.EntityFramework.dll</FileFullPath>
+      <WATMessage>True</WATMessage>
+      <Arguments>MsftDashboard.Web;C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\System.ServiceModel.DomainServices.EntityFramework.dll</Arguments>
+      <HelpKeyword>WATValidationIssueWarning</HelpKeyword>
+    </ValidationIssue>
+    <ValidationIssue Include="MsftDashboard.Web|System.ServiceModel.DomainServices.Hosting.dll|WAT150">
+      <ProjectName>MsftDashboard.Web</ProjectName>
+      <FilenameWithExtension>System.ServiceModel.DomainServices.Hosting.dll</FilenameWithExtension>
+      <Code>WAT150</Code>
+      <FileFullPath>C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\System.ServiceModel.DomainServices.Hosting.dll</FileFullPath>
+      <WATMessage>True</WATMessage>
+      <Arguments>MsftDashboard.Web;C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\System.ServiceModel.DomainServices.Hosting.dll</Arguments>
+      <HelpKeyword>WATValidationIssueWarning</HelpKeyword>
+    </ValidationIssue>
+    <ValidationIssue Include="MsftDashboard.Web|System.ServiceModel.DomainServices.Server.dll|WAT150">
+      <ProjectName>MsftDashboard.Web</ProjectName>
+      <FilenameWithExtension>System.ServiceModel.DomainServices.Server.dll</FilenameWithExtension>
+      <Code>WAT150</Code>
+      <FileFullPath>C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\System.ServiceModel.DomainServices.Server.dll</FileFullPath>
+      <WATMessage>True</WATMessage>
+      <Arguments>MsftDashboard.Web;C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\System.ServiceModel.DomainServices.Server.dll</Arguments>
+      <HelpKeyword>WATValidationIssueWarning</HelpKeyword>
+    </ValidationIssue>
+  </ItemGroup>
+</Project>

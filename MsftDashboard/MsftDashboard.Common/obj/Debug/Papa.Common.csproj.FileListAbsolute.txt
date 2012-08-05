@@ -1,0 +1,11 @@
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\Bin\Debug\Papa.Common.dll
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\Bin\Debug\Papa.Common.pdb
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\Bin\Debug\GalaSoft.MvvmLight.Extras.SL4.dll
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\Bin\Debug\GalaSoft.MvvmLight.SL4.dll
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\Bin\Debug\GalaSoft.MvvmLight.Extras.SL4.xml
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\Bin\Debug\GalaSoft.MvvmLight.SL4.xml
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\obj\Debug\Papa.Common.dll
+C:\Users\Administrator\Downloads\SLFS10 Session 4 (MVVM) - Code\RIAServicesMVVM\Papa.Common\obj\Debug\Papa.Common.pdb

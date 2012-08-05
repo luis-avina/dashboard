@@ -1,0 +1,54 @@
+﻿<sdk:ChildWindow 
+    x:Class="MsftDashboard.EducationSchoolView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"	
+ 	Style="{StaticResource ChildWindowStyle}"
+    DataContext="{Binding Schools,Source={StaticResource Locator}}"
+	Width="808" Height="506">
+	<Grid x:Name="LayoutRoot">
+			<Canvas Height="Auto" Margin="8,0" d:LayoutOverrides="VerticalMargin">
+				<sdk:DataGrid Height="127" 
+					x:Name="gridOpenSource" 
+					VerticalAlignment="Top" 
+                    AutoGenerateColumns="False"
+					ItemsSource="{Binding EducationInformationCollection, Mode=TwoWay}" 
+					BorderThickness="1" Width="717" Canvas.Left="35">
+					<sdk:DataGrid.Columns>
+							<sdk:DataGridTextColumn Binding="{Binding StateName}" 
+								Header="Estado" Width="100" />
+                            <sdk:DataGridTextColumn Binding="{Binding SchoolTypeName}" 
+								Header="Educación" Width="80" />
+                            <sdk:DataGridTextColumn Binding="{Binding SchoolLevelName}" 
+								Header="Nivel" Width="80" />
+                            <sdk:DataGridTextColumn Binding="{Binding NumberStudents}" 
+								Header="Numero de Alumnos" Width="150" />
+                            <sdk:DataGridTextColumn Binding="{Binding NumberTeachers}" 
+								Header="Numero de Maestros" Width="150" />
+                            <sdk:DataGridTextColumn Binding="{Binding NumberSchools}" 
+								Header="Numero de Escuelas" Width="150" />
+      					</sdk:DataGrid.Columns>
+				</sdk:DataGrid>
+                <ComboBox x:Name="cmbEducationType" 
+                          ItemsSource="{Binding SchoolTypeCollection}" 
+                          SelectedItem="{Binding CurrentSchoolType,Mode=TwoWay}"
+                          SelectedIndex="{Binding ResetIndexEducationType}" DisplayMemberPath="Name" HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="288" Canvas.Top="214"/>
+                <ComboBox x:Name="cmbEducationLevel" 
+                          ItemsSource="{Binding SchoolLevelCollection}" 
+                          SelectedItem="{Binding CurrentSchoolLevel,Mode=TwoWay}"
+                          SelectedIndex="{Binding ResetIndexEducationLevel}" DisplayMemberPath="Name" HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="288" Canvas.Top="262"/>
+                <TextBox Height="26" Text="{Binding NumberSchools,Mode=TwoWay}"  Canvas.Left="288" TextWrapping="Wrap" Canvas.Top="308" Width="213.4"/>
+                <TextBox Height="26" Text="{Binding NumberTeachers ,Mode=TwoWay}" Canvas.Left="288" TextWrapping="Wrap" Canvas.Top="356" Width="213.4"/>
+                <TextBox Height="26" Text="{Binding NumberStudents,Mode=TwoWay}"  Canvas.Left="288" TextWrapping="Wrap" Canvas.Top="406" Width="213.4"/>
+				<sdk:Label Content="Educación" Height="33" Canvas.Left="157" Canvas.Top="212" Width="84" Foreground="#FFBABABA" FontSize="16"/>
+				<sdk:Label Content="Nivel" Height="33" Canvas.Left="194" Canvas.Top="259" Width="45.5" Foreground="#FFBABABA" FontSize="16"/>
+				<sdk:Label Content="Número Escuelas" Height="32" Canvas.Left="101" Canvas.Top="305" Width="154" Foreground="#FFBABABA" FontSize="16"/>
+				<sdk:Label Content="Número Profesores" Height="33" Canvas.Left="87" Canvas.Top="352" Width="156" Foreground="#FFBABABA" FontSize="16"/>
+				<sdk:Label Content="Número Alumnos" Height="33" Canvas.Left="103" Canvas.Top="404" Width="144" Foreground="#FFBABABA" FontSize="16"/>
+				<Button x:Name="OKButton" Command="{Binding SaveCommand}" Content="Guardar" Width="75" Height="30" Canvas.Left="607" Canvas.Top="428" />
+				<Button x:Name="CancelButton" Content="Cancelar" Click="CancelButton_Click" Width="75" Height="30" Canvas.Left="686" Canvas.Top="428" />
+			</Canvas>
+		</Grid>
+</sdk:ChildWindow>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MsftArchiveModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MsftArchiveModelStoreContainer">
+    <EntitySet Name="Municipality" EntityType="MsftArchiveModel.Store.Municipality" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PoliticalInformationMunicipality" EntityType="MsftArchiveModel.Store.PoliticalInformationMunicipality" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PoliticalInformationState" EntityType="MsftArchiveModel.Store.PoliticalInformationState" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PoliticalInformationStateFiles" EntityType="MsftArchiveModel.Store.PoliticalInformationStateFiles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PoliticalParty" EntityType="MsftArchiveModel.Store.PoliticalParty" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="State" EntityType="MsftArchiveModel.Store.State" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StateEconomicInfo" EntityType="MsftArchiveModel.Store.StateEconomicInfo" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Municipality_State" Association="MsftArchiveModel.Store.FK_Municipality_State">
+      <End Role="State" EntitySet="State" />
+      <End Role="Municipality" EntitySet="Municipality" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Political_Information_Municipality_Municipality" Association="MsftArchiveModel.Store.FK_Political_Information_Municipality_Municipality">
+      <End Role="Municipality" EntitySet="Municipality" />
+      <End Role="PoliticalInformationMunicipality" EntitySet="PoliticalInformationMunicipality" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Political_Information_Municipality_Political_Party" Association="MsftArchiveModel.Store.FK_Political_Information_Municipality_Political_Party">
+      <End Role="PoliticalParty" EntitySet="PoliticalParty" />
+      <End Role="PoliticalInformationMunicipality" EntitySet="PoliticalInformationMunicipality" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Political_Information_State_Political_Party" Association="MsftArchiveModel.Store.FK_Political_Information_State_Political_Party">
+      <End Role="PoliticalParty" EntitySet="PoliticalParty" />
+      <End Role="PoliticalInformationState" EntitySet="PoliticalInformationState" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Political_Information_State_State" Association="MsftArchiveModel.Store.FK_Political_Information_State_State">
+      <End Role="State" EntitySet="State" />
+      <End Role="PoliticalInformationState" EntitySet="PoliticalInformationState" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PoliticalInformationStateFiles_PoliticalInformationState" Association="MsftArchiveModel.Store.FK_PoliticalInformationStateFiles_PoliticalInformationState">
+      <End Role="PoliticalInformationState" EntitySet="PoliticalInformationState" />
+      <End Role="PoliticalInformationStateFiles" EntitySet="PoliticalInformationStateFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_State_Economic_Info_State" Association="MsftArchiveModel.Store.FK_State_Economic_Info_State">
+      <End Role="State" EntitySet="State" />
+      <End Role="StateEconomicInfo" EntitySet="StateEconomicInfo" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Municipality">
+    <Key>
+      <PropertyRef Name="IdMunicipality" />
+    </Key>
+    <Property Name="IdMunicipality" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="Population" Type="bigint" />
+    <Property Name="MainMunicipality" Type="bit" Nullable="false" />
+    <Property Name="IdState" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PoliticalInformationMunicipality">
+    <Key>
+      <PropertyRef Name="IdPoliticalInformationMunicipality" />
+    </Key>
+    <Property Name="IdPoliticalInformationMunicipality" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="IdPoliticalInformationState" Type="int" Nullable="false" />
+    <Property Name="IdPoliticalParty" Type="int" Nullable="false" />
+    <Property Name="DateFrom" Type="date" Nullable="false" />
+    <Property Name="DateTo" Type="date" Nullable="false" />
+    <Property Name="Observations" Type="varchar" MaxLength="1000" />
+    <Property Name="DevelopmentPlan" Type="varchar" MaxLength="1000" />
+    <Property Name="Sectorials" Type="varchar" MaxLength="1000" />
+    <Property Name="IdMunicipality" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PoliticalInformationState">
+    <Key>
+      <PropertyRef Name="IdPoliticalInformationState" />
+    </Key>
+    <Property Name="IdPoliticalInformationState" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="IdPoliticalParty" Type="int" Nullable="false" />
+    <Property Name="DateFrom" Type="date" Nullable="false" />
+    <Property Name="DateTo" Type="date" Nullable="false" />
+    <Property Name="DevelopmentPlan" Type="varchar" MaxLength="1000" />
+    <Property Name="Observations" Type="varchar" MaxLength="1000" />
+    <Property Name="Sectorials" Type="varchar" MaxLength="1000" />
+    <Property Name="IdState" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PoliticalInformationStateFiles">
+    <Key>
+      <PropertyRef Name="IdFilePoliticalStateInformation" />
+    </Key>
+    <Property Name="IdFilePoliticalStateInformation" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="IdPoliticalInformationState" Type="int" Nullable="false" />
+    <Property Name="FileData" Type="varbinary(max)" Nullable="false" />
+    <Property Name="FileName" Type="varchar" Nullable="false" MaxLength="300" />
+    <Property Name="RowGuid" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PoliticalParty">
+    <Key>
+      <PropertyRef Name="IdPoliticalParty" />
+    </Key>
+    <Property Name="IdPoliticalParty" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="ShortName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="ColorIndex" Type="int" />
+    <Property Name="Color" Type="varchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="IdState" />
+    </Key>
+    <Property Name="IdState" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="StateEconomicInfo">
+    <Key>
+      <PropertyRef Name="IdStateEconomicInfo" />
+    </Key>
+    <Property Name="IdStateEconomicInfo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BudgetPublicAdministration" Type="float" />
+    <Property Name="BudgetTIC" Type="float" />
+    <Property Name="BudgetSoftware" Type="float" />
+    <Property Name="IdState" Type="int" Nullable="false" />
+    <Property Name="FromDate" Type="date" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Municipality_State">
+    <End Role="State" Type="MsftArchiveModel.Store.State" Multiplicity="1" />
+    <End Role="Municipality" Type="MsftArchiveModel.Store.Municipality" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="Municipality">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Political_Information_Municipality_Municipality">
+    <End Role="Municipality" Type="MsftArchiveModel.Store.Municipality" Multiplicity="1" />
+    <End Role="PoliticalInformationMunicipality" Type="MsftArchiveModel.Store.PoliticalInformationMunicipality" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Municipality">
+        <PropertyRef Name="IdMunicipality" />
+      </Principal>
+      <Dependent Role="PoliticalInformationMunicipality">
+        <PropertyRef Name="IdMunicipality" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Political_Information_Municipality_Political_Party">
+    <End Role="PoliticalParty" Type="MsftArchiveModel.Store.PoliticalParty" Multiplicity="1" />
+    <End Role="PoliticalInformationMunicipality" Type="MsftArchiveModel.Store.PoliticalInformationMunicipality" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PoliticalParty">
+        <PropertyRef Name="IdPoliticalParty" />
+      </Principal>
+      <Dependent Role="PoliticalInformationMunicipality">
+        <PropertyRef Name="IdPoliticalParty" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Political_Information_State_Political_Party">
+    <End Role="PoliticalParty" Type="MsftArchiveModel.Store.PoliticalParty" Multiplicity="1" />
+    <End Role="PoliticalInformationState" Type="MsftArchiveModel.Store.PoliticalInformationState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PoliticalParty">
+        <PropertyRef Name="IdPoliticalParty" />
+      </Principal>
+      <Dependent Role="PoliticalInformationState">
+        <PropertyRef Name="IdPoliticalParty" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Political_Information_State_State">
+    <End Role="State" Type="MsftArchiveModel.Store.State" Multiplicity="1" />
+    <End Role="PoliticalInformationState" Type="MsftArchiveModel.Store.PoliticalInformationState" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="PoliticalInformationState">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PoliticalInformationStateFiles_PoliticalInformationState">
+    <End Role="PoliticalInformationState" Type="MsftArchiveModel.Store.PoliticalInformationState" Multiplicity="1" />
+    <End Role="PoliticalInformationStateFiles" Type="MsftArchiveModel.Store.PoliticalInformationStateFiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PoliticalInformationState">
+        <PropertyRef Name="IdPoliticalInformationState" />
+      </Principal>
+      <Dependent Role="PoliticalInformationStateFiles">
+        <PropertyRef Name="IdPoliticalInformationState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_State_Economic_Info_State">
+    <End Role="State" Type="MsftArchiveModel.Store.State" Multiplicity="1" />
+    <End Role="StateEconomicInfo" Type="MsftArchiveModel.Store.StateEconomicInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="StateEconomicInfo">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

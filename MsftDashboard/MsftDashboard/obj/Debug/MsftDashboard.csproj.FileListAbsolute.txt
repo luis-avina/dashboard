@@ -1,0 +1,802 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\MsftDashboard.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\MsftDashboard.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\AppManifest.xaml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\MsftDashboard.xap
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\TestPage.html
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\GalaSoft.MvvmLight.Extras.SL4.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\GalaSoft.MvvmLight.SL4.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Maps.MapControl.Common.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Maps.MapControl.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Practices.Unity.Silverlight.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Windows.Data.DomainServices.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\MsftDashboard.Common.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.DomainServices.Client.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.DomainServices.Client.Web.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.Web.Extensions.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Input.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Data.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\MsftDashboard.Common.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\GalaSoft.MvvmLight.Extras.SL4.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\GalaSoft.MvvmLight.SL4.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.DomainServices.Client.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.DomainServices.Client.Web.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.Web.Extensions.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Input.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Data.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ar\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\bg\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ca\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\cs\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\da\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\el\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\et\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\eu\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fi\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\he\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\hr\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\hu\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\id\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\lt\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\lv\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ms\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\nl\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\no\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pl\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pt\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pt-BR\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ro\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sk\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sl\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sv\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\th\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\tr\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\uk\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\vi\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\MsftDashboard.g.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\MsftDashboard.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\MsftDashboard.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\XapCacheFile.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Pivot.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Pivot.SharedUI.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Pivot.Model.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Pivot.Utilities.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Pivot.StringResources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Xml.Linq.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Xml.Serialization.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Layout.Toolkit.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Layout.Toolkit.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Xml.Linq.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Xml.Serialization.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.DataForm.Toolkit.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.DataForm.Toolkit.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.DataForm.Toolkit.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.Toolkit.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.Toolkit.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.Toolkit.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Input.Toolkit.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\MainPage.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditCapacitationCenterWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditCompetitionWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditContactWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditEconomyWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditEducationStateWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditMexicoAgreementWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditOpenSourceCommunityWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditOpenSourceProviderWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditOpenSourceWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditPoliticalPartyWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditPoliticalStateWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditProgramsMsft.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditProgramStateWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditSocialOrgInfoWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\AdministrationView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\CapacitationCenterView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\ChildWindow1.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\About.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\CompetitionView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\ContactViewWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\CorporativeView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\EducationEnlaceView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\EducationSchoolView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\EducationSepProjectsView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\EducationUniversitiesView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\MexicoAgreementView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\OpenSourceCommunityView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\OpenSourceProviderView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\OpenSourceView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\PivotViewWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\PoliticalPartyView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\PoliticView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\PopulationView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\ProgramsMsftState.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\ProgramsView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\ContactsView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\DashboardView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\EconomyView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\EducationView.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\ErrorWindow.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\Views\Home.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\obj\Debug\App.g.i.cs
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.Composition.Initialization.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.Composition.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.Composition.Initialization.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.Composition.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\MsftDashboard.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\MsftDashboard.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\AppManifest.xaml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\MsftDashboard.xap
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\TestPage.html
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\GalaSoft.MvvmLight.Extras.SL4.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\GalaSoft.MvvmLight.SL4.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Maps.MapControl.Common.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Maps.MapControl.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Practices.Unity.Silverlight.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Windows.Data.DomainServices.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\MsftDashboard.Common.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.Composition.Initialization.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.DomainServices.Client.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.DomainServices.Client.Web.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.Web.Extensions.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.DataForm.Toolkit.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.Toolkit.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Input.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Data.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.Composition.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\MsftDashboard.Common.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\GalaSoft.MvvmLight.Extras.SL4.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\GalaSoft.MvvmLight.SL4.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.Composition.Initialization.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.DomainServices.Client.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.DomainServices.Client.Web.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ServiceModel.Web.Extensions.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.DataForm.Toolkit.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.DataForm.Toolkit.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.Toolkit.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Data.Toolkit.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Input.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Input.Toolkit.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Layout.Toolkit.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Layout.Toolkit.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Data.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.ComponentModel.Composition.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ComponentModel.Composition.Initialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ServiceModel.DomainServices.Client.Web.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ServiceModel.Web.Extensions.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ar\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\bg\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ca\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\cs\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\da\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\el\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\et\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\eu\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fi\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\he\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\hr\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\hu\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\id\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\lt\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\lv\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ms\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\nl\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\no\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pl\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pt\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pt-BR\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ro\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sk\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sl\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sv\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\th\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\tr\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\uk\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\vi\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Controls.Input.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.ComponentModel.Composition.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\MsftDashboard.g.resources
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\MsftDashboard.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\MsftDashboard.pdb
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\XapCacheFile.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Pivot.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Pivot.Model.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Pivot.SharedUI.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Pivot.StringResources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Windows.Pivot.Utilities.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Xml.Linq.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Xml.Serialization.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Xml.Linq.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\System.Xml.Serialization.xml
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\de\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\es\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\it\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\ru\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\App.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\MainPage.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditCapacitationCenterWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditCompetitionWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditContactWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditEconomyWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditEducationStateWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditMexicoAgreementWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditOpenSourceCommunityWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditOpenSourceProviderWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditOpenSourceWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditPoliticalPartyWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditPoliticalStateWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditProgramsMsft.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditProgramStateWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AddEditSocialOrgInfoWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\AdministrationView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\CapacitationCenterView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\ChildWindow1.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\About.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\CompetitionView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\ContactViewWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\CorporativeView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\EducationEnlaceView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\EducationSchoolView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\EducationSepProjectsView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\EducationUniversitiesView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\MexicoAgreementView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\OpenSourceCommunityView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\OpenSourceProviderView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\OpenSourceView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\PivotViewWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\PoliticalPartyView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\PoliticView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\PopulationView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\ProgramsMsftState.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\ProgramsView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\ContactsView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\DashboardView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\EconomyView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\EducationView.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\ErrorWindow.g.cs
+C:\Users\Administrator\Documents\MsftDashboard\MsftDashboard\obj\Debug\Views\Home.g.cs

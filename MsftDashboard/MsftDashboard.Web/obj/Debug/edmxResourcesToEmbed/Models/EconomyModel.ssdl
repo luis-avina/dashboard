@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestArchiveModel1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="TestArchiveModel1StoreContainer">
+    <EntitySet Name="State" EntityType="TestArchiveModel1.Store.State" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StateEconomicInfo" EntityType="TestArchiveModel1.Store.StateEconomicInfo" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_State_Economic_Info_State" Association="TestArchiveModel1.Store.FK_State_Economic_Info_State">
+      <End Role="State" EntitySet="State" />
+      <End Role="StateEconomicInfo" EntitySet="StateEconomicInfo" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="IdState" />
+    </Key>
+    <Property Name="IdState" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="StateEconomicInfo">
+    <Key>
+      <PropertyRef Name="IdStateEconomicInfo" />
+    </Key>
+    <Property Name="IdStateEconomicInfo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BudgetPublicAdministration" Type="float" />
+    <Property Name="BudgetTIC" Type="float" />
+    <Property Name="BudgetSoftware" Type="float" />
+    <Property Name="IdState" Type="int" Nullable="false" />
+    <Property Name="FromDate" Type="date" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_State_Economic_Info_State">
+    <End Role="State" Type="TestArchiveModel1.Store.State" Multiplicity="1" />
+    <End Role="StateEconomicInfo" Type="TestArchiveModel1.Store.StateEconomicInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="IdState" />
+      </Principal>
+      <Dependent Role="StateEconomicInfo">
+        <PropertyRef Name="IdState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

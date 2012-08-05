@@ -1,0 +1,34 @@
+﻿<navigation:Page x:Class="MsftDashboard.Views.EducationView" 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	
+           mc:Ignorable="d"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           d:DesignHeight="480" Margin="-74,-28,74,28" Width="1067"
+           DataContext="{Binding EducationState,Source={StaticResource Locator}}"
+           Title="EconomyView Page">
+    <Grid x:Name="LayoutRoot" >
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="2,2,0,0" TextWrapping="Wrap" Text="Educación" VerticalAlignment="Top" Width="135" Foreground="#FF61B0DD" FontSize="29.333"/>
+        <Canvas Margin="176,50,72,51">
+        	<Button x:Name="btnUpdate" Command="{Binding UpdateCommand}"  Content="Actualizar" Width="154" Height="30" Canvas.Left="187" Canvas.Top="323"/>
+        	<Button x:Name="btnEliminar" Command="{Binding DeleteCommand}" Content="Eliminar" Width="154" Height="30" d:LayoutOverrides="GridBox" Canvas.Left="370" Canvas.Top="323" />
+        	<sdk:DataGrid x:Name="dataGridEducation" 
+                          ItemsSource="{Binding EducationInformationStateCollection}" 
+                          SelectedItem="{Binding SelectedEducationInformationState,Mode=TwoWay}"
+                          AutoGenerateColumns="False" Width="876" d:LayoutOverrides="GridBox" Height="300" Canvas.Left="2" BorderThickness="1">
+        		<sdk:DataGrid.Columns>
+        			<sdk:DataGridTextColumn Width="100" Header="Estado" Binding="{Binding State.Name}" />
+        			<sdk:DataGridTextColumn Width="70" Header="Año" Binding="{Binding Year}"/>
+                    <sdk:DataGridTextColumn Width="120" Header="Inversión" Binding="{Binding Investment, StringFormat=\{0:C\}}"/>
+                    <sdk:DataGridTextColumn Width="150" Header="Gasto Corriente" Binding="{Binding CurrentExpenditures, StringFormat=\{0:C\}}"/>
+                    <sdk:DataGridTextColumn Width="180" Header="Educación Publica" Binding="{Binding InvestmentPublicEducation, StringFormat=\{0:C\}}"/>
+                    <sdk:DataGridTextColumn Width="150" Header="Media Superior" Binding="{Binding InvestmentHighSchool, StringFormat=\{0:C\}}"/>
+                    <sdk:DataGridTextColumn Width="150" Header="Inversión IT" Binding="{Binding InvestmentITProjects, StringFormat=\{0:C\}}"/>
+        		</sdk:DataGrid.Columns>
+        	</sdk:DataGrid>
+        	<Button x:Name="btnNew" Command="{Binding AddCommand}"  Content="Agregar" Width="154" Height="30" Canvas.Top="323"/>
+        </Canvas>
+    </Grid>
+</navigation:Page>

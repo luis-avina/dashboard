@@ -1,0 +1,43 @@
+﻿<sdk:ChildWindow	
+	x:Class="MsftDashboard.AddEditEducationStateWindow"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"	
+	Title="AddEditEducationState"
+    DataContext="{Binding EducationStateChild,Source={StaticResource Locator}}"
+	Style="{StaticResource ChildWindowStyle}"
+	Width="592" Height="506">
+	<Grid x:Name="LayoutRoot">
+		<Canvas Margin="0,1,-14,50">
+                <ComboBox x:Name="cmbState" 
+                          ItemsSource="{Binding StateCollection}" 
+                          DisplayMemberPath="Name" 
+                          SelectedItem="{Binding CurrentState,Mode=TwoWay}"
+                          HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="177"/>
+                <ComboBox x:Name="cmbYear" 
+                          ItemsSource="{Binding YearsCollection}" 
+                          SelectedItem="{Binding CurrentYear, Mode=TwoWay}"
+                          DisplayMemberPath="Year1" HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="177" Canvas.Top="54.5"/>
+				<sdk:Label Content="Estado" Height="29" Canvas.Left="88.371" Canvas.Top="0.663" Width="56.978" FontSize="16" Foreground="#FFBABABA"/>
+				<sdk:Label Content="Año" Height="29" Canvas.Left="108.381" Canvas.Top="53.531" Width="36.968" FontSize="16" Foreground="#FFBABABA"/>
+                <TextBox Height="26" Text="{Binding CurrentEducationInfoState.Investment,Mode=TwoWay, StringFormat=\{0:C\}}" Canvas.Left="177" TextWrapping="Wrap" Canvas.Top="110.167" Width="213.4"/>
+				<sdk:Label Content="Inversión" Height="29" Canvas.Left="71.131" Canvas.Top="108.394" Width="74.968" FontSize="16" Foreground="#FFBABABA"/>
+                <TextBox Height="26" Text="{Binding CurrentEducationInfoState.CurrentExpenditures,Mode=TwoWay, StringFormat=\{0:C\}}" Canvas.Left="177" TextWrapping="Wrap" Canvas.Top="165.667" Width="213.4"/>
+				<sdk:Label Content="Gasto Corriente" Height="29" Canvas.Left="21" Canvas.Top="164" Width="135" FontSize="16" Foreground="#FFBABABA"/>
+                <TextBox Height="26" Text="{Binding CurrentEducationInfoState.InvestmentPublicEducation,Mode=TwoWay, StringFormat=\{0:C\}}" Canvas.Left="177" TextWrapping="Wrap" Canvas.Top="218.167" Width="213.4"/>
+				<sdk:Label Content="Educación Pública" Height="29" Canvas.Left="11" Canvas.Top="216" Width="145" FontSize="16" Foreground="#FFBABABA"/>
+                <TextBox Height="26" Text="{Binding CurrentEducationInfoState.InvestmentHighSchool,Mode=TwoWay, StringFormat=\{0:C\}}" Canvas.Left="177" TextWrapping="Wrap" Canvas.Top="270.667" Width="213.4"/>
+				<sdk:Label Content="Media Superior" Height="29" Canvas.Left="30.047" Canvas.Top="268.894" Width="119.968" FontSize="16" Foreground="#FFBABABA"/>
+                <TextBox Height="26" Text="{Binding CurrentEducationInfoState.InvestmentITProjects,Mode=TwoWay, StringFormat=\{0:C\}}" Canvas.Left="177" TextWrapping="Wrap" Canvas.Top="320.167" Width="213.4"/>				<sdk:Label Content="Proyectos TI" Height="29" Canvas.Left="48" Canvas.Top="318" Width="102" FontSize="16" Foreground="#FFBABABA"/>
+                <HyperlinkButton Command="{Binding EducationSchoolCommand}" Height="45" Width="139" Canvas.Left="410" Content="Escuelas" ClickMode="Press"/>
+            <HyperlinkButton Command="{Binding UniversitieCommand}" Content="Universidades" Height="45" Width="187"  Canvas.Left="410" Canvas.Top="51" ClickMode="Press"/>
+            <HyperlinkButton Command="{Binding EnlaceCommand}" Content="Prueba Enlace" Height="45" Width="169" Canvas.Left="410" Canvas.Top="103" ClickMode="Press"/>
+            <HyperlinkButton Command="{Binding SEPCommand}" Content="Proyectos SEP" Height="45" Width="169" Canvas.Left="410" Canvas.Top="155" ClickMode="Press"/>
+
+			</Canvas>
+		<Button x:Name="OKButton" Command="{Binding SaveCommand}" Content="OK" Click="OKButton_Click" Width="75" Height="30" Margin="0,0,79,8" HorizontalAlignment="Right" d:LayoutOverrides="GridBox" VerticalAlignment="Bottom" />
+		<Button x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" Height="30" HorizontalAlignment="Right" Margin="0,0,0,8" d:LayoutOverrides="GridBox" VerticalAlignment="Bottom" />
+	</Grid>
+</sdk:ChildWindow>

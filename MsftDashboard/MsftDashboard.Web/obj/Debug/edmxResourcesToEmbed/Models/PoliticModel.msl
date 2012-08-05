@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PoliticalModelStoreContainer" CdmEntityContainer="PoliticConnectionEntities">
+    <EntitySetMapping Name="Municipalities">
+      <EntityTypeMapping TypeName="PoliticalModel.Municipality">
+        <MappingFragment StoreEntitySet="Municipality">
+          <ScalarProperty Name="IdMunicipality" ColumnName="IdMunicipality" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Population" ColumnName="Population" />
+          <ScalarProperty Name="MainMunicipality" ColumnName="MainMunicipality" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PoliticalInformationMunicipalities">
+      <EntityTypeMapping TypeName="PoliticalModel.PoliticalInformationMunicipality">
+        <MappingFragment StoreEntitySet="PoliticalInformationMunicipality">
+          <ScalarProperty Name="IdPoliticalInformationMunicipality" ColumnName="IdPoliticalInformationMunicipality" />
+          <ScalarProperty Name="IdPoliticalInformationState" ColumnName="IdPoliticalInformationState" />
+          <ScalarProperty Name="IdPoliticalParty" ColumnName="IdPoliticalParty" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="Observations" ColumnName="Observations" />
+          <ScalarProperty Name="DevelopmentPlan" ColumnName="DevelopmentPlan" />
+          <ScalarProperty Name="Sectorials" ColumnName="Sectorials" />
+          <ScalarProperty Name="IdMunicipality" ColumnName="IdMunicipality" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PoliticalInformationStates">
+      <EntityTypeMapping TypeName="PoliticalModel.PoliticalInformationState">
+        <MappingFragment StoreEntitySet="PoliticalInformationState">
+          <ScalarProperty Name="IdPoliticalInformationState" ColumnName="IdPoliticalInformationState" />
+          <ScalarProperty Name="IdPoliticalParty" ColumnName="IdPoliticalParty" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="DevelopmentPlan" ColumnName="DevelopmentPlan" />
+          <ScalarProperty Name="Observations" ColumnName="Observations" />
+          <ScalarProperty Name="Sectorials" ColumnName="Sectorials" />
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PoliticalInformationStateFiles">
+      <EntityTypeMapping TypeName="PoliticalModel.PoliticalInformationStateFile">
+        <MappingFragment StoreEntitySet="PoliticalInformationStateFiles">
+          <ScalarProperty Name="IdFilePoliticalStateInformation" ColumnName="IdFilePoliticalStateInformation" />
+          <ScalarProperty Name="IdPoliticalInformationState" ColumnName="IdPoliticalInformationState" />
+          <ScalarProperty Name="FileData" ColumnName="FileData" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="RowGuid" ColumnName="RowGuid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PoliticalParties">
+      <EntityTypeMapping TypeName="PoliticalModel.PoliticalParty">
+        <MappingFragment StoreEntitySet="PoliticalParty">
+          <ScalarProperty Name="IdPoliticalParty" ColumnName="IdPoliticalParty" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="ColorIndex" ColumnName="ColorIndex" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="PoliticalModel.State">
+        <MappingFragment StoreEntitySet="State">
+          <ScalarProperty Name="IdState" ColumnName="IdState" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

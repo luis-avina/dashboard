@@ -1,0 +1,46 @@
+﻿<sdk:ChildWindow	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"	x:Class="MsftDashboard.AddEditMexicoAgreementWindow"
+	Title="AddEditMexicoAgreementWindow"
+	Style="{StaticResource ChildWindowStyle}"
+    DataContext="{Binding MexicoAgreementChild,Source={StaticResource Locator}}"                    
+	Width="521" Height="463">
+	<Grid x:Name="LayoutRoot">
+		<Canvas Height="451.5" HorizontalAlignment="Left" Width="577">
+            <ComboBox x:Name="cmbState" ItemsSource="{Binding StateCollection}" 
+                      SelectedItem="{Binding CurrentState,Mode=TwoWay}"
+                      DisplayMemberPath="Name" Height="26" Width="226.967" Canvas.Left="182" Canvas.Top="3.5"/>
+            <ComboBox x:Name="cmbInitialMonth" ItemsSource="{Binding MonthsInitialCollection}"
+                          SelectedItem="{Binding CurrentInitialMonth,Mode=TwoWay}"
+                          DisplayMemberPath="Month" HorizontalAlignment="Left" Height="26" Width="104.661" Canvas.Left="181.998" Canvas.Top="48"/>
+            <ComboBox x:Name="cmbInitialYear" ItemsSource="{Binding YearsInitialCollection}"
+                          SelectedItem="{Binding CurrentInitialYear,Mode=TwoWay}"
+                          DisplayMemberPath="Year1" HorizontalAlignment="Left" Height="26" Width="118.308" Canvas.Left="290.659" Canvas.Top="48"/>
+            <ComboBox x:Name="cmbTypAgreement" ItemsSource="{Binding TypeAgreementCollection}"
+                      SelectedItem="{Binding CurrentTypeAgreement,Mode=TwoWay}"
+                      DisplayMemberPath="Name" Height="26" Width="227.335" Canvas.Left="181.632" Canvas.Top="136.835"/>
+                <sdk:Label Content="Observaciones" Height="31" Width="121" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="36" Canvas.Top="181.5"/>
+                <TextBox Height="50" Text="{Binding CurrentMexicoAgreement.Observations,Mode=TwoWay}" TextWrapping="Wrap" Width="227.335" Canvas.Left="181.632" Canvas.Top="179"/>
+                <Slider Height="19" Value="{Binding CurrentMexicoAgreement.Progress,Mode=TwoWay}" HorizontalAlignment="Right" x:Name="slider1" VerticalAlignment="Top" Width="227.335" Maximum="100"  Canvas.Left="181.632" Canvas.Top="295" />
+				<sdk:Label x:Name="Avance" Content="Avance" HorizontalAlignment="Left" Height="31.5" Width="66.6" FontSize="16" Foreground="#FFB7B7B7" Canvas.Top="290" Canvas.Left="91.653"/>
+                <sdk:Label x:Name="AvanceValue" Content="{Binding CurrentMexicoAgreement.Progress}" HorizontalAlignment="Left" Height="31.5" Width="66.6" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="417" Canvas.Top="289.5"/>
+				<sdk:Label x:Name="ResponsableMicrosoft" Content="Convenio PDF" HorizontalAlignment="Left" Height="31.5" Width="111.5" FontSize="16" Foreground="#FFB7B7B7" Canvas.Top="246.5" Canvas.Left="44.996"/>
+				<TextBox x:Name="txtContactMsft" Text="{Binding FullNameMsftContact}" Height="26" TextWrapping="Wrap" Width="153.351" Canvas.Left="181.632" Canvas.Top="247.5"/>
+				<Button x:Name="btnSearchFile" Command="{Binding SearchContactMsftCommand}" Content="Buscar" HorizontalAlignment="Right" Height="31" Width="61" Canvas.Left="347" Canvas.Top="244"/>
+                <sdk:Label Content="Convenio" Height="31" Width="74.25" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="78.5" Canvas.Top="136.835"/>
+				<sdk:Label Content="Inicio Convenio" Height="31" Width="124.75" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="35" Canvas.Top="47.835"/>
+            <ComboBox x:Name="cmbFinalMonth" ItemsSource="{Binding MonthsFinalCollection}"
+                          SelectedItem="{Binding CurrentFinalMonth,Mode=TwoWay}"
+                          DisplayMemberPath="Month" HorizontalAlignment="Left" Height="26" Width="104.661" Canvas.Left="181.998" Canvas.Top="93"/>
+            <ComboBox x:Name="cmbFinalYear" ItemsSource="{Binding YearsFinalCollection}"
+                          SelectedItem="{Binding CurrentFinalYear,Mode=TwoWay}" 
+                          DisplayMemberPath="Year1" HorizontalAlignment="Left" Height="26" Width="118.308" Canvas.Left="290.659" Canvas.Top="93"/>
+				<sdk:Label Content="Fin Convenio" Height="31" Width="103.6" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="52" Canvas.Top="92.835"/>
+				<sdk:Label Content="Estado" Height="31" Width="58.25" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="96" Canvas.Top="1.835"/>
+                
+
+			<Button x:Name="OKButton" Content="OK" Click="OKButton_Click" Command="{Binding SaveCommand}" Width="75" Height="36" Canvas.Left="349" Canvas.Top="360" d:LayoutOverrides="VerticalMargin" />
+			<Button x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" Height="36" Canvas.Left="428" Canvas.Top="360" d:LayoutOverrides="VerticalMargin" />
+			</Canvas>
+	</Grid>
+</sdk:ChildWindow>

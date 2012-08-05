@@ -1,0 +1,84 @@
+﻿<sdk:ChildWindow	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	
+	x:Class="MsftDashboard.AddEditProgramsMsft"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+	mc:Ignorable="d"	
+    Style="{StaticResource ChildWindowStyle}"
+	Title="AddEditProgramsMsft"
+	DataContext="{Binding MsftProgramChild,Source={StaticResource Locator}}"
+    Width="638" Height="627">
+	<Grid x:Name="LayoutRoot">
+		<Canvas Margin="65,24,38,51">
+			<ComboBox x:Name="cmbState" 
+				ItemsSource="{Binding StateCollection}"
+				SelectedItem="{Binding CurrentState, Mode=TwoWay}"
+				DisplayMemberPath="Name"
+				HorizontalAlignment="Left" Height="26" Width="213.4" BorderThickness="1" Canvas.Left="198"/>
+			<sdk:Label Content="Inicio Programa" Height="30" Width="126" Foreground="#FFBABABA" FontSize="16" Canvas.Left="23" Canvas.Top="38"/>
+			<ComboBox x:Name="cmbInitialMonth"
+				ItemsSource="{Binding MonthsInitialCollection}"
+				SelectedItem="{Binding CurrentInitialMonth, Mode=TwoWay}"
+				DisplayMemberPath="Month"
+				Height="26" Width="100" HorizontalAlignment="Right" Canvas.Left="197" Canvas.Top="42"/>
+			<ComboBox x:Name="cmbInitialYear" 
+				ItemsSource="{Binding YearsInitialCollection}"
+				SelectedItem="{Binding CurrentInitialYear, Mode=TwoWay}"
+				DisplayMemberPath="Year1"
+				Height="26" Width="100" HorizontalAlignment="Left" Canvas.Left="313" Canvas.Top="42"/>
+			<sdk:Label Content="Fin Programa" Height="31.5" Width="108" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="42" Canvas.Top="82"/>
+			<ComboBox x:Name="cmbFinalMonth" 
+				ItemsSource="{Binding MonthsFinalCollection}"
+				SelectedItem="{Binding CurrentFinalMonth, Mode=TwoWay}"
+				DisplayMemberPath="Month"
+				Height="26" Width="100" Canvas.Left="198" Canvas.Top="87" d:LayoutOverrides="HorizontalAlignment, Width"/>
+			<ComboBox x:Name="cmbFinalYear"
+				ItemsSource="{Binding YearsFinalCollection}"
+				SelectedItem="{Binding CurrentFinalYear, Mode=TwoWay}"
+				DisplayMemberPath="Year1"
+				Height="26" Width="100" BorderThickness="1" Canvas.Left="317" Canvas.Top="87"/>
+			<ComboBox x:Name="cmbSource" 
+				ItemsSource="{Binding SourceCollection}"
+				SelectedItem="{Binding CurrentSource,Mode=TwoWay}"
+				DisplayMemberPath="Name"
+				Height="23" Width="213.15" HorizontalAlignment="Right" Canvas.Left="200" Canvas.Top="130"/>
+			<ComboBox x:Name="cmbProgram"
+				ItemsSource="{Binding ProgramCollection}"
+				SelectedItem="{Binding CurrentProgram,Mode=TwoWay}"
+				DisplayMemberPath="Name"
+				Height="26" Canvas.Left="198" Canvas.Top="171" Width="213" d:LayoutOverrides="HorizontalAlignment"/>
+			<ComboBox x:Name="cmbPartner"
+				ItemsSource="{Binding PartnerCollection}"
+				SelectedItem="{Binding CurrentPartner,Mode=TwoWay}"
+				DisplayMemberPath="Name"
+				Height="26" Canvas.Left="198" Canvas.Top="215" Width="213" d:LayoutOverrides="HorizontalAlignment"/>
+			<sdk:Label x:Name="Responsable" Content="Contacto Estado" Height="31.5" Width="132.5" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="20" Canvas.Top="255"/>
+			<TextBox x:Name="txtContact" Text="{Binding ContactState.FirstName,Mode=TwoWay}" Height="26" TextWrapping="Wrap" Width="148" Canvas.Left="198" Canvas.Top="259" d:LayoutOverrides="HorizontalAlignment, Width"/>
+			<Button x:Name="btnSearchState" Command="{Binding AddContactStateCommand}" Content="Buscar" Height="27" Width="61" Canvas.Left="353" Canvas.Top="259"/>
+			<sdk:Label x:Name="Responsable_Copy" Content="Contacto Microsoft" Height="31.5" Width="150.5" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="2" Canvas.Top="301"/>
+            <TextBox x:Name="txtContactMsft" Text="{Binding ContactMsft.FirstName,Mode=TwoWay}" Height="26" TextWrapping="Wrap" Width="148" Canvas.Left="198" Canvas.Top="305" d:LayoutOverrides="HorizontalAlignment, Width"/>
+            <Button x:Name="btnSearchMsft" Command="{Binding AddContactMsftCommand}" Content="Buscar" Height="27" Width="61" Canvas.Left="352" Canvas.Top="305"/>
+			<sdk:Label x:Name="Responsable_Copy1" Content="Inversión Microsoft" Height="31.5" Width="150.5" FontSize="16" Foreground="#FFB7B7B7" Canvas.Top="347"/>
+			<TextBox x:Name="txtMsftInvesment" 
+				Text="{Binding CurrentMsftProgram.Investment, Mode=TwoWay, StringFormat=\{0:C\}}"
+				Height="28" TextWrapping="Wrap" Canvas.Left="198" Canvas.Top="351" Width="213" d:LayoutOverrides="HorizontalAlignment"/>
+			<sdk:Label x:Name="Responsable_Copy2" Content="ROI" Height="31.5" Width="44.5" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="122" Canvas.Top="393"/>
+			<TextBox x:Name="txtIRoi"
+				Text="{Binding CurrentMsftProgram.ROI, Mode=TwoWay, StringFormat=\{0:C\}}"
+				Height="28" TextWrapping="Wrap" Canvas.Left="198" Canvas.Top="397" Width="213" d:LayoutOverrides="HorizontalAlignment"/>
+			<Slider
+				Value="{Binding CurrentMsftProgram.Progress, Mode=TwoWay}"
+				Height="19" HorizontalAlignment="Right" x:Name="slider1" VerticalAlignment="Top" Width="212.984" Maximum="100"  Canvas.Left="195" Canvas.Top="446" />
+			<Button x:Name="OKButton" Command="{Binding SaveCommand}" Content="OK" Click="OKButton_Click" Width="75" Height="33" Canvas.Left="350" Canvas.Top="495" d:LayoutOverrides="VerticalMargin" />
+			<Button x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" Height="33" Canvas.Left="429" Canvas.Top="495" d:LayoutOverrides="VerticalMargin" />
+			<sdk:Label Content="Area" Height="31.5" Width="50" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="113" Canvas.Top="128"/>
+			<sdk:Label Content="Programa" Height="31.5" Width="84" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="72" Canvas.Top="173"/>
+			<sdk:Label Content="Partner" Height="31.5" Width="66" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="94" Canvas.Top="215"/>
+			<sdk:Label Content="Estado" Height="30" Width="55" Foreground="#FFBABABA" FontSize="16" Canvas.Left="97" Canvas.Top="1"/>
+			<sdk:Label x:Name="Responsable_Copy3" Content="Progreso" Height="31.5" Width="79" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="82" Canvas.Top="439"/>
+            <sdk:Label x:Name="lblProgress" Content="{Binding CurrentMsftProgram.Progress, Mode=TwoWay}" Height="31.5" Width="44.5" FontSize="16" Foreground="#FFB7B7B7" Canvas.Left="420" Canvas.Top="439"/>
+
+		</Canvas>
+	</Grid>
+</sdk:ChildWindow>

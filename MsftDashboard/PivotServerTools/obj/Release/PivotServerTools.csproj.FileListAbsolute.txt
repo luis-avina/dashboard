@@ -1,0 +1,13 @@
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AAP\PivotServerTools\bin\Release\PivotServerTools.dll
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AAP\PivotServerTools\bin\Release\PivotServerTools.pdb
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AAP\PivotServerTools\obj\Release\PivotServerTools.dll
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AAP\PivotServerTools\obj\Release\PivotServerTools.pdb
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AzureBI\PivotServerTools\bin\Release\PivotServerTools.dll
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AzureBI\PivotServerTools\bin\Release\PivotServerTools.pdb
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AzureBI\PivotServerTools\obj\Release\PivotServerTools.dll
+C:\Users\a-adriah\Documents\Visual Studio 2010\Projects\AzureBI\PivotServerTools\obj\Release\PivotServerTools.pdb
+C:\Users\Administrator\Documents\MsftDashboard\PivotServerTools\bin\Release\PivotServerTools.dll
+C:\Users\Administrator\Documents\MsftDashboard\PivotServerTools\bin\Release\PivotServerTools.pdb
+C:\Users\Administrator\Documents\MsftDashboard\PivotServerTools\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\MsftDashboard\PivotServerTools\obj\Release\PivotServerTools.dll
+C:\Users\Administrator\Documents\MsftDashboard\PivotServerTools\obj\Release\PivotServerTools.pdb
